@@ -126,7 +126,7 @@ export default function Home() {
         </Link>
         <Link href="/daily" className="card">
           <strong className="card-title">🕊️ 오늘의 말씀</strong>
-          <p className="card-text">매일 아침·저녁 한 구절씩, 날짜별로 모아 두었습니다.</p>
+          <p className="card-text">아침·저녁에 읽기 좋은 성경 구절을 한곳에 모았습니다.</p>
         </Link>
       </section>
     </>

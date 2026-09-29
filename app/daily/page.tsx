@@ -1,47 +1,42 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { pageMeta } from "@/lib/seo";
-import { DAILY_TRANSLATION, sentVerses } from "@/lib/dailyVerses";
-
-export const revalidate = 1800;
+import { DAILY_TRANSLATION, allVerses, type DailyVerse } from "@/lib/dailyVerses";
 
 export const metadata = pageMeta({
-  title: "오늘의 말씀 — 매일 아침·저녁 성경 한 구절",
-  description: "매일 아침 5시 56분, 저녁 9시 56분에 전하는 성경 한 구절을 날짜별로 모았습니다. 개역한글 본문과 짧은 응원 한마디를 함께 담았습니다.",
+  title: "오늘의 말씀 — 힘이 되는 성경 구절 모음",
+  description: "아침에 힘을 주는 구절과 저녁에 마음을 내려놓는 구절을 한곳에 모았습니다. 개역한글 본문과 짧은 응원 한마디를 함께 담았습니다.",
   path: "/daily",
 });
 
-const SLOT = { morning: "🌅 아침", evening: "🌙 저녁" } as const;
-
-function fmt(d: string) {
-  const [y, m, day] = d.split("-").map(Number);
-  const w = "일월화수목금토"[new Date(Date.UTC(y, m - 1, day)).getUTCDay()];
-  return `${m}월 ${day}일 (${w})`;
+function List({ items }: { items: DailyVerse[] }) {
+  return (
+    <ol className="daily-list">
+      {items.map((v, i) => (
+        <li key={i} className="daily-item">
+          <blockquote className="daily-text">{v.text}</blockquote>
+          <p className="daily-ref">— {v.ref}</p>
+          {v.cheer ? <p className="daily-cheer">{v.cheer}</p> : null}
+        </li>
+      ))}
+    </ol>
+  );
 }
 
 export default function DailyPage() {
-  const list = sentVerses();
+  const { morning, evening } = allVerses();
   return (
     <article>
       <Breadcrumbs items={[{ name: "오늘의 말씀", path: "/daily" }]} />
       <h1>🕊️ 오늘의 말씀</h1>
-      <p className="muted">매일 아침 5시 56분과 저녁 9시 56분(한국 시간)에 한 구절씩 더해집니다.</p>
-      {list.length ? (
-        <ol className="daily-list">
-          {list.map((v) => (
-            <li key={v.date + v.slot} className="daily-item">
-              <p className="daily-when">
-                {fmt(v.date)} · {SLOT[v.slot]}
-              </p>
-              <blockquote className="daily-text">{v.text}</blockquote>
-              <p className="daily-ref">— {v.ref}</p>
-              {v.cheer ? <p className="daily-cheer">{v.cheer}</p> : null}
-            </li>
-          ))}
-        </ol>
-      ) : (
-        <p className="note-box">첫 구절은 2026년 9월 30일 아침 5시 56분에 올라옵니다.</p>
-      )}
+      <p className="muted">
+        하루를 여는 구절 {morning.length}개와 하루를 닫는 구절 {evening.length}개를 모았습니다.{" "}
+        <a href="#morning">🌅 아침</a> · <a href="#evening">🌙 저녁</a>
+      </p>
+      <h2 id="morning">🌅 아침에 읽는 말씀</h2>
+      <List items={morning} />
+      <h2 id="evening">🌙 저녁에 읽는 말씀</h2>
+      <List items={evening} />
       <p className="muted small">성경 본문: {DAILY_TRANSLATION}(대한성서공회, 1961).</p>
       <p className="back">
         <Link href="/verses">더 초즌 성경 구절 모음 보기 →</Link>
