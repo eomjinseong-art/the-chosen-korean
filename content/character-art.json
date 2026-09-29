@@ -1,0 +1,232 @@
+{
+ "peter": {
+  "src": "/characters/peter.webp",
+  "title": "베드로의 부인",
+  "artist": "렘브란트",
+  "year": "1660",
+  "source": "https://commons.wikimedia.org/wiki/File:Rembrandt_The-denial-of-peter-1660.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 800,
+  "h": 733
+ },
+ "andrew": {
+  "src": "/characters/andrew.webp",
+  "title": "사도 안드레",
+  "artist": "페테르 파울 루벤스",
+  "year": "1610–1612년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Rubens_apostel_andreas_grt.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 765,
+  "h": 1000
+ },
+ "big-james": {
+  "src": "/characters/big-james.webp",
+  "title": "사도 큰 야고보",
+  "artist": "페테르 파울 루벤스",
+  "year": "1612–1613년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_St_James_the_Apostle_-_WGA20192.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 761,
+  "h": 1000
+ },
+ "john": {
+  "src": "/characters/john.webp",
+  "title": "사도 요한",
+  "artist": "페테르 파울 루벤스",
+  "year": "1610–1612년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Rubens_apostel_johannes_grt.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 748,
+  "h": 1000
+ },
+ "philip": {
+  "src": "/characters/philip.webp",
+  "title": "사도 빌립",
+  "artist": "페테르 파울 루벤스",
+  "year": "1610–1612년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Rubens_apostel_philippus.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 766,
+  "h": 1000
+ },
+ "nathanael": {
+  "src": "/characters/nathanael.webp",
+  "title": "사도 바돌로매(나다나엘)",
+  "artist": "페테르 파울 루벤스",
+  "year": "1610–1612년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Rubens_apostel_bartolomeus_grt.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 755,
+  "h": 1000
+ },
+ "matthew": {
+  "src": "/characters/matthew.webp",
+  "title": "성 마태의 소명",
+  "artist": "카라바조",
+  "year": "1599–1600",
+  "source": "https://commons.wikimedia.org/wiki/File:Caravaggio,_Michelangelo_Merisi_da_-_The_Calling_of_Saint_Matthew_-_1599-1600_(hi_res).jpg",
+  "license": "퍼블릭 도메인",
+  "w": 800,
+  "h": 748
+ },
+ "thomas": {
+  "src": "/characters/thomas.webp",
+  "title": "사도 도마",
+  "artist": "페테르 파울 루벤스",
+  "year": "1610–1612년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Rubens_apostel_thomas.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 758,
+  "h": 1000
+ },
+ "little-james": {
+  "src": "/characters/little-james.webp",
+  "title": "사도 작은 야고보",
+  "artist": "페테르 파울 루벤스",
+  "year": "1610–1612년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Rubens_apostel_jakobus_mindere_grt.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 757,
+  "h": 1000
+ },
+ "thaddeus": {
+  "src": "/characters/thaddeus.webp",
+  "title": "성 유다 다대오",
+  "artist": "조르주 드 라 투르",
+  "year": "1620년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Georges_de_La_Tour_-_Saint_Jude_Thadd%C3%A9e.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 800,
+  "h": 990
+ },
+ "simon-the-zealot": {
+  "src": "/characters/simon-the-zealot.webp",
+  "title": "사도 시몬",
+  "artist": "페테르 파울 루벤스",
+  "year": "1610–1612년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Rubens_apostel_simon.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 753,
+  "h": 1000
+ },
+ "judas": {
+  "src": "/characters/judas.webp",
+  "title": "유다의 입맞춤",
+  "artist": "조토 디 본도네",
+  "year": "1304–1306년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-31-_-_Kiss_of_Judas.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 800,
+  "h": 780
+ },
+ "jesus": {
+  "src": "/characters/jesus.webp",
+  "title": "그리스도의 얼굴",
+  "artist": "렘브란트",
+  "year": "1648–1656년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn,_Dutch_(active_Leiden_and_Amsterdam)_-_Head_of_Christ_-_Google_Art_Project.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 800,
+  "h": 923
+ },
+ "mary-mother": {
+  "src": "/characters/mary-mother.webp",
+  "title": "기도하는 성모",
+  "artist": "사소페라토",
+  "year": "1640–1650년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Sassoferrato_-_Jungfrun_i_b%C3%B6n.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 795,
+  "h": 1000
+ },
+ "mary-magdalene": {
+  "src": "/characters/mary-magdalene.webp",
+  "title": "참회하는 막달라 마리아",
+  "artist": "카를로 사라체니",
+  "year": "17세기 초",
+  "source": "https://commons.wikimedia.org/wiki/File:(Venice)_The_Penitent_Magdalene_by_Carlo_Saraceni_-_Gallerie_Accademia_Venice.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 729,
+  "h": 1000
+ },
+ "nicodemus": {
+  "src": "/characters/nicodemus.webp",
+  "title": "예수와 니고데모",
+  "artist": "헨리 오사와 태너",
+  "year": "1899",
+  "source": "https://commons.wikimedia.org/wiki/File:Henry_Ossawa_Tanner_-_Jesus_and_nicodemus.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 701,
+  "h": 600
+ },
+ "martha": {
+  "src": "/characters/martha.webp",
+  "title": "마르다와 마리아의 집에 계신 그리스도",
+  "artist": "요하네스 페르메이르",
+  "year": "1654–1655년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Johannes_(Jan)_Vermeer_-_Christ_in_the_House_of_Martha_and_Mary_-_Google_Art_Project.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 800,
+  "h": 925
+ },
+ "mary-of-bethany": {
+  "src": "/characters/mary-of-bethany.webp",
+  "title": "마르다와 마리아의 집에 계신 그리스도",
+  "artist": "요하네스 페르메이르",
+  "year": "1654–1655년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Johannes_(Jan)_Vermeer_-_Christ_in_the_House_of_Martha_and_Mary_-_Google_Art_Project.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 800,
+  "h": 925
+ },
+ "lazarus": {
+  "src": "/characters/lazarus.webp",
+  "title": "나사로의 부활",
+  "artist": "렘브란트",
+  "year": "1630–1632년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz._van_Rijn_-_The_Raising_of_Lazarus_-_Google_Art_Project.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 800,
+  "h": 954
+ },
+ "caiaphas": {
+  "src": "/characters/caiaphas.webp",
+  "title": "가야바 앞의 그리스도",
+  "artist": "조토 디 본도네",
+  "year": "1304–1306년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._32_Scenes_from_the_Life_of_Christ_-_16._Christ_before_Caiaphas_-_WGA09217.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 800,
+  "h": 783
+ },
+ "pilate": {
+  "src": "/characters/pilate.webp",
+  "title": "이 사람을 보라(에케 호모)",
+  "artist": "안토니오 치세리",
+  "year": "1871–1880",
+  "source": "https://commons.wikimedia.org/wiki/File:Antonio_Ciseri_-_Ecce_Homo.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 800,
+  "h": 532
+ },
+ "herod-antipas": {
+  "src": "/characters/herod-antipas.webp",
+  "title": "헤롯 앞의 예수",
+  "artist": "제임스 티소",
+  "year": "1886–1894",
+  "source": "https://commons.wikimedia.org/wiki/File:Brooklyn_Museum_-_Jesus_Before_Herod_(J%C3%A9sus_devant_H%C3%A9rode)_-_James_Tissot.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 534,
+  "h": 768
+ },
+ "john-the-baptist": {
+  "src": "/characters/john-the-baptist.webp",
+  "title": "세례자 요한",
+  "artist": "레오나르도 다 빈치",
+  "year": "1513–1516년경",
+  "source": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_-_Saint_John_the_Baptist_C2RMF_retouched.jpg",
+  "license": "퍼블릭 도메인",
+  "w": 772,
+  "h": 1000
+ }
+}

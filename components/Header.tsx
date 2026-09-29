@@ -5,6 +5,7 @@ const NAV = [
   { href: "/s1", label: "시즌" },
   { href: "/characters", label: "인물" },
   { href: "/verses", label: "성경 구절" },
+  { href: "/daily", label: "오늘의 말씀" },
 ];
 
 export function Header() {
