@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { getGuide } from "@/lib/guide";
 import { Md } from "@/components/Md";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -42,6 +43,9 @@ export default function VersesPage() {
           ))}
         </ul>
       </div>
+      <p className="note-box">
+        매일 아침·저녁 한 구절씩 전하는 <Link href="/daily">오늘의 말씀</Link>도 함께 모아 두었어요.
+      </p>
       <VerseExplorer verses={sorted} />
     </article>
   );

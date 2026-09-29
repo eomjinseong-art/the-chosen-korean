@@ -218,3 +218,19 @@ table.kv td:first-child { white-space: nowrap; font-weight: 700; width: 1%; }
 .person-link { color: var(--ink); border-bottom: 1px dashed var(--gold); }
 .person-link:hover { color: var(--accent); text-decoration: none; }
 .sep { color: var(--muted); margin: 0 3px; font-weight: 400; }
+
+/* character painting */
+.char-art { margin: 1em 0 1.4em; }
+.char-art img { display: block; width: 100%; max-width: 420px; height: auto; border-radius: 12px; border: 1px solid var(--line); background: var(--paper); }
+.char-art figcaption { font-size: .8rem; color: var(--muted); margin-top: 6px; max-width: 420px; line-height: 1.5; }
+.char-art figcaption a { color: var(--ink2); }
+.char-art-note { display: block; }
+
+/* daily verses */
+.daily-list { list-style: none; padding: 0; margin: 1em 0; display: grid; gap: 12px; }
+.daily-item { background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+.daily-when { margin: 0 0 6px; font-size: .82rem; color: var(--muted); font-weight: 700; }
+.daily-text { margin: 0; font-size: 1.05rem; line-height: 1.7; border: 0; padding: 0; }
+.daily-ref { margin: 6px 0 0; font-weight: 700; color: var(--ink2); }
+.daily-cheer { margin: 6px 0 0; font-size: .9rem; color: var(--ink2); }
+.small { font-size: .82rem; }

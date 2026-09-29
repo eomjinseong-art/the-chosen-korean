@@ -3,7 +3,9 @@ import { notFound } from "next/navigation";
 import { getGuide } from "@/lib/guide";
 import { Md } from "@/components/Md";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { pageMeta } from "@/lib/seo";
+import { absoluteUrl, pageMeta } from "@/lib/seo";
+import { artFor } from "@/lib/art";
+import { CharacterArt } from "@/components/CharacterArt";
 
 export const dynamicParams = false;
 
@@ -29,11 +31,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const c = get((await params).slug);
   if (!c) return {};
   const who = c.info.map((i) => i.value.replace(/\*\*/g, "")).join(" · ") || c.seasonRoles.map((r) => r.role).join(" · ");
-  return pageMeta({
+  const meta = pageMeta({
     title: `더 초즌 ${c.name} — 인물 소개와 등장 회차`,
     description: `더 초즌(The Chosen) ${c.name}: ${who} 등장한 ${c.appearances.length}개 에피소드와 화별 역할을 정리했습니다.`,
     path: `/characters/${c.slug}`,
   });
+  const art = artFor(c.slug);
+  if (art && meta.openGraph) {
+    const img = { url: absoluteUrl(art.src), width: art.w, height: art.h, alt: `${art.artist} 〈${art.title}〉` };
+    meta.openGraph = { ...meta.openGraph, images: [img] };
+    meta.twitter = { ...meta.twitter, images: [img.url] };
+  }
+  return meta;
 }
 
 export default async function CharacterPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -49,6 +58,10 @@ export default async function CharacterPage({ params }: { params: Promise<{ slug
       />
       <p className="eyebrow">{GROUP_LABEL[c.group]}</p>
       <h1>{c.name}</h1>
+      {(() => {
+        const art = artFor(c.slug);
+        return art ? <CharacterArt art={art} name={c.name} /> : null;
+      })()}
       {c.info.length ? (
         <dl className="info">
           {c.info.map((i) => (

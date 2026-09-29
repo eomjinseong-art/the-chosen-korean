@@ -124,6 +124,10 @@ export default function Home() {
           <strong className="card-title">🔎 검색</strong>
           <p className="card-text">에피소드·인물·성경 구절을 한 번에 찾아보세요.</p>
         </Link>
+        <Link href="/daily" className="card">
+          <strong className="card-title">🕊️ 오늘의 말씀</strong>
+          <p className="card-text">매일 아침·저녁 한 구절씩, 날짜별로 모아 두었습니다.</p>
+        </Link>
       </section>
     </>
   );

@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/intro",
     "/characters",
     "/verses",
+    "/daily",
     ...g.seasons.map((s) => s.path),
     ...g.episodes.map((e) => e.path),
     ...g.characters.filter((c) => c.slug).map((c) => `/characters/${c.slug}`),
