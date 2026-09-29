@@ -6,6 +6,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { absoluteUrl, pageMeta } from "@/lib/seo";
 import { artFor } from "@/lib/art";
 import { CharacterArt } from "@/components/CharacterArt";
+import { AvoirAd } from "@/components/AvoirAd";
 
 export const dynamicParams = false;
 
@@ -107,6 +108,7 @@ export default async function CharacterPage({ params }: { params: Promise<{ slug
       ) : (
         <p className="muted">화별 등장인물 표에 따로 이름이 오른 화가 없습니다.</p>
       )}
+      <AvoirAd place="character" />
       <p className="back">
         <Link href="/characters">← 인물 사전으로</Link>
       </p>

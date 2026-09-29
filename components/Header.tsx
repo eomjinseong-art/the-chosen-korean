@@ -6,6 +6,9 @@ const NAV = [
   { href: "/characters", label: "인물" },
   { href: "/verses", label: "성경 구절" },
   { href: "/daily", label: "오늘의 말씀" },
+  { href: "/scenes", label: "명장면" },
+  { href: "/creators", label: "제작진" },
+  { href: "/map", label: "지도" },
 ];
 
 export function Header() {

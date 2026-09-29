@@ -18,6 +18,11 @@ export function Footer() {
           ))}
           <Link href="/characters">인물 사전</Link>
           <Link href="/verses">성경 구절</Link>
+          <Link href="/daily">오늘의 말씀</Link>
+          <Link href="/scenes">명장면·명대사</Link>
+          <Link href="/creators">제작진</Link>
+          <Link href="/making">제작 이야기</Link>
+          <Link href="/map">촬영지 지도</Link>
           <Link href="/search">검색</Link>
         </nav>
         <div className="disclaimer">

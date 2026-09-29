@@ -9,6 +9,7 @@ import { VerseCard } from "@/components/VerseCard";
 import { JsonLd } from "@/components/JsonLd";
 import { absoluteUrl, clip, pageMeta, SERIES_LD } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
+import { AvoirAd } from "@/components/AvoirAd";
 
 export const dynamicParams = false;
 
@@ -136,6 +137,8 @@ export default async function EpisodePage({ params }: { params: Promise<{ season
           </div>
         </section>
       ) : null}
+
+      <AvoirAd place="episode" />
 
       <nav className="prevnext" aria-label="이전·다음 화">
         {prev ? (

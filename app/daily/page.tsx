@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { pageMeta } from "@/lib/seo";
 import { DAILY_TRANSLATION, allVerses, type DailyVerse } from "@/lib/dailyVerses";
+import { AvoirAd } from "@/components/AvoirAd";
 
 export const metadata = pageMeta({
   title: "오늘의 말씀 — 힘이 되는 성경 구절 모음",
@@ -35,6 +36,7 @@ export default function DailyPage() {
       </p>
       <h2 id="morning">🌅 아침에 읽는 말씀</h2>
       <List items={morning} />
+      <AvoirAd place="daily" />
       <h2 id="evening">🌙 저녁에 읽는 말씀</h2>
       <List items={evening} />
       <p className="muted small">성경 본문: {DAILY_TRANSLATION}(대한성서공회, 1961).</p>
