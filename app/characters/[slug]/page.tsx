@@ -1,0 +1,102 @@
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { getGuide } from "@/lib/guide";
+import { Md } from "@/components/Md";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { pageMeta } from "@/lib/seo";
+
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return getGuide()
+    .characters.filter((c) => c.slug)
+    .map((c) => ({ slug: c.slug! }));
+}
+
+const GROUP_LABEL = {
+  disciples: "열두 제자",
+  around: "예수 주변 사람들",
+  opposition: "반대·위협 세력",
+  extra: "주요 인물",
+  other: "등장인물",
+} as const;
+
+function get(slug: string) {
+  return getGuide().characters.find((c) => c.slug === slug);
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const c = get((await params).slug);
+  if (!c) return {};
+  const who = c.info.map((i) => i.value.replace(/\*\*/g, "")).join(" · ") || c.seasonRoles.map((r) => r.role).join(" · ");
+  return pageMeta({
+    title: `더 초즌 ${c.name} — 인물 소개와 등장 회차`,
+    description: `더 초즌(The Chosen) ${c.name}: ${who} 등장한 ${c.appearances.length}개 에피소드와 화별 역할을 정리했습니다.`,
+    path: `/characters/${c.slug}`,
+  });
+}
+
+export default async function CharacterPage({ params }: { params: Promise<{ slug: string }> }) {
+  const c = get((await params).slug);
+  if (!c) notFound();
+  return (
+    <article>
+      <Breadcrumbs
+        items={[
+          { name: "인물 사전", path: "/characters" },
+          { name: c.name, path: `/characters/${c.slug}` },
+        ]}
+      />
+      <p className="eyebrow">{GROUP_LABEL[c.group]}</p>
+      <h1>{c.name}</h1>
+      {c.info.length ? (
+        <dl className="info">
+          {c.info.map((i) => (
+            <div key={i.label}>
+              <dt>{i.label}</dt>
+              <dd>
+                <Md text={i.value} />
+              </dd>
+            </div>
+          ))}
+        </dl>
+      ) : null}
+      {c.seasonRoles.length ? (
+        <>
+          <h2>시즌별 역할</h2>
+          <ul className="roles">
+            {c.seasonRoles.map((r, i) => (
+              <li key={i}>
+                <Link href={`/s${r.season}`}>시즌 {r.season}</Link> — {r.role}
+              </li>
+            ))}
+          </ul>
+        </>
+      ) : null}
+      <h2>등장한 화 ({c.appearances.length})</h2>
+      {c.appearances.length ? (
+        <ol className="appear">
+          {c.appearances.map((a) => {
+            const m = /^S(\d+)E(\d+)$/.exec(a.code)!;
+            return (
+              <li key={a.code}>
+                <Link href={a.path}>
+                  <span className="ap-code">
+                    시즌{m[1]} {m[2]}화
+                  </span>{" "}
+                  <span className="ap-title">{a.title}</span>
+                </Link>
+                <span className="ap-role">{a.role}</span>
+              </li>
+            );
+          })}
+        </ol>
+      ) : (
+        <p className="muted">화별 등장인물 표에 따로 이름이 오른 화가 없습니다.</p>
+      )}
+      <p className="back">
+        <Link href="/characters">← 인물 사전으로</Link>
+      </p>
+    </article>
+  );
+}
