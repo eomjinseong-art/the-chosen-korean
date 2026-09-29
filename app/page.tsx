@@ -4,6 +4,7 @@ import { Md } from "@/components/Md";
 import { JsonLd } from "@/components/JsonLd";
 import { pageMeta, absoluteUrl, SERIES_LD } from "@/lib/seo";
 import { SITE_DESCRIPTION, SITE_FULL_NAME, SITE_URL, WATCH_NOTE } from "@/lib/site";
+import { AvoirAd } from "@/components/AvoirAd";
 
 export const metadata = pageMeta({
   title: "더 초즌(The Chosen) 한국어 가이드 — 시즌 1~5 전 40화 줄거리·등장인물·성경 구절",
@@ -127,6 +128,27 @@ export default function Home() {
         <Link href="/daily" className="card">
           <strong className="card-title">🕊️ 오늘의 말씀</strong>
           <p className="card-text">아침·저녁에 읽기 좋은 성경 구절을 한곳에 모았습니다.</p>
+        </Link>
+        <Link href="/scenes" className="card">
+          <strong className="card-title">✨ 명장면·명대사</strong>
+          <p className="card-text">시즌 1~5에서 꼭 봐야 할 장면과 기억에 남는 대사.</p>
+        </Link>
+      </section>
+
+      <AvoirAd place="home" />
+
+      <section className="grid two">
+        <Link href="/creators" className="card">
+          <strong className="card-title">🎬 제작진</strong>
+          <p className="card-text">감독 댈러스 젠킨스와 더 초즌을 만든 사람들.</p>
+        </Link>
+        <Link href="/making" className="card">
+          <strong className="card-title">📜 제작 이야기와 기록</strong>
+          <p className="card-text">단편 하나에서 역대 1위 크라우드펀딩, 7시즌 완결까지.</p>
+        </Link>
+        <Link href="/map" className="card">
+          <strong className="card-title">🗺️ 촬영지 지도</strong>
+          <p className="card-text">텍사스·유타 촬영지와 드라마 속 성경 장소.</p>
         </Link>
       </section>
     </>
