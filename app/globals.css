@@ -303,3 +303,5 @@ table.kv td:first-child { white-space: nowrap; font-weight: 700; width: 1%; }
 .chosen-links { padding-left: 1.1em; }
 .chosen-links li { margin: 8px 0; }
 .verse-note { margin: 4px 4px 0; }
+.src-middle { background: #f3e8fb; border: 1px solid #dcc6ee; }
+.src-middle .src-label { color: #6a3c8a; }

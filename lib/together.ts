@@ -29,7 +29,9 @@ export type Work = {
   info: { label: string; value: string }[];
   watch?: Link;
   plot: string[];
-  source: { real: string[]; adapted: string[] };
+  source: { real: string[]; middle?: string[]; adapted: string[] };
+  /** 실화/각색 박스 칸 제목을 바꿀 때 (예: 성경 / 외경 / 영화 창작) */
+  sourceLabels?: { real?: string; middle?: string; adapted?: string };
   people: { name: string; actor?: string; real?: string; role: string }[];
   points: string[];
   chosen: { text: string; href?: string; label?: string }[];
