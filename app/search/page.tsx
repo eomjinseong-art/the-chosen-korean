@@ -3,6 +3,7 @@ import { anchorId } from "@/lib/characters";
 import { SearchClient, type SearchItem } from "@/components/SearchClient";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { pageMeta } from "@/lib/seo";
+import { getWorks, workPath } from "@/lib/together";
 
 export const metadata = pageMeta({
   title: "검색 — 에피소드·인물·성경 구절",
@@ -35,6 +36,13 @@ export default function SearchPage() {
       sub: v.refEn,
       text: `${v.ko} ${v.en}`,
       href: `/verses#${v.id}`,
+    })),
+    ...getWorks().map((w) => ({
+      type: "같이 보기" as const,
+      title: `「${w.titleKo}」`,
+      sub: `${w.titleEn} · ${w.kind} ${w.year}`,
+      text: stripMd([w.tagline, ...w.plot, ...w.people.map((p) => `${p.name} ${p.actor || ""}`), ...(w.facts || []).map((f) => f.title)].join(" ")),
+      href: workPath(w),
     })),
   ];
   return (
