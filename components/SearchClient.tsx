@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
-export type SearchItem = { type: "에피소드" | "인물" | "성경 구절"; title: string; sub: string; text: string; href: string };
+export type SearchItem = { type: "에피소드" | "인물" | "성경 구절" | "같이 보기"; title: string; sub: string; text: string; href: string };
 
 const norm = (s: string) => s.toLowerCase().replace(/\s+/g, "");
 

@@ -5,6 +5,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { pageMeta, absoluteUrl, SERIES_LD } from "@/lib/seo";
 import { SITE_DESCRIPTION, SITE_FULL_NAME, SITE_URL, WATCH_NOTE } from "@/lib/site";
 import { AvoirAd } from "@/components/AvoirAd";
+import { getWorks, TOGETHER_PATH } from "@/lib/together";
 
 export const metadata = pageMeta({
   title: "더 초즌(The Chosen) 한국어 가이드 — 시즌 1~5 전 40화 줄거리·등장인물·성경 구절",
@@ -149,6 +150,15 @@ export default function Home() {
         <Link href="/map" className="card">
           <strong className="card-title">🗺️ 촬영지 지도</strong>
           <p className="card-text">텍사스·유타 촬영지와 드라마 속 성경 장소.</p>
+        </Link>
+        <Link href={TOGETHER_PATH} className="card">
+          <strong className="card-title">🎞️ 같이 보면 좋은 콘텐츠</strong>
+          <p className="card-text">
+            {getWorks()
+              .map((w) => `「${w.titleKo}」`)
+              .join(", ")}{" "}
+            등 더 초즌과 함께 볼 작품. 실화와 각색, 영화에 나온 역사적 사실까지.
+          </p>
         </Link>
       </section>
     </>
