@@ -114,7 +114,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
       <nav className="toc" aria-label="이 페이지 목차">
         <a href="#info">작품 정보</a>
         <a href="#plot">줄거리</a>
-        <a href="#src-h">실화·각색</a>
+        <a href="#src-h">{w.source.middle?.length ? "성경·외경·창작" : "실화·각색"}</a>
         <a href="#people">주요 인물</a>
         <a href="#points">이해 포인트</a>
         {w.facts?.length ? <a href="#facts">사실 자세히 보기</a> : null}
@@ -155,18 +155,28 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
       </section>
 
       <section className="source-box" aria-labelledby="src-h">
-        <h2 id="src-h">실화일까, 영화 각색일까?</h2>
+        <h2 id="src-h">{w.source.middle?.length ? "성경일까, 외경일까, 영화 창작일까?" : "실화일까, 영화 각색일까?"}</h2>
         <div className="src-grid">
           <div className="src src-bible">
-            <div className="src-label">📖 실화·기록에 있는 부분</div>
+            <div className="src-label">{w.sourceLabels?.real || "📖 실화·기록에 있는 부분"}</div>
             <ul>
               {w.source.real.map((t, i) => (
                 <TMd key={i} as="li" text={t} />
               ))}
             </ul>
           </div>
+          {w.source.middle?.length ? (
+            <div className="src src-middle">
+              <div className="src-label">{w.sourceLabels?.middle || "📜 전승"}</div>
+              <ul>
+                {w.source.middle.map((t, i) => (
+                  <TMd key={i} as="li" text={t} />
+                ))}
+              </ul>
+            </div>
+          ) : null}
           <div className="src src-drama">
-            <div className="src-label">🎬 영화가 바꾸거나 덧붙인 부분</div>
+            <div className="src-label">{w.sourceLabels?.adapted || "🎬 영화가 바꾸거나 덧붙인 부분"}</div>
             <ul>
               {w.source.adapted.map((t, i) => (
                 <TMd key={i} as="li" text={t} />
