@@ -10,6 +10,7 @@ const NAV = [
   { href: "/creators", label: "제작진" },
   { href: "/map", label: "지도" },
   { href: "/together", label: "같이 보기" },
+  { href: "/hymns", label: "찬송가" },
 ];
 
 export function Header() {

@@ -305,3 +305,15 @@ table.kv td:first-child { white-space: nowrap; font-weight: 700; width: 1%; }
 .verse-note { margin: 4px 4px 0; }
 .src-middle { background: #f3e8fb; border: 1px solid #dcc6ee; }
 .src-middle .src-label { color: #6a3c8a; }
+
+/* 사랑받는 찬송가 100 */
+.rtype-h { background: #e3f5ea; color: #1f6b3c; }
+.filter-row.filter-wrap { flex-wrap: wrap; overflow-x: visible; }
+.hymn-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.tag-hymn { background: #eef3ea; color: #3c5a2e; margin: 0; }
+.tag-pd { background: #e6f0ff; color: #2b5594; margin: 0; }
+.lyrics-en { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 18px; font-family: Georgia, "Times New Roman", serif; line-height: 1.7; }
+.lyrics-en p { margin: 0 0 1em; }
+.lyrics-en p:last-child { margin-bottom: 0; }
+.lyrics-en .refrain { font-style: italic; padding-left: 1em; border-left: 3px solid var(--line); }
+.hymn .note-box { margin: 1em 0; }

@@ -1,0 +1,1990 @@
+{
+  "intro": "한국 교회에서 오래 사랑받고 자주 불리는 찬송가 100곡을 골라, 곡마다 『새찬송가』(2006, 한국찬송가공회) 장 번호와 원제, 작사·작곡자, 만들어진 이야기, 함께 읽을 성경 구절을 정리했습니다. 주제별로 걸러 보거나 제목·작가 이름으로 찾아보세요.",
+  "method": [
+    "한국 교회 전체를 대상으로 한 공식 '애창 찬송가 순위'는 없습니다. 이 100곡은 순위가 아니며, 아래 자료에 공통으로 자주 등장하는 곡을 중심으로 이 사이트가 직접 고른 목록입니다.",
+    "참고한 자료: 2022년 CBS 음악FM 「정민아의 어메이징 그레이스」 10주년 결산 '베스트 100'(해외 찬송가 대상, 청취자 선호·신청·방송 횟수 기준)을 소개한 언론 보도, '한국인이 좋아하는 찬송가' 류 음반 수록곡, 교회와 교인이 정리한 애창 찬송 목록과 소규모 설문 글.",
+    "여기에 성탄·부활·추수감사·어버이주일·나라 사랑처럼 교회력과 예배 현장에서 꼭 불리는 곡, 그리고 한국에서 만들어진 대표 창작 찬송을 더해 균형을 맞췄습니다. 설문 숫자나 순위는 만들지 않았고, 목록은 장 번호 순입니다."
+  ],
+  "copyright": [
+    "새찬송가의 한국어 가사는 한국찬송가공회 등 권리자의 저작물이라 싣지 않았습니다. 곡 이름으로 쓰이는 첫 줄(제목)만 적었습니다.",
+    "번역 찬송 가운데 원작자가 세상을 떠난 지 70년이 지났고 1929년 이전에 발표된 영어 원문만 '공개 영역 원문'으로 실었습니다. 20세기 작품이나 한국·일본 원작 찬송은 가사를 싣지 않았습니다.",
+    "성경 구절은 장·절 위치만 적었습니다. 이야기는 아래 자료를 바탕으로 이 사이트가 직접 쓴 요약이며, 전해지는 일화는 '전해집니다'로 구분했습니다.",
+    "듣기 링크는 공식·비공식 영상을 직접 붙이지 않고 유튜브 검색 결과로 연결합니다."
+  ],
+  "sources": [
+    {
+      "label": "한겨레 – 'CBS 음악FM 어메이징 그레이스' 10주년 찬송가 베스트 관련 기사 (2022)",
+      "url": "https://www.hani.co.kr/arti/well/news/1062982.html"
+    },
+    {
+      "label": "노컷뉴스 – 「정민아의 어메이징 그레이스」 10주년 베스트 100 보도 (2022)",
+      "url": "https://mch.nocutnews.co.kr/news/5832147"
+    },
+    {
+      "label": "벅스 – 음반 「한국인이 가장 좋아하는 찬송가 50선 2」 수록곡",
+      "url": "https://music.bugs.co.kr/album/23072"
+    },
+    {
+      "label": "교회 블로그의 애창 찬송가 설문 글 (참고용)",
+      "url": "https://klex.co.kr/246"
+    },
+    {
+      "label": "Hymnary.org – 영어 찬송 작사·작곡·곡조 정보",
+      "url": "https://hymnary.org/"
+    },
+    {
+      "label": "하눈찬송 – 새찬송가 645곡 장 번호·제목 목록",
+      "url": "https://hymn.hanoon.app/"
+    },
+    {
+      "label": "성경닷컴(sungkyoung.com) – 새찬송가 목록(장 번호 대조)",
+      "url": "https://www.sungkyoung.com/hymns"
+    },
+    {
+      "label": "홀리바이블(holybible.or.kr) – 새찬송가·통일찬송가 장 번호 대조",
+      "url": "http://www.holybible.or.kr/"
+    },
+    {
+      "label": "위키백과 – 각 찬송·작가 문서(영문)",
+      "url": "https://en.wikipedia.org/wiki/Hymn"
+    }
+  ],
+  "checked": "2026-10-04",
+  "hymns": [
+    {
+      "n": 1,
+      "tong": 1,
+      "title": "만복의 근원 하나님",
+      "en": "Praise God, from Whom All Blessings Flow (Doxology)",
+      "origin": "영국",
+      "text": "토머스 켄(Thomas Ken), 1674년경 작시·1709년 개정판",
+      "music": "제네바 시편가(Genevan Psalter, 1551) 선율, 루이 부르주아(Louis Bourgeois) 작곡으로 전해짐",
+      "tune": "OLD HUNDREDTH",
+      "story": "영국 성공회 주교 토머스 켄이 윈체스터 칼리지 학생들을 위해 지은 아침·저녁 찬송의 마지막 절이 따로 떨어져 나와 '송영(Doxology)'이 되었습니다. 곡조 OLD HUNDREDTH는 16세기 제네바 시편가에 실린 선율로, 영어권에서 시편 100편 노래에 붙으면서 이 이름을 얻었습니다. 한국 교회에서도 예배를 열거나 헌금 뒤에 부르는 가장 짧고 오래된 찬송 가운데 하나입니다.",
+      "refs": [
+        "시편 150:6",
+        "시편 100:4"
+      ],
+      "tags": [
+        "찬양·경배"
+      ],
+      "lyricsEn": [
+        "Praise God, from whom all blessings flow;\nPraise Him, all creatures here below;\nPraise Him above, ye heavenly host;\nPraise Father, Son, and Holy Ghost."
+      ]
+    },
+    {
+      "n": 8,
+      "tong": 9,
+      "title": "거룩 거룩 거룩 전능하신 주님",
+      "en": "Holy, Holy, Holy! Lord God Almighty",
+      "origin": "영국",
+      "text": "레지널드 헤버(Reginald Heber), 1826년 출판",
+      "music": "존 B. 다이크스(John B. Dykes), 1861년",
+      "tune": "NICAEA",
+      "story": "인도 캘커타 주교였던 헤버가 삼위일체 주일 예배를 위해 쓴 찬송으로, 요한계시록 4장의 하늘 예배 장면을 옮겨 놓았습니다. 헤버가 1826년 세상을 떠난 뒤 출판되어 널리 퍼졌습니다. 다이크스가 1861년 『Hymns Ancient and Modern』을 위해 지은 곡조는 삼위일체 교리를 정리한 니케아 공의회(325년)의 이름을 따 NICAEA라 부릅니다.",
+      "refs": [
+        "이사야 6:3",
+        "요한계시록 4:8-11"
+      ],
+      "tags": [
+        "찬양·경배"
+      ],
+      "lyricsEn": [
+        "Holy, holy, holy! Lord God Almighty!\nEarly in the morning our song shall rise to Thee;\nHoly, holy, holy! merciful and mighty,\nGod in three Persons, blessed Trinity!",
+        "Holy, holy, holy! all the saints adore Thee,\nCasting down their golden crowns around the glassy sea;\nCherubim and seraphim falling down before Thee,\nWhich wert, and art, and evermore shalt be.",
+        "Holy, holy, holy! though the darkness hide Thee,\nThough the eye of sinful man Thy glory may not see,\nOnly Thou art holy; there is none beside Thee,\nPerfect in power, in love, and purity.",
+        "Holy, holy, holy! Lord God Almighty!\nAll Thy works shall praise Thy name, in earth, and sky, and sea;\nHoly, holy, holy! merciful and mighty,\nGod in three Persons, blessed Trinity!"
+      ]
+    },
+    {
+      "n": 23,
+      "tong": 23,
+      "title": "만 입이 내게 있으면",
+      "en": "O for a Thousand Tongues to Sing",
+      "origin": "영국",
+      "text": "찰스 웨슬리(Charles Wesley), 1739년",
+      "music": "카를 G. 글래저(Carl G. Gläser) 1828년 작곡, 로웰 메이슨(Lowell Mason) 1839년 편곡",
+      "tune": "AZMON",
+      "story": "감리교 운동의 찰스 웨슬리가 1738년 자신의 회심 1주년을 기념해 쓴 긴 찬송시에서 나온 곡입니다. 모라비아 교도 피터 뵐러가 \"내게 천 개의 혀가 있다면 그 모두로 그리스도를 찬양하겠다\"고 한 말이 첫 줄의 바탕이 되었다고 전해집니다. 영어권 감리교 찬송가들은 오랫동안 이 곡을 1장에 실어 왔습니다.",
+      "refs": [
+        "시편 35:28",
+        "시편 145:21"
+      ],
+      "tags": [
+        "찬양·경배",
+        "은혜·구원"
+      ],
+      "note": "한국 새찬송가 23장의 곡조가 AZMON인지는 영어권 일반 사용례를 기준으로 적었습니다."
+    },
+    {
+      "n": 28,
+      "tong": 28,
+      "title": "복의 근원 강림하사",
+      "en": "Come, Thou Fount of Every Blessing",
+      "origin": "영국",
+      "text": "로버트 로빈슨(Robert Robinson), 1758년",
+      "music": "미국 민요 곡조, 『Wyeth's Repository of Sacred Music, Part Second』(1813)에 처음 실림",
+      "tune": "NETTLETON",
+      "story": "로빈슨은 거리의 불량배로 지내다 조지 휫필드의 설교를 듣고 회심했고, 스물세 살 무렵인 1758년 이 찬송시를 썼습니다. 2절의 '에벤에셀'은 사무엘상 7장에서 사무엘이 세운 '여호와께서 여기까지 우리를 도우셨다'는 돌의 이름입니다. 미국 부흥 운동기에 민요풍 곡조 NETTLETON과 짝을 이루며 널리 불리게 되었습니다.",
+      "refs": [
+        "사무엘상 7:12",
+        "시편 103:2"
+      ],
+      "tags": [
+        "찬양·경배",
+        "은혜·구원"
+      ],
+      "lyricsEn": [
+        "Come, Thou Fount of every blessing,\nTune my heart to sing Thy grace;\nStreams of mercy, never ceasing,\nCall for songs of loudest praise.\nTeach me some melodious sonnet,\nSung by flaming tongues above;\nPraise the mount! I'm fixed upon it,\nMount of Thy redeeming love.",
+        "Here I raise mine Ebenezer;\nHither by Thy help I'm come;\nAnd I hope, by Thy good pleasure,\nSafely to arrive at home.\nJesus sought me when a stranger,\nWandering from the fold of God;\nHe, to rescue me from danger,\nInterposed His precious blood.",
+        "O to grace how great a debtor\nDaily I'm constrained to be!\nLet Thy goodness, like a fetter,\nBind my wandering heart to Thee.\nProne to wander, Lord, I feel it,\nProne to leave the God I love;\nHere's my heart, O take and seal it,\nSeal it for Thy courts above."
+      ]
+    },
+    {
+      "n": 31,
+      "tong": 46,
+      "title": "찬양하라 복되신 구세주 예수",
+      "en": "Praise Him! Praise Him!",
+      "origin": "미국",
+      "text": "패니 크로스비(Fanny J. Crosby), 1869년",
+      "music": "체스터 G. 앨런(Chester G. Allen), 1869년",
+      "story": "생후 몇 주 만에 시력을 잃은 패니 크로스비는 평생 8천 편이 넘는 찬송시를 남긴 것으로 알려진 미국의 찬송 작가입니다. 이 곡은 1869년 주일학교 노래책에 처음 실렸고, 힘찬 행진곡풍 후렴 덕분에 예배를 여는 찬양으로 자주 쓰입니다. 새찬송가 100곡 가운데 크로스비의 작품이 여럿 들어 있을 만큼 한국 교회와 인연이 깊은 작가입니다.",
+      "refs": [
+        "시편 150:2",
+        "요한계시록 5:12"
+      ],
+      "tags": [
+        "찬양·경배"
+      ]
+    },
+    {
+      "n": 36,
+      "tong": 36,
+      "title": "주 예수 이름 높이어",
+      "en": "All Hail the Power of Jesus' Name",
+      "origin": "영국",
+      "text": "에드워드 페로넷(Edward Perronet), 1779~1780년",
+      "music": "올리버 홀든(Oliver Holden), 1793년",
+      "tune": "CORONATION",
+      "story": "페로넷은 웨슬리 형제와 함께 일했던 영국의 설교자로, 이 찬송시는 1779~1780년 『Gospel Magazine』에 실렸습니다. 곡조 CORONATION은 미국 매사추세츠의 목수이자 음악가였던 올리버 홀든이 지었으며, 지금도 불리는 가장 오래된 미국 찬송 곡조 가운데 하나로 꼽힙니다. 새찬송가 37장도 같은 가사이지만 곡조가 다릅니다.",
+      "refs": [
+        "빌립보서 2:9-11",
+        "요한계시록 19:16"
+      ],
+      "tags": [
+        "찬양·경배"
+      ]
+    },
+    {
+      "n": 64,
+      "tong": 13,
+      "title": "기뻐하며 경배하세",
+      "en": "Joyful, Joyful, We Adore Thee",
+      "origin": "미국",
+      "text": "헨리 반 다이크(Henry van Dyke), 1907년 작시·1911년 출판",
+      "music": "루트비히 판 베토벤 교향곡 9번 '환희의 송가'(1824), 에드워드 호지스(Edward Hodges) 1864년 편곡",
+      "tune": "HYMN TO JOY",
+      "story": "미국 장로교 목사이자 프린스턴 대학 교수였던 반 다이크가 1907년 매사추세츠 윌리엄스 칼리지에 설교하러 갔을 때 버크셔 산을 바라보며 썼다고 전해집니다. 그는 이 시를 처음부터 베토벤 '환희의 송가' 선율에 맞춰 부르도록 썼습니다. 자연과 사람이 함께 하나님을 찬양하는 밝은 내용 때문에 예배 첫 찬송으로 사랑받습니다.",
+      "refs": [
+        "시편 100:1-2",
+        "시편 98:4"
+      ],
+      "tags": [
+        "찬양·경배",
+        "기쁨"
+      ]
+    },
+    {
+      "n": 66,
+      "tong": 20,
+      "title": "다 감사드리세",
+      "en": "Now Thank We All Our God (Nun danket alle Gott)",
+      "origin": "독일",
+      "text": "마르틴 린카르트(Martin Rinkart), 1636년경 / 영어 번역 캐서린 윙크워스(Catherine Winkworth), 1858년",
+      "music": "요한 크뤼거(Johann Crüger), 1647년",
+      "tune": "NUN DANKET",
+      "story": "린카르트는 30년 전쟁 시기 독일 작센의 성곽 도시 아일렌부르크에서 목회했는데, 전쟁과 1637년 전염병으로 수많은 장례를 치렀다고 전해집니다. 그런 고난 속에서 쓴 감사 노래라는 점 때문에 독일에서는 국가적 감사 행사에서 자주 불렸습니다. 원래는 식탁 감사 기도로 쓰였으며, 가사 1절은 외경 집회서 50장 22~24절을 바탕으로 했습니다.",
+      "refs": [
+        "데살로니가전서 5:18",
+        "시편 136:1"
+      ],
+      "tags": [
+        "감사",
+        "추수감사"
+      ]
+    },
+    {
+      "n": 79,
+      "tong": 40,
+      "title": "주 하나님 지으신 모든 세계",
+      "en": "How Great Thou Art (O store Gud)",
+      "origin": "스웨덴",
+      "text": "카를 보베리(Carl Boberg), 1885년 / 영어 가사 스튜어트 K. 하인(Stuart K. Hine), 1949년",
+      "music": "스웨덴 민요",
+      "story": "스웨덴 목사이자 시인인 보베리가 1885년 쓴 시 'O store Gud(오 위대하신 하나님)'가 원작입니다. 영국 선교사 스튜어트 하인이 우크라이나 등에서 러시아어판으로 이 노래를 접한 뒤 영어 가사를 새로 지었고, 1950년대 빌리 그레이엄 전도 집회에서 불리며 세계적으로 알려졌습니다. 영어 가사(하인 작)는 지금도 저작권 보호를 받아 이 사이트에는 싣지 않습니다.",
+      "refs": [
+        "시편 8:3-4",
+        "시편 19:1"
+      ],
+      "tags": [
+        "찬양·경배",
+        "창조"
+      ]
+    },
+    {
+      "n": 88,
+      "tong": 88,
+      "title": "내 진정 사모하는",
+      "en": "The Lily of the Valley",
+      "origin": "영국",
+      "text": "찰스 W. 프라이(Charles W. Fry), 1881년",
+      "music": "윌리엄 S. 헤이스(William S. Hays)의 대중가요 선율(1871) 차용",
+      "story": "프라이는 영국 구세군 초창기에 가족과 함께 금관 악대를 이끌며 거리 전도에 앞장선 사람입니다. 그는 당시 사람들이 잘 아는 대중가요 곡조에 신앙 가사를 붙이는 방식을 즐겨 썼고, 이 찬송도 그렇게 만들어졌습니다. 아가서의 '골짜기의 백합화'와 요한계시록의 '광명한 새벽별'을 예수께 빗대어 노래합니다.",
+      "refs": [
+        "아가 2:1",
+        "요한계시록 22:16"
+      ],
+      "tags": [
+        "사랑",
+        "찬양·경배"
+      ]
+    },
+    {
+      "n": 93,
+      "tong": 93,
+      "title": "예수는 나의 힘이요",
+      "en": "Jesus Is All the World to Me",
+      "origin": "미국",
+      "text": "윌 L. 톰슨(Will L. Thompson), 1904년",
+      "music": "윌 L. 톰슨, 1904년",
+      "story": "오하이오주 이스트리버풀 출신의 작곡가 톰슨이 가사와 곡을 모두 지었습니다. 그는 대중가요 작곡으로 이름을 얻었다가 복음 찬송 작곡에 힘을 쏟았고, 528장 「예수가 우리를 부르는 소리」도 그의 작품입니다. 예수가 날마다의 힘이고 기쁨이라는 단순한 고백이 이 찬송의 중심입니다.",
+      "refs": [
+        "시편 18:1-2",
+        "빌립보서 1:21"
+      ],
+      "tags": [
+        "사랑",
+        "믿음·신뢰"
+      ]
+    },
+    {
+      "n": 94,
+      "tong": 102,
+      "title": "주 예수보다 더 귀한 것은 없네",
+      "en": "I'd Rather Have Jesus",
+      "origin": "미국",
+      "text": "레아 F. 밀러(Rhea F. Miller), 1922년",
+      "music": "조지 베벌리 셰이(George Beverly Shea), 1939년",
+      "story": "젊은 시절 조지 베벌리 셰이가 어머니가 피아노 위에 놓아 둔 밀러의 시를 읽고 그 자리에서 곡을 붙였다고 전해집니다. 셰이는 이후 빌리 그레이엄 전도 집회의 대표 독창자가 되어 이 노래를 세계 곳곳에서 불렀습니다. 영어 가사와 곡은 아직 저작권이 남아 있어 싣지 않습니다.",
+      "refs": [
+        "빌립보서 3:8",
+        "마태복음 13:44"
+      ],
+      "tags": [
+        "헌신",
+        "사랑"
+      ]
+    },
+    {
+      "n": 109,
+      "tong": 109,
+      "title": "고요한 밤 거룩한 밤",
+      "en": "Silent Night (Stille Nacht)",
+      "origin": "오스트리아",
+      "text": "요제프 모어(Joseph Mohr), 1816년 / 영어 번역 존 F. 영(John F. Young), 1859년",
+      "music": "프란츠 X. 그루버(Franz X. Gruber), 1818년",
+      "story": "오스트리아의 젊은 사제 요제프 모어가 1816년 쓴 시에 오베른도르프의 교사이자 오르간 연주자 그루버가 곡을 붙여, 1818년 성탄 전야 성 니콜라우스 교회에서 기타 반주로 처음 불렀습니다. 오르간이 고장 나서 기타로 불렀다는 이야기는 널리 알려졌지만 확실한 기록은 없습니다. 지금은 수백 개 언어로 번역된 대표 성탄 찬송입니다.",
+      "refs": [
+        "누가복음 2:7-14"
+      ],
+      "tags": [
+        "성탄"
+      ],
+      "lyricsEn": [
+        "Silent night, holy night,\nAll is calm, all is bright\nRound yon virgin mother and child.\nHoly infant so tender and mild,\nSleep in heavenly peace,\nSleep in heavenly peace.",
+        "Silent night, holy night,\nShepherds quake at the sight;\nGlories stream from heaven afar,\nHeavenly hosts sing Alleluia!\nChrist the Saviour is born,\nChrist the Saviour is born!",
+        "Silent night, holy night,\nSon of God, love's pure light\nRadiant beams from Thy holy face\nWith the dawn of redeeming grace,\nJesus, Lord, at Thy birth,\nJesus, Lord, at Thy birth."
+      ]
+    },
+    {
+      "n": 115,
+      "tong": 115,
+      "title": "기쁘다 구주 오셨네",
+      "en": "Joy to the World",
+      "origin": "영국",
+      "text": "아이작 와츠(Isaac Watts), 1719년",
+      "music": "로웰 메이슨(Lowell Mason) 1839년 편곡, 헨델의 선율에서 따온 것으로 소개됨",
+      "tune": "ANTIOCH",
+      "story": "'영국 찬송의 아버지'로 불리는 와츠가 시편 98편을 기독교 신앙으로 다시 풀어 쓴 『The Psalms of David Imitated』(1719)에 실린 시입니다. 원래는 성탄보다 그리스도께서 온 세상을 다스리시는 날을 노래한 내용이지만, 지금은 대표적인 성탄 찬송이 되었습니다. 곡조 ANTIOCH는 메이슨이 편곡하며 '헨델에게서'라고 적었지만, 헨델 작품과의 직접 관계는 학자마다 의견이 다릅니다.",
+      "refs": [
+        "시편 98:4-9"
+      ],
+      "tags": [
+        "성탄",
+        "찬양·경배"
+      ],
+      "lyricsEn": [
+        "Joy to the world! the Lord is come;\nLet earth receive her King;\nLet every heart prepare Him room,\nAnd heaven and nature sing.",
+        "Joy to the earth! the Saviour reigns;\nLet men their songs employ;\nWhile fields and floods, rocks, hills and plains\nRepeat the sounding joy.",
+        "No more let sins and sorrows grow,\nNor thorns infest the ground;\nHe comes to make His blessings flow\nFar as the curse is found.",
+        "He rules the world with truth and grace,\nAnd makes the nations prove\nThe glories of His righteousness,\nAnd wonders of His love."
+      ]
+    },
+    {
+      "n": 120,
+      "tong": 120,
+      "title": "오 베들레헴 작은 골",
+      "en": "O Little Town of Bethlehem",
+      "origin": "미국",
+      "text": "필립스 브룩스(Phillips Brooks), 1868년",
+      "music": "루이스 H. 레드너(Lewis H. Redner), 1868년",
+      "tune": "ST. LOUIS",
+      "story": "필라델피아 성공회 목사 브룩스가 1865년 성탄 무렵 베들레헴을 방문해 목자들의 들판을 바라본 기억을 살려 1868년 주일학교 어린이들을 위해 쓴 시입니다. 교회 오르간 연주자 레드너가 성탄 직전 밤에 곡조가 떠올라 급히 완성했다고 전해집니다. 고요한 작은 마을에 오신 구주를 노래합니다.",
+      "refs": [
+        "미가 5:2",
+        "누가복음 2:4-7"
+      ],
+      "tags": [
+        "성탄"
+      ],
+      "note": "곡조 ST. LOUIS는 미국 사용례 기준입니다. 영국에서는 같은 가사를 다른 곡조(FOREST GREEN)로 부르기도 합니다."
+    },
+    {
+      "n": 122,
+      "tong": 122,
+      "title": "참 반가운 성도여",
+      "en": "O Come, All Ye Faithful (Adeste Fideles)",
+      "origin": "라틴어/영국",
+      "text": "라틴어 원시, 존 프랜시스 웨이드(John Francis Wade) 1743년경 / 영어 번역 프레더릭 오클리(Frederick Oakeley), 1841년",
+      "music": "존 프랜시스 웨이드(1743년경)로 전해짐",
+      "tune": "ADESTE FIDELES",
+      "story": "18세기 영국 가톨릭 신자로 프랑스에서 성가 필사를 하던 웨이드의 필사본에서 처음 확인되는 라틴어 성가 'Adeste Fideles'가 원작입니다. 영국 성공회 사제였던 오클리가 1841년 영어로 옮겼고, 지금은 가톨릭·개신교를 가리지 않고 부르는 성탄 찬송입니다. 목자들처럼 '와서 경배하자'고 초청하는 내용입니다.",
+      "refs": [
+        "누가복음 2:15-16",
+        "마태복음 2:11"
+      ],
+      "tags": [
+        "성탄",
+        "찬양·경배"
+      ],
+      "note": "가사와 곡의 실제 작자는 확정되지 않았고, 웨이드는 현존 최초 필사본의 필사자입니다."
+    },
+    {
+      "n": 143,
+      "tong": 141,
+      "title": "웬말인가 날 위하여",
+      "en": "Alas! and Did My Savior Bleed",
+      "origin": "영국",
+      "text": "아이작 와츠(Isaac Watts), 1707년",
+      "music": "휴 윌슨(Hugh Wilson)의 곡조 MARTYRDOM(1800년경)으로 알려짐",
+      "story": "와츠의 『Hymns and Spiritual Songs』(1707)에 실린 십자가 묵상 찬송입니다. 시각장애인 찬송 작가 패니 크로스비가 1850년 뉴욕의 한 부흥 집회에서 이 찬송을 부르다 회심을 경험했다고 스스로 회고했습니다. '벌레 같은 나'라는 표현은 시편 22편 6절에서 온 것입니다.",
+      "refs": [
+        "이사야 53:5",
+        "시편 22:6",
+        "갈라디아서 2:20"
+      ],
+      "tags": [
+        "십자가·고난주간"
+      ],
+      "note": "새찬송가 143장의 곡조 이름은 확인하지 못해 '알려짐'으로 적었습니다."
+    },
+    {
+      "n": 147,
+      "tong": 136,
+      "title": "거기 너 있었는가",
+      "en": "Were You There",
+      "origin": "미국 흑인 영가",
+      "text": "미국 흑인 영가(작자 미상)",
+      "music": "미국 흑인 영가(작자 미상)",
+      "story": "노예 생활을 하던 미국 흑인들 사이에서 구전으로 불리던 영가로, 1899년 윌리엄 E. 바턴의 『Old Plantation Hymns』에 인쇄된 것이 이른 기록입니다. '그때 거기 너 있었는가'라고 묻는 반복 구조가 듣는 사람을 십자가 현장으로 데려갑니다. 미국에서는 영가로서는 처음으로 주류 교단 찬송가에 실린 곡 가운데 하나로 꼽힙니다.",
+      "refs": [
+        "마태복음 27:35",
+        "요한복음 19:41-42"
+      ],
+      "tags": [
+        "십자가·고난주간"
+      ]
+    },
+    {
+      "n": 149,
+      "tong": 147,
+      "title": "주 달려 죽은 십자가",
+      "en": "When I Survey the Wondrous Cross",
+      "origin": "영국",
+      "text": "아이작 와츠(Isaac Watts), 1707년",
+      "music": "로웰 메이슨(Lowell Mason), 1824년",
+      "tune": "HAMBURG",
+      "story": "와츠는 이 시를 성찬식 묵상을 위해 썼고, '그리스도의 십자가 외에 자랑할 것이 없다'는 갈라디아서 6장 14절을 제목처럼 붙였습니다. 영어 찬송 역사에서 가장 뛰어난 찬송 가운데 하나로 자주 꼽힙니다. 미국에서는 메이슨이 그레고리오 성가풍으로 지은 곡조 HAMBURG로 주로 부릅니다.",
+      "refs": [
+        "갈라디아서 6:14",
+        "빌립보서 3:7-8"
+      ],
+      "tags": [
+        "십자가·고난주간",
+        "헌신"
+      ],
+      "note": "새찬송가 149장의 곡조가 HAMBURG인지는 미국 사용례를 기준으로 적었습니다.",
+      "lyricsEn": [
+        "When I survey the wondrous cross\nOn which the Prince of glory died,\nMy richest gain I count but loss,\nAnd pour contempt on all my pride.",
+        "Forbid it, Lord, that I should boast,\nSave in the death of Christ my God;\nAll the vain things that charm me most,\nI sacrifice them to His blood.",
+        "See from His head, His hands, His feet,\nSorrow and love flow mingled down;\nDid e'er such love and sorrow meet,\nOr thorns compose so rich a crown?",
+        "Were the whole realm of nature mine,\nThat were a present far too small;\nLove so amazing, so divine,\nDemands my soul, my life, my all."
+      ]
+    },
+    {
+      "n": 150,
+      "tong": 135,
+      "title": "갈보리 산 위에",
+      "en": "The Old Rugged Cross",
+      "origin": "미국",
+      "text": "조지 베나드(George Bennard), 1912~1913년",
+      "music": "조지 베나드, 1913년",
+      "story": "구세군 출신 순회 전도자 베나드가 1912년 무렵 쓰기 시작해 1913년 미시간주 포카곤의 집회에서 처음 불렀다고 알려져 있습니다. 20세기 미국에서 가장 많이 불린 복음 찬송 가운데 하나로, 장례식에서도 자주 쓰입니다. 영어 가사는 작자 사후 70년이 지나지 않아 싣지 않습니다.",
+      "refs": [
+        "고린도전서 1:18",
+        "골로새서 1:20"
+      ],
+      "tags": [
+        "십자가·고난주간"
+      ]
+    },
+    {
+      "n": 160,
+      "tong": 150,
+      "title": "무덤에 머물러",
+      "en": "Low in the Grave He Lay (Christ Arose)",
+      "origin": "미국",
+      "text": "로버트 로리(Robert Lowry), 1874년",
+      "music": "로버트 로리, 1874년",
+      "story": "침례교 목사이자 대학 교수였던 로리가 1874년 부활절을 앞두고 누가복음 24장의 부활 기사를 묵상하다 가사와 곡을 함께 지었다고 전해집니다. 낮고 조용한 절과 힘차게 솟아오르는 후렴의 대비가 무덤과 부활을 그대로 보여 줍니다. 252장 「나의 죄를 씻기는」도 로리의 작품입니다.",
+      "refs": [
+        "마태복음 28:6",
+        "누가복음 24:5-7"
+      ],
+      "tags": [
+        "부활"
+      ]
+    },
+    {
+      "n": 164,
+      "tong": 154,
+      "title": "예수 부활했으니",
+      "en": "Christ the Lord Is Risen Today",
+      "origin": "영국",
+      "text": "찰스 웨슬리(Charles Wesley), 1739년",
+      "music": "『Lyra Davidica』(런던, 1708)에 실린 곡조",
+      "tune": "EASTER HYMN",
+      "story": "찰스 웨슬리가 런던에서 감리교 집회 장소로 처음 쓰인 파운드리 예배당의 첫 예배(1739년)를 위해 썼다고 알려진 부활 찬송입니다. 각 줄 끝의 '할렐루야'는 웨슬리 원시에는 없었고, 곡조에 맞추며 덧붙여졌습니다. 부활절 아침 예배의 대표 찬송입니다.",
+      "refs": [
+        "고린도전서 15:55-57",
+        "마태복음 28:6"
+      ],
+      "tags": [
+        "부활"
+      ]
+    },
+    {
+      "n": 165,
+      "tong": 155,
+      "title": "주님께 영광",
+      "en": "Thine Be the Glory (À toi la gloire)",
+      "origin": "스위스",
+      "text": "에드몽 L. 뷔드리(Edmond L. Budry), 1884년 / 영어 번역 리처드 B. 호일(Richard B. Hoyle), 1923년",
+      "music": "G. F. 헨델, 오라토리오 「유다 마카베우스」의 합창 선율(1740년대)",
+      "tune": "MACCABAEUS",
+      "story": "스위스 개혁교회 목사 뷔드리가 프랑스어로 쓴 부활 찬송으로, 헨델 오라토리오의 유명한 합창 '보라, 용사가 돌아온다'의 선율에 붙였습니다. 영국 침례교 목사 호일이 1923년 영어로 옮긴 뒤 영어권 찬송가에 널리 실렸습니다. 빈 무덤과 승리하신 그리스도를 노래합니다.",
+      "refs": [
+        "고린도전서 15:57",
+        "마태복음 28:2-6"
+      ],
+      "tags": [
+        "부활",
+        "찬양·경배"
+      ]
+    },
+    {
+      "n": 180,
+      "tong": 168,
+      "title": "하나님의 나팔 소리",
+      "en": "When the Roll Is Called Up Yonder",
+      "origin": "미국",
+      "text": "제임스 M. 블랙(James M. Black), 1893년",
+      "music": "제임스 M. 블랙, 1893년",
+      "story": "펜실베이니아의 감리교 주일학교 교사였던 블랙이 출석을 부를 때 대답하지 않던 한 아이를 생각하며, 하늘나라에서 이름이 불릴 날을 떠올려 썼다고 전해집니다. 데살로니가전서 4장의 '하나님의 나팔 소리'를 후렴에 담았습니다. 재림과 천국 소망을 노래하는 찬송으로 장례 예배에서도 쓰입니다.",
+      "refs": [
+        "데살로니가전서 4:16-17",
+        "요한계시록 20:12"
+      ],
+      "tags": [
+        "재림·천국"
+      ]
+    },
+    {
+      "n": 183,
+      "tong": 172,
+      "title": "빈 들에 마른 풀같이",
+      "en": "There Shall Be Showers of Blessing",
+      "origin": "미국",
+      "text": "대니얼 W. 휘틀(Daniel W. Whittle), 1883년",
+      "music": "제임스 맥그라나한(James McGranahan), 1883년",
+      "story": "휘틀과 맥그라나한은 무디 시대의 부흥 집회에서 함께 일한 동역자로, 에스겔 34장 26절의 '복된 장마비' 약속에서 이 찬송을 만들었습니다. 한국어 가사는 영어 원시를 그대로 옮기기보다 메마른 들에 비를 구하듯 성령을 사모하는 노래로 다듬어져, 성령강림절과 부흥회에서 많이 불립니다.",
+      "refs": [
+        "에스겔 34:26",
+        "요엘 2:28"
+      ],
+      "tags": [
+        "성령"
+      ]
+    },
+    {
+      "n": 191,
+      "tong": 427,
+      "title": "내가 매일 기쁘게",
+      "en": "He Abides",
+      "origin": "미국",
+      "text": "허버트 버펌(Herbert Buffum), 1922년",
+      "music": "작곡자는 자료마다 다름(확인 필요)",
+      "story": "버펌은 열일곱 살부터 설교를 시작해 미국 서부 해안의 도시 선교에 힘쓴 성결 운동 계열 전도자로, 수많은 복음 찬송을 남겼습니다. 이 곡은 '보혜사 성령이 나와 함께 계신다'는 요한복음 14장의 약속을 경쾌한 후렴으로 노래합니다. 한국 교회에서는 성령 찬송이자 기쁨의 찬송으로 많이 불립니다.",
+      "refs": [
+        "요한복음 14:16-17",
+        "요한일서 2:27"
+      ],
+      "tags": [
+        "성령",
+        "기쁨"
+      ],
+      "note": "Hymnary.org는 가사를 1922년 버펌 작으로 적고 있으며, 작곡자 표기는 자료마다 다릅니다."
+    },
+    {
+      "n": 199,
+      "tong": 234,
+      "title": "나의 사랑하는 책",
+      "en": "My Mother's Bible",
+      "origin": "미국",
+      "text": "M. B. 윌리엄스(M. B. Williams), 1893년",
+      "music": "찰리 D. 틸먼(Charlie D. Tillman), 1893년",
+      "story": "어머니 무릎에서 듣던 성경 이야기를 회상하는 노래로, 미국 남부 복음성가 작곡가 틸먼이 곡을 붙여 1890년대에 퍼졌습니다. 한국에서는 '어머니의 성경'이라는 정서가 깊이 공감을 얻어 어버이주일과 가정 예배에서 자주 불립니다. 작사자 윌리엄스의 생애는 남은 자료가 거의 없습니다.",
+      "refs": [
+        "디모데후서 1:5",
+        "디모데후서 3:15"
+      ],
+      "tags": [
+        "말씀",
+        "가정·어버이"
+      ],
+      "note": "작사자의 전체 이름과 생몰년은 확인하지 못했습니다."
+    },
+    {
+      "n": 200,
+      "tong": 235,
+      "title": "달고 오묘한 그 말씀",
+      "en": "Wonderful Words of Life",
+      "origin": "미국",
+      "text": "필립 P. 블리스(Philip P. Bliss), 1874년",
+      "music": "필립 P. 블리스, 1874년",
+      "story": "블리스가 주일학교 잡지 『Words of Life』의 창간호를 위해 지은 노래입니다. 블리스는 1876년 서른여덟 살에 기차 사고로 세상을 떠났지만, 413장 「내 평생에 가는 길」의 곡을 포함해 오늘까지 불리는 찬송을 많이 남겼습니다. 시편 119편의 '주의 말씀이 꿀보다 달다'는 고백이 한국어 제목에 그대로 살아 있습니다.",
+      "refs": [
+        "시편 119:103",
+        "요한복음 6:68"
+      ],
+      "tags": [
+        "말씀"
+      ]
+    },
+    {
+      "n": 205,
+      "tong": 236,
+      "title": "주 예수 크신 사랑",
+      "en": "Tell Me the Old, Old Story",
+      "origin": "영국",
+      "text": "캐서린 행키(Katherine Hankey), 1866년",
+      "music": "윌리엄 H. 돈(William H. Doane), 1867년",
+      "story": "영국 성공회 복음주의 그룹에서 자란 행키가 큰 병을 앓으며 회복하는 동안 예수의 생애를 긴 시로 썼고, 그 앞부분이 이 찬송이 되었습니다. 미국 작곡가 돈이 1867년 몬트리올의 YMCA 대회에서 이 시가 낭송되는 것을 듣고 곡을 붙였다고 전해집니다. 복음을 '옛날, 옛날 이야기'처럼 다시 들려 달라는 간청이 담겼습니다.",
+      "refs": [
+        "고린도전서 15:3-4",
+        "요한복음 3:16"
+      ],
+      "tags": [
+        "말씀",
+        "은혜·구원"
+      ]
+    },
+    {
+      "n": 213,
+      "tong": 348,
+      "title": "나의 생명 드리니",
+      "en": "Take My Life and Let It Be",
+      "origin": "영국",
+      "text": "프랜시스 R. 해버걸(Frances R. Havergal), 1874년",
+      "music": "H. A. 세자르 말랑(H. A. César Malan), 1827년",
+      "tune": "HENDON",
+      "story": "해버걸이 1874년 영국 아를리 하우스에서 머무는 동안 함께 지내던 사람들이 모두 신앙을 고백하자, 그 기쁨으로 밤새 이 시를 썼다고 스스로 기록했습니다. '손, 발, 목소리, 시간, 재물'을 하나하나 주께 드린다는 헌신의 고백입니다. 해버걸은 이 가사를 따라 자기 보석을 선교 헌금으로 내놓았다고 전해집니다.",
+      "refs": [
+        "로마서 12:1",
+        "고린도전서 6:19-20"
+      ],
+      "tags": [
+        "헌신"
+      ],
+      "note": "새찬송가 213장의 곡조가 HENDON인지는 영어권 사용례 기준입니다."
+    },
+    {
+      "n": 222,
+      "tong": 524,
+      "title": "우리 다시 만날 때까지",
+      "en": "God Be with You Till We Meet Again",
+      "origin": "미국",
+      "text": "제러마이어 E. 랭킨(Jeremiah E. Rankin), 1880년",
+      "music": "윌리엄 G. 토머(William G. Tomer), 1880년",
+      "story": "워싱턴 D.C.의 회중교회 목사 랭킨이 영어 작별 인사 'Good-bye'가 'God be with ye(하나님이 함께하시길)'에서 왔다는 데 착안해 쓴 찬송입니다. 교회 음악 담당이던 토머가 곡을 붙였습니다. 한국 교회에서는 송별 예배, 수련회 마지막 시간, 장례 예배에서 자주 부릅니다.",
+      "refs": [
+        "민수기 6:24-26",
+        "고린도후서 13:13"
+      ],
+      "tags": [
+        "교회·교제"
+      ]
+    },
+    {
+      "n": 249,
+      "tong": 249,
+      "title": "주 사랑하는 자 다 찬송할 때에",
+      "en": "We're Marching to Zion",
+      "origin": "영국/미국",
+      "text": "아이작 와츠(Isaac Watts), 1707년 / 후렴 로버트 로리(Robert Lowry), 1867년",
+      "music": "로버트 로리, 1867년",
+      "story": "와츠의 찬송시 'Come, We That Love the Lord'에 160년 뒤 로리가 '시온으로 행진하네'라는 후렴과 경쾌한 곡을 붙여 새 찬송이 되었습니다. 하나님을 사랑하는 사람들이 하늘의 시온성을 향해 기쁘게 걸어간다는 내용입니다. 주일학교와 야외 예배에서 많이 불렸습니다.",
+      "refs": [
+        "히브리서 12:22",
+        "이사야 35:10"
+      ],
+      "tags": [
+        "찬양·경배",
+        "재림·천국"
+      ]
+    },
+    {
+      "n": 250,
+      "tong": 182,
+      "title": "구주의 십자가 보혈로",
+      "en": "Down at the Cross (Glory to His Name)",
+      "origin": "미국",
+      "text": "일라이셔 A. 호프먼(Elisha A. Hoffman), 1878년",
+      "music": "존 H. 스톡턴(John H. Stockton), 1878년",
+      "story": "평생 2천 편 넘는 찬송시를 썼다고 알려진 펜실베이니아의 목사 호프먼과, 감리교 목사이자 작곡가 스톡턴이 함께 만든 곡입니다. 십자가 아래에서 죄 씻음을 받은 사람이 '주 이름 찬송하자'고 외치는 간증 찬송입니다. 405장 「주의 친절한 팔에 안기세」도 호프먼의 가사입니다.",
+      "refs": [
+        "요한일서 1:7",
+        "에베소서 1:7"
+      ],
+      "tags": [
+        "보혈",
+        "은혜·구원"
+      ]
+    },
+    {
+      "n": 252,
+      "tong": 184,
+      "title": "나의 죄를 씻기는",
+      "en": "Nothing But the Blood",
+      "origin": "미국",
+      "text": "로버트 로리(Robert Lowry), 1876년",
+      "music": "로버트 로리, 1876년",
+      "story": "'내 죄를 씻을 수 있는 것은 오직 예수의 피뿐'이라는 한 문장을 묻고 답하는 형식으로 되풀이하는 찬송입니다. 단순한 구조 덕분에 처음 듣는 사람도 쉽게 따라 부를 수 있어 집회 찬송으로 널리 쓰였습니다. 히브리서 9장 22절의 '피 흘림이 없은즉 사함이 없다'는 말씀이 바탕입니다.",
+      "refs": [
+        "히브리서 9:22",
+        "요한일서 1:7"
+      ],
+      "tags": [
+        "보혈"
+      ]
+    },
+    {
+      "n": 258,
+      "tong": 190,
+      "title": "샘물과 같은 보혈은",
+      "en": "There Is a Fountain Filled with Blood",
+      "origin": "영국",
+      "text": "윌리엄 쿠퍼(William Cowper), 1772년경",
+      "music": "19세기 미국 캠프 집회 선율",
+      "tune": "CLEANSING FOUNTAIN",
+      "story": "영국 시인 쿠퍼는 평생 깊은 우울증과 싸웠고, 올니에서 존 뉴턴(305장 작사자)과 함께 『Olney Hymns』(1779)를 펴냈습니다. 스가랴 13장 1절의 '죄와 더러움을 씻는 샘'을 그리스도의 보혈로 노래한 이 찬송은 고통 속에서도 붙든 그의 믿음을 보여 줍니다. 미국 부흥 집회의 민요풍 곡조와 함께 널리 불렸습니다.",
+      "refs": [
+        "스가랴 13:1",
+        "요한계시록 1:5"
+      ],
+      "tags": [
+        "보혈",
+        "은혜·구원"
+      ]
+    },
+    {
+      "n": 268,
+      "tong": 202,
+      "title": "죄에서 자유를 얻게 함은",
+      "en": "There Is Power in the Blood",
+      "origin": "미국",
+      "text": "루이스 E. 존스(Lewis E. Jones), 1899년",
+      "music": "루이스 E. 존스, 1899년",
+      "story": "YMCA에서 일하던 존스가 1899년 메릴랜드주 마운틴레이크파크의 캠프 집회에서 지은 곡으로 알려져 있습니다. '보혈에 능력이 있다'는 후렴이 반복되며, 죄의 짐에서 놓이는 능력을 노래합니다. 한국 교회 부흥회에서 오래 사랑받아 온 보혈 찬송입니다.",
+      "refs": [
+        "요한계시록 12:11",
+        "로마서 3:25"
+      ],
+      "tags": [
+        "보혈",
+        "은혜·구원"
+      ]
+    },
+    {
+      "n": 273,
+      "tong": 331,
+      "title": "나 주를 멀리 떠났다",
+      "en": "Lord, I'm Coming Home",
+      "origin": "미국",
+      "text": "윌리엄 J. 커크패트릭(William J. Kirkpatrick), 1892년",
+      "music": "윌리엄 J. 커크패트릭, 1892년",
+      "story": "필라델피아의 감리교 음악가 커크패트릭이 가사와 곡을 모두 지은 회개 찬송입니다. 누가복음 15장 탕자가 아버지 집으로 돌아오는 장면을 1인칭으로 노래합니다. 커크패트릭은 384장, 391장, 542장 등 새찬송가의 여러 곡을 작곡했습니다.",
+      "refs": [
+        "누가복음 15:18-20",
+        "호세아 14:1"
+      ],
+      "tags": [
+        "회개·초청"
+      ]
+    },
+    {
+      "n": 279,
+      "tong": 337,
+      "title": "인애하신 구세주여",
+      "en": "Pass Me Not, O Gentle Savior",
+      "origin": "미국",
+      "text": "패니 크로스비(Fanny J. Crosby), 1868년",
+      "music": "윌리엄 H. 돈(William H. Doane), 1870년",
+      "story": "크로스비가 뉴욕 맨해튼의 한 교도소에서 예배를 인도할 때, 한 수감자가 \"주님, 저를 그냥 지나치지 마소서\"라고 외치는 소리를 듣고 이 시를 썼다고 전해집니다. 길가의 맹인 바디매오가 예수를 부르던 장면과 닮은 간절한 기도입니다. 돈의 곡과 함께 1870년대 무디·생키 집회를 통해 퍼졌습니다.",
+      "refs": [
+        "누가복음 18:38-39",
+        "히브리서 4:16"
+      ],
+      "tags": [
+        "기도",
+        "회개·초청"
+      ]
+    },
+    {
+      "n": 288,
+      "tong": 204,
+      "title": "예수를 나의 구주삼고",
+      "en": "Blessed Assurance",
+      "origin": "미국",
+      "text": "패니 크로스비(Fanny J. Crosby), 1873년",
+      "music": "피비 P. 냅(Phoebe P. Knapp), 1873년",
+      "story": "크로스비의 친구이자 작곡가인 피비 냅이 새로 지은 선율을 피아노로 들려주며 \"이 곡이 무엇을 말하는 것 같나요?\"라고 묻자, 크로스비가 곧바로 'Blessed assurance, Jesus is mine!'이라고 답했다고 전해집니다. '이것이 나의 간증이요 나의 찬송'이라는 후렴은 한국 교회에서 간증 찬송의 대명사가 되었습니다.",
+      "refs": [
+        "히브리서 10:22",
+        "요한일서 5:13"
+      ],
+      "tags": [
+        "믿음·신뢰",
+        "기쁨"
+      ],
+      "lyricsEn": [
+        "Blessed assurance, Jesus is mine!\nO what a foretaste of glory divine!\nHeir of salvation, purchase of God,\nBorn of His Spirit, washed in His blood.",
+        "(Refrain)\nThis is my story, this is my song,\nPraising my Saviour all the day long;\nThis is my story, this is my song,\nPraising my Saviour all the day long.",
+        "Perfect submission, perfect delight,\nVisions of rapture now burst on my sight;\nAngels descending bring from above\nEchoes of mercy, whispers of love.",
+        "Perfect submission, all is at rest,\nI in my Saviour am happy and blest;\nWatching and waiting, looking above,\nFilled with His goodness, lost in His love."
+      ]
+    },
+    {
+      "n": 289,
+      "tong": 208,
+      "title": "주 예수 내 맘에 들어와",
+      "en": "Since Jesus Came into My Heart",
+      "origin": "미국",
+      "text": "루퍼스 H. 맥대니얼(Rufus H. McDaniel), 1914년",
+      "music": "찰스 H. 개브리얼(Charles H. Gabriel), 1914년",
+      "story": "오하이오의 목사 맥대니얼이 아들을 잃은 슬픔 가운데, 아들이 믿었던 구주가 자기 마음에도 들어와 삶이 바뀌었다는 고백을 담아 쓴 찬송으로 알려져 있습니다. 1914년 빌리 선데이 전도 집회에서 개브리얼의 곡과 함께 크게 유행했습니다. 고린도후서 5장 17절 '새로운 피조물'의 기쁨을 노래합니다.",
+      "refs": [
+        "고린도후서 5:17",
+        "요한계시록 3:20"
+      ],
+      "tags": [
+        "은혜·구원",
+        "기쁨"
+      ]
+    },
+    {
+      "n": 293,
+      "tong": 414,
+      "title": "주의 사랑 비칠 때에",
+      "en": "Heavenly Sunlight",
+      "origin": "미국",
+      "text": "헨리 J. 젤리(Henry J. Zelley), 1899년",
+      "music": "조지 해리슨 쿡(George Harrison Cook), 1899년",
+      "story": "뉴저지의 감리교 목사 젤리가 쓴 가사에 쿡이 곡을 붙였습니다. 주님의 사랑이 햇빛처럼 비칠 때 근심이 물러가고 기쁨이 온다는 밝은 노래로, 어린이와 청년 예배에서 많이 불립니다. 원제 'Heavenly Sunlight(하늘의 햇빛)'의 이미지가 한국어 가사에도 남아 있습니다.",
+      "refs": [
+        "시편 27:1",
+        "요한일서 1:7"
+      ],
+      "tags": [
+        "기쁨",
+        "위로·평안"
+      ]
+    },
+    {
+      "n": 301,
+      "tong": 460,
+      "title": "지금까지 지내온 것",
+      "en": null,
+      "origin": "일본 원작·한국 작곡",
+      "text": "사사오 데쓰사부로(笹尾鐵三郞), 1897년 / 한국어 번역 이장하, 1919년",
+      "music": "박재훈, 1967년",
+      "story": "일본 성결교 계열 전도자 사사오 데쓰사부로가 1897년 일본어로 쓴 찬송시가 원작이며, 1919년 『신증복음가』에 이장하의 번역으로 처음 한국어로 실렸습니다. 지금 부르는 곡은 한국 교회음악의 개척자로 꼽히는 박재훈 목사가 1967년 개편찬송가를 위해 새로 지은 것입니다. 지나온 시간을 돌아보며 '하나님의 크신 은혜'를 고백하는 내용이라 송구영신 예배와 감사 예배에서 빠지지 않습니다.",
+      "refs": [
+        "로마서 8:28",
+        "사무엘상 7:12",
+        "시편 23:6"
+      ],
+      "tags": [
+        "감사",
+        "은혜·구원"
+      ],
+      "note": "원작자와 번역 연도는 국내 교회음악 자료(새찬송가 해설류)를 따랐으며, 자료에 따라 표기가 조금씩 다릅니다."
+    },
+    {
+      "n": 302,
+      "tong": 408,
+      "title": "내 주 하나님 넓고 큰 은혜는",
+      "en": "Launch Out",
+      "origin": "미국",
+      "text": "앨버트 B. 심프슨(Albert B. Simpson), 1891년",
+      "music": "R. 켈소 카터(R. Kelso Carter)로 표기된 자료가 많음",
+      "story": "기독교 선교연합회(C&MA)를 세운 심프슨 목사가 누가복음 5장 '깊은 데로 가서 그물을 내리라'는 말씀으로 쓴 찬송입니다. 해안선을 떠나 하나님의 은혜라는 깊은 바다로 나아가자는 초청을 담았습니다. 한국어 가사는 '넓고 큰 은혜'를 바다에 빗대는 이미지가 특히 사랑받습니다.",
+      "refs": [
+        "누가복음 5:4",
+        "에베소서 3:18-19"
+      ],
+      "tags": [
+        "은혜·구원",
+        "믿음·신뢰"
+      ],
+      "note": "작곡자는 자료에 따라 R. 켈소 카터 또는 메이 애그뉴 스티븐스로 달리 적혀 있어 확정하지 않았습니다."
+    },
+    {
+      "n": 304,
+      "tong": 404,
+      "title": "그 크신 하나님의 사랑",
+      "en": "The Love of God",
+      "origin": "미국",
+      "text": "프레더릭 M. 레만(Frederick M. Lehman), 1917년",
+      "music": "프레더릭 M. 레만, 1917년",
+      "story": "나사렛교회 목사였던 레만이 캘리포니아의 한 공장에서 일하던 시절 쓴 찬송입니다. 3절의 '하늘을 두루마리로, 바다를 먹물로 삼아도 하나님의 사랑을 다 기록할 수 없다'는 내용은 11세기 유대교 아람어 시 「아크다무트」에서 유래한 구절로, 정신병원 벽에 적혀 있었다는 이야기와 함께 소개되곤 합니다. 영어 가사는 아직 저작권 보호 기간 안에 있어 싣지 않습니다.",
+      "refs": [
+        "요한일서 4:16",
+        "에베소서 3:18-19"
+      ],
+      "tags": [
+        "사랑",
+        "은혜·구원"
+      ],
+      "note": "3절이 정신병원 벽에서 발견되었다는 이야기는 출처가 확인되지 않은 전승입니다."
+    },
+    {
+      "n": 305,
+      "tong": 405,
+      "title": "나 같은 죄인 살리신",
+      "en": "Amazing Grace",
+      "origin": "영국",
+      "text": "존 뉴턴(John Newton), 1772년 작시(1773년 새해 설교용)·『Olney Hymns』 1779년",
+      "music": "미국 민요 곡조 NEW BRITAIN, 1830년대 미국 곡집에 처음 실림",
+      "tune": "NEW BRITAIN",
+      "story": "노예 무역선 선장이었던 존 뉴턴은 1748년 폭풍 속에서 처음 하나님께 부르짖었고, 훗날 영국 올니의 목사가 되어 1773년 새해 첫날 설교를 위해 이 시를 썼습니다. 그는 말년에 노예 무역 폐지 운동을 공개적으로 지지했습니다. 지금 부르는 곡조는 미국에서 1830년대에 짝지어졌고, 마지막 '만 년을 지나도' 절은 뉴턴의 원시에 없던 후대의 덧붙임입니다.",
+      "refs": [
+        "에베소서 2:8",
+        "역대상 17:16-17",
+        "디모데전서 1:15"
+      ],
+      "tags": [
+        "은혜·구원",
+        "감사"
+      ],
+      "lyricsEn": [
+        "Amazing grace! (how sweet the sound)\nThat saved a wretch like me!\nI once was lost, but now am found,\nWas blind, but now I see.",
+        "'Twas grace that taught my heart to fear,\nAnd grace my fears relieved;\nHow precious did that grace appear\nThe hour I first believed!",
+        "Through many dangers, toils and snares,\nI have already come;\n'Tis grace hath brought me safe thus far,\nAnd grace will lead me home.",
+        "The Lord has promised good to me,\nHis word my hope secures;\nHe will my shield and portion be,\nAs long as life endures.",
+        "Yes, when this flesh and heart shall fail,\nAnd mortal life shall cease;\nI shall possess, within the veil,\nA life of joy and peace.",
+        "The earth shall soon dissolve like snow,\nThe sun forbear to shine;\nBut God, who called me here below,\nWill be forever mine."
+      ]
+    },
+    {
+      "n": 310,
+      "tong": 410,
+      "title": "아 하나님의 은혜로",
+      "en": "I Know Whom I Have Believed",
+      "origin": "미국",
+      "text": "대니얼 W. 휘틀(Daniel W. Whittle), 1883년",
+      "music": "제임스 맥그라나한(James McGranahan), 1883년",
+      "story": "남북전쟁 때 북군 장교였던 휘틀은 전투에서 오른팔을 잃고 포로 병원에 있을 때 신앙을 갖게 되었고, 이후 무디와 함께 전도자로 일했습니다. 후렴은 바울이 옥중에서 쓴 디모데후서 1장 12절을 그대로 옮긴 것입니다. 2022년 국내 라디오 방송의 해외 찬송가 결산 기사에서도 상위권 곡으로 소개되었습니다.",
+      "refs": [
+        "디모데후서 1:12",
+        "에베소서 2:8"
+      ],
+      "tags": [
+        "믿음·신뢰",
+        "은혜·구원"
+      ]
+    },
+    {
+      "n": 314,
+      "tong": 511,
+      "title": "내 구주 예수를 더욱 사랑",
+      "en": "More Love to Thee, O Christ",
+      "origin": "미국",
+      "text": "엘리자베스 P. 프렌티스(Elizabeth P. Prentiss), 1856년",
+      "music": "윌리엄 H. 돈(William H. Doane), 1870년",
+      "story": "작가이자 목사 부인이었던 프렌티스가 뉴욕에서 짧은 기간에 두 자녀를 잃은 뒤 깊은 슬픔 속에서 쓴 기도시로 알려져 있습니다. 그는 이 시를 오랫동안 남편에게만 보여 주었다가 1869년에야 출판했습니다. 고난 속에서도 '주님을 더욱 사랑하게 해 달라'는 기도가 중심입니다.",
+      "refs": [
+        "요한복음 21:17",
+        "빌립보서 1:9"
+      ],
+      "tags": [
+        "사랑",
+        "기도",
+        "위로·평안"
+      ]
+    },
+    {
+      "n": 315,
+      "tong": 512,
+      "title": "내 주 되신 주를 참 사랑하고",
+      "en": "My Jesus, I Love Thee",
+      "origin": "캐나다/미국",
+      "text": "윌리엄 R. 페더스턴(William R. Featherston), 1864년경",
+      "music": "아도니럼 J. 고든(Adoniram J. Gordon), 1876년",
+      "story": "캐나다 몬트리올의 청년 페더스턴이 열여섯 살 무렵 회심을 기념해 쓴 시로 알려져 있으며, 그는 스물일곱 살에 세상을 떠났습니다. 보스턴의 침례교 목사 고든이 찬송가에서 이 시를 보고 더 어울리는 곡을 새로 지어 붙였습니다. '우리가 사랑함은 그가 먼저 우리를 사랑하셨음이라'는 요한일서의 고백을 닮았습니다.",
+      "refs": [
+        "요한일서 4:19",
+        "요한복음 21:15"
+      ],
+      "tags": [
+        "사랑",
+        "헌신"
+      ]
+    },
+    {
+      "n": 323,
+      "tong": 355,
+      "title": "부름받아 나선 이 몸",
+      "en": null,
+      "origin": "한국 창작",
+      "text": "이호운, 1950년경",
+      "music": "이유선, 1967년",
+      "story": "감리교 신학자 이호운 목사가 한국전쟁 무렵 미국에서 공부하던 시절, 이사야 6장 8절 '내가 여기 있나이다 나를 보내소서'를 묵상하며 쓴 시로 알려져 있습니다. 1967년 개편찬송가를 만들 때 성악가이자 작곡가인 이유선이 지금의 곡을 붙였고, 이후 신학교 졸업식과 선교사 파송 예배에서 자주 부르는 대표적인 헌신 찬송이 되었습니다.",
+      "refs": [
+        "이사야 6:8",
+        "마태복음 28:19-20"
+      ],
+      "tags": [
+        "헌신",
+        "전도·선교"
+      ],
+      "note": "작시 연도는 자료에 따라 1950년 또는 1951년으로 적혀 있습니다. 개편찬송가 이전에 다른 곡이 붙어 있었다는 기록도 있습니다."
+    },
+    {
+      "n": 324,
+      "tong": 360,
+      "title": "예수 나를 오라 하네",
+      "en": "Where He Leads Me",
+      "origin": "미국",
+      "text": "E. W. 블랜들리(E. W. Blandly), 1890년",
+      "music": "존 S. 노리스(John S. Norris), 1890년",
+      "story": "'그가 이끄시는 곳이면 어디든 따라가겠다'는 짧은 고백을 되풀이하는 헌신 찬송입니다. 작사자 블랜들리에 대해서는 이름 외에 알려진 것이 거의 없고, 작곡자 노리스는 미국 감리교·회중교회 목사였습니다. 누가복음 9장의 '자기 십자가를 지고 나를 따르라'는 부르심에 대한 응답입니다.",
+      "refs": [
+        "누가복음 9:23",
+        "마태복음 4:19"
+      ],
+      "tags": [
+        "헌신",
+        "인도"
+      ],
+      "note": "작사자 블랜들리의 생애는 확인하지 못했습니다."
+    },
+    {
+      "n": 338,
+      "tong": 364,
+      "title": "내 주를 가까이 하게 함은",
+      "en": "Nearer, My God, to Thee",
+      "origin": "영국",
+      "text": "세라 F. 애덤스(Sarah F. Adams), 1841년",
+      "music": "로웰 메이슨(Lowell Mason), 1856년",
+      "tune": "BETHANY",
+      "story": "영국의 배우 출신 시인 세라 애덤스가 창세기 28장 야곱이 돌베개를 베고 하늘 사다리 꿈을 꾼 이야기를 바탕으로 쓴 시입니다. 미국에서는 메이슨의 곡조 BETHANY로 부릅니다. 1912년 타이타닉호가 가라앉을 때 악단이 이 곡을 연주했다는 이야기가 유명하지만, 어떤 곡이었는지에 대해서는 증언이 엇갈립니다.",
+      "refs": [
+        "창세기 28:10-17",
+        "야고보서 4:8"
+      ],
+      "tags": [
+        "기도",
+        "위로·평안",
+        "믿음·신뢰"
+      ],
+      "lyricsEn": [
+        "Nearer, my God, to Thee, nearer to Thee!\nE'en though it be a cross that raiseth me;\nStill all my song shall be, nearer, my God, to Thee,\nNearer, my God, to Thee, nearer to Thee!",
+        "Though like the wanderer, the sun gone down,\nDarkness be over me, my rest a stone;\nYet in my dreams I'd be nearer, my God, to Thee,\nNearer, my God, to Thee, nearer to Thee!",
+        "There let the way appear, steps unto heaven;\nAll that Thou sendest me, in mercy given;\nAngels to beckon me nearer, my God, to Thee,\nNearer, my God, to Thee, nearer to Thee!",
+        "Then, with my waking thoughts bright with Thy praise,\nOut of my stony griefs Bethel I'll raise;\nSo by my woes to be nearer, my God, to Thee,\nNearer, my God, to Thee, nearer to Thee!",
+        "Or if, on joyful wing cleaving the sky,\nSun, moon, and stars forgot, upward I fly,\nStill all my song shall be, nearer, my God, to Thee,\nNearer, my God, to Thee, nearer to Thee!"
+      ]
+    },
+    {
+      "n": 364,
+      "tong": 482,
+      "title": "내 기도하는 그 시간",
+      "en": "Sweet Hour of Prayer",
+      "origin": "영국/미국",
+      "text": "윌리엄 W. 월퍼드(William W. Walford)로 알려짐, 1845년 발표",
+      "music": "윌리엄 B. 브래드버리(William B. Bradbury), 1861년",
+      "story": "1845년 미국 신문 『New York Observer』에 실린 시로, 영국의 시각장애인 목사 월퍼드가 구술한 것을 한 방문객이 받아 적었다고 소개됩니다. 브래드버리의 부드러운 곡이 붙어 기도회 찬송의 대표곡이 되었습니다. 세상의 염려를 내려놓고 하나님 앞에 머무는 '기도하는 시간'의 기쁨을 노래합니다.",
+      "refs": [
+        "마태복음 6:6",
+        "빌립보서 4:6"
+      ],
+      "tags": [
+        "기도"
+      ],
+      "note": "작사자 월퍼드의 정체에 대해서는 연구자들 사이에 이견이 있습니다."
+    },
+    {
+      "n": 365,
+      "tong": 484,
+      "title": "마음 속에 근심 있는 사람",
+      "en": "Tell It to Jesus",
+      "origin": "독일/미국",
+      "text": "제러마이어 E. 랭킨(Jeremiah E. Rankin), 1876년 번역·개작",
+      "music": "에드먼드 S. 로렌츠(Edmund S. Lorenz), 1876년",
+      "story": "222장 「우리 다시 만날 때까지」를 쓴 랭킨이 독일어 찬송을 바탕으로 영어 가사를 만들고, 당시 젊은 작곡가였던 로렌츠가 곡을 붙였습니다. '마음에 근심이 있으면 예수께 아뢰라'고 묻고 답하는 구조로 되어 있습니다. 한국어 가사도 문답식 위로를 그대로 살려 상담과 심방 예배에서 자주 쓰입니다.",
+      "refs": [
+        "베드로전서 5:7",
+        "마태복음 11:28"
+      ],
+      "tags": [
+        "위로·평안",
+        "기도"
+      ],
+      "note": "독일어 원시의 작자는 자료에 따라 달라 적지 않았습니다."
+    },
+    {
+      "n": 369,
+      "tong": 487,
+      "title": "죄짐 맡은 우리 구주",
+      "en": "What a Friend We Have in Jesus",
+      "origin": "아일랜드/캐나다",
+      "text": "조지프 스크라이븐(Joseph Scriven), 1855년",
+      "music": "찰스 C. 컨버스(Charles C. Converse), 1868년",
+      "tune": "CONVERSE (ERIE)",
+      "story": "아일랜드에서 캐나다로 건너간 스크라이븐은 결혼을 앞두고 약혼자를 사고로 잃는 아픔을 겪었다고 전해집니다. 1855년 아일랜드에서 병을 앓던 어머니를 위로하려고 이 시를 써 보냈고, 훗날 누가 썼느냐는 질문에 \"주님과 내가 함께 썼다\"고 답했다는 일화가 있습니다. 미국 변호사이자 작곡가인 컨버스의 곡이 붙어 세계에서 가장 많이 불리는 기도 찬송이 되었습니다.",
+      "refs": [
+        "빌립보서 4:6-7",
+        "요한복음 15:15",
+        "베드로전서 5:7"
+      ],
+      "tags": [
+        "기도",
+        "위로·평안"
+      ],
+      "lyricsEn": [
+        "What a Friend we have in Jesus,\nAll our sins and griefs to bear!\nWhat a privilege to carry\nEverything to God in prayer!\nO what peace we often forfeit,\nO what needless pain we bear,\nAll because we do not carry\nEverything to God in prayer!",
+        "Have we trials and temptations?\nIs there trouble anywhere?\nWe should never be discouraged;\nTake it to the Lord in prayer.\nCan we find a friend so faithful\nWho will all our sorrows share?\nJesus knows our every weakness;\nTake it to the Lord in prayer.",
+        "Are we weak and heavy-laden,\nCumbered with a load of care?\nPrecious Saviour, still our refuge;\nTake it to the Lord in prayer.\nDo thy friends despise, forsake thee?\nTake it to the Lord in prayer!\nIn His arms He'll take and shield thee;\nThou wilt find a solace there."
+      ]
+    },
+    {
+      "n": 370,
+      "tong": 455,
+      "title": "주 안에 있는 나에게",
+      "en": "Singing I Go",
+      "origin": "미국",
+      "text": "일라이자 E. 휴잇(Eliza E. Hewitt), 1898년",
+      "music": "윌리엄 J. 커크패트릭(William J. Kirkpatrick), 1898년",
+      "story": "필라델피아의 교사였던 휴잇은 학생에게 맞아 척추를 다친 뒤 오랫동안 누워 지내며 찬송시를 쓰기 시작했습니다. 이 곡은 '주께서 짐을 대신 지시니 노래하며 간다'는 내용으로, 무거운 짐을 진 사람에게 가벼운 걸음을 노래합니다. 428장 「내 영혼에 햇빛 비치니」도 휴잇의 가사입니다.",
+      "refs": [
+        "마태복음 11:28-30",
+        "시편 55:22"
+      ],
+      "tags": [
+        "위로·평안",
+        "기쁨"
+      ]
+    },
+    {
+      "n": 379,
+      "tong": 429,
+      "title": "내 갈 길 멀고 밤은 깊은데",
+      "en": "Lead, Kindly Light",
+      "origin": "영국",
+      "text": "존 헨리 뉴먼(John Henry Newman), 1833년",
+      "music": "존 B. 다이크스(John B. Dykes), 1865년",
+      "tune": "LUX BENIGNA",
+      "story": "훗날 가톨릭 추기경이 되는 뉴먼이 1833년 이탈리아 여행 중 열병을 앓고 귀국하던 배가 지중해 보니파시오 해협에서 바람이 없어 멈춰 있을 때 쓴 시입니다. '한 걸음만 보여 주시면 족하다'는 고백은 앞이 보이지 않는 사람들의 기도가 되었습니다. 다이크스의 곡조 이름 LUX BENIGNA는 라틴어로 '친절한 빛'이라는 뜻입니다.",
+      "refs": [
+        "시편 119:105",
+        "시편 43:3"
+      ],
+      "tags": [
+        "인도",
+        "기도"
+      ]
+    },
+    {
+      "n": 382,
+      "tong": 432,
+      "title": "너 근심 걱정 말아라",
+      "en": "God Will Take Care of You",
+      "origin": "미국",
+      "text": "시빌라 D. 마틴(Civilla D. Martin), 1904년",
+      "music": "W. 스틸먼 마틴(W. Stillman Martin), 1904년",
+      "story": "목사인 남편 스틸먼 마틴이 설교 약속 때문에 병든 아내를 두고 떠나기를 망설이자, 어린 아들이 \"하나님이 엄마를 돌봐 주실 거예요\"라고 말했다고 합니다. 남편이 돌아왔을 때 아내는 그 말로 시를 써 두었고, 남편이 그날 저녁 곡을 붙였다고 전해집니다. 근심하는 이에게 건네는 짧은 위로의 노래입니다.",
+      "refs": [
+        "베드로전서 5:7",
+        "시편 55:22"
+      ],
+      "tags": [
+        "위로·평안",
+        "믿음·신뢰"
+      ]
+    },
+    {
+      "n": 384,
+      "tong": 434,
+      "title": "나의 갈 길 다 가도록",
+      "en": "All the Way My Savior Leads Me",
+      "origin": "미국",
+      "text": "패니 크로스비(Fanny J. Crosby), 1875년",
+      "music": "로버트 로리(Robert Lowry), 1875년",
+      "story": "크로스비가 집세 5달러가 꼭 필요했던 날 기도했더니, 한 방문객이 악수하며 건넨 손에 정확히 5달러가 있었고, 그 감사로 이 시를 썼다는 이야기가 전해집니다. 지나온 길 전체에서 주님의 인도를 고백하는 내용입니다. 로리의 곡과 함께 무디·생키 집회 노래책에 실려 퍼졌습니다.",
+      "refs": [
+        "시편 23:1-4",
+        "이사야 58:11"
+      ],
+      "tags": [
+        "인도",
+        "감사",
+        "믿음·신뢰"
+      ],
+      "note": "5달러 일화는 크로스비 전기에서 전하는 이야기로, 세부 내용은 판본마다 조금 다릅니다.",
+      "lyricsEn": [
+        "All the way my Saviour leads me;\nWhat have I to ask beside?\nCan I doubt His tender mercy,\nWho through life has been my Guide?\nHeavenly peace, divinest comfort,\nHere by faith in Him to dwell!\nFor I know, whate'er befall me,\nJesus doeth all things well.",
+        "All the way my Saviour leads me,\nCheers each winding path I tread;\nGives me grace for every trial,\nFeeds me with the living bread.\nThough my weary steps may falter,\nAnd my soul athirst may be,\nGushing from the Rock before me,\nLo! a spring of joy I see.",
+        "All the way my Saviour leads me;\nO the fullness of His love!\nPerfect rest to me is promised\nIn my Father's house above.\nWhen my spirit, clothed immortal,\nWings its flight to realms of day,\nThis my song through endless ages:\nJesus led me all the way."
+      ]
+    },
+    {
+      "n": 388,
+      "tong": 441,
+      "title": "비바람이 칠 때와",
+      "en": "Jesus, Lover of My Soul",
+      "origin": "영국",
+      "text": "찰스 웨슬리(Charles Wesley), 1740년",
+      "music": "사이먼 B. 마시(Simeon B. Marsh), 1834년",
+      "tune": "MARTYN",
+      "story": "웨슬리가 1740년 『Hymns and Sacred Poems』에 실은 시로, 폭풍 속 피난처가 되시는 예수를 노래합니다. 폭풍 속 새가 웨슬리의 품으로 날아들었다는 이야기도 있지만 근거가 분명하지 않은 전승입니다. 한국어 첫 줄 '비바람이 칠 때와'처럼 시련 중에 부르는 위로 찬송입니다.",
+      "refs": [
+        "시편 46:1",
+        "시편 57:1"
+      ],
+      "tags": [
+        "위로·평안",
+        "기도"
+      ],
+      "note": "새찬송가 388장의 곡조가 MARTYN인지는 영어권 사용례 기준입니다."
+    },
+    {
+      "n": 390,
+      "tong": 444,
+      "title": "예수가 거느리시니",
+      "en": "He Leadeth Me",
+      "origin": "미국",
+      "text": "조지프 H. 길모어(Joseph H. Gilmore), 1862년",
+      "music": "윌리엄 B. 브래드버리(William B. Bradbury), 1864년",
+      "story": "침례교 목사 길모어가 남북전쟁 중이던 1862년 필라델피아의 수요 기도회에서 시편 23편을 설교한 뒤, 친구 집에서 '그가 나를 인도하시네'라는 구절을 붙잡고 쓴 시입니다. 그의 아내가 몰래 신문사에 보내 실렸고, 이를 본 브래드버리가 곡을 붙였다고 합니다. 길모어는 몇 년 뒤 다른 교회에서 찬송가를 펼쳤다가 자기 시를 발견했다고 회고했습니다.",
+      "refs": [
+        "시편 23:2-3",
+        "이사야 48:17"
+      ],
+      "tags": [
+        "인도",
+        "믿음·신뢰"
+      ]
+    },
+    {
+      "n": 391,
+      "tong": 446,
+      "title": "오 놀라운 구세주",
+      "en": "He Hideth My Soul",
+      "origin": "미국",
+      "text": "패니 크로스비(Fanny J. Crosby), 1890년",
+      "music": "윌리엄 J. 커크패트릭(William J. Kirkpatrick), 1890년",
+      "story": "출애굽기 33장에서 하나님이 모세를 바위틈에 두고 손으로 덮으신 장면을 바탕으로, '바위틈에 나를 숨기신다'는 이미지를 노래한 찬송입니다. 크로스비와 커크패트릭의 공동 작품입니다. 한국어 첫 줄 '오 놀라운 구세주'처럼 피난처 되시는 주님을 찬양합니다.",
+      "refs": [
+        "출애굽기 33:22",
+        "시편 91:1-2"
+      ],
+      "tags": [
+        "찬양·경배",
+        "위로·평안"
+      ]
+    },
+    {
+      "n": 393,
+      "tong": 447,
+      "title": "오 신실하신 주",
+      "en": "Great Is Thy Faithfulness",
+      "origin": "미국",
+      "text": "토머스 O. 치점(Thomas O. Chisholm), 1923년",
+      "music": "윌리엄 M. 런연(William M. Runyan), 1923년",
+      "story": "켄터키 출신 감리교 목사 치점이 건강이 약해 목회를 그만두고 보험 일을 하며 살아가는 동안, 날마다 경험한 하나님의 신실하심을 담아 쓴 시입니다. 무디 성경학교에서 즐겨 불리고 빌리 그레이엄 집회를 통해 세계로 퍼졌습니다. 영어 가사와 곡은 아직 저작권이 유효해 싣지 않습니다.",
+      "refs": [
+        "예레미야애가 3:22-23",
+        "시편 36:5"
+      ],
+      "tags": [
+        "감사",
+        "믿음·신뢰"
+      ]
+    },
+    {
+      "n": 405,
+      "tong": 458,
+      "title": "주의 친절한 팔에 안기세",
+      "en": "Leaning on the Everlasting Arms",
+      "origin": "미국",
+      "text": "일라이셔 A. 호프먼(Elisha A. Hoffman), 1887년",
+      "music": "앤서니 J. 쇼월터(Anthony J. Showalter), 1887년",
+      "story": "앨라배마의 음악 교사 쇼월터가 아내를 잃은 두 제자에게 위로 편지를 쓰며 신명기 33장 27절 '그 영원하신 팔이 네 아래에 있다'를 인용했다가, 그 구절로 후렴을 만들고 호프먼에게 나머지 가사를 부탁했다고 전해집니다. 기대어 쉬는 안식을 노래하는 찬송입니다.",
+      "refs": [
+        "신명기 33:27",
+        "이사야 41:10"
+      ],
+      "tags": [
+        "위로·평안",
+        "믿음·신뢰"
+      ]
+    },
+    {
+      "n": 412,
+      "tong": 469,
+      "title": "내 영혼의 그윽히 깊은 데서",
+      "en": "Wonderful Peace",
+      "origin": "미국",
+      "text": "워런 D. 코넬(Warren D. Cornell), 1889년",
+      "music": "W. 조지 쿠퍼(W. George Cooper), 1889년",
+      "story": "미국 감리교 목사 코넬이 캠프 집회장에서 떠오른 시상을 종이에 적었다가 잃어버렸는데, 그 종이를 주운 쿠퍼가 곡을 붙였다는 이야기가 전해집니다. 영혼 깊은 곳에서 솟아나는 하나님의 평화를 노래하며, 한국어 가사도 '그윽히 깊은 데서'라는 표현으로 평안을 강조합니다.",
+      "refs": [
+        "요한복음 14:27",
+        "빌립보서 4:7"
+      ],
+      "tags": [
+        "위로·평안"
+      ],
+      "note": "작사 과정에 얽힌 일화는 전승이며 기록마다 세부가 다릅니다."
+    },
+    {
+      "n": 413,
+      "tong": 470,
+      "title": "내 평생에 가는 길",
+      "en": "It Is Well with My Soul",
+      "origin": "미국",
+      "text": "호레이쇼 G. 스패퍼드(Horatio G. Spafford), 1873년",
+      "music": "필립 P. 블리스(Philip P. Bliss), 1876년",
+      "tune": "VILLE DU HAVRE",
+      "story": "시카고 변호사 스패퍼드는 1871년 시카고 대화재로 큰 재산 피해를 입었고, 1873년에는 아내와 네 딸이 탄 여객선 빌 뒤 아브르호가 대서양에서 다른 배와 충돌해 네 딸을 모두 잃었습니다. 아내를 만나러 배를 타고 가던 그는 딸들이 숨진 바다 근처를 지나며 이 시를 썼다고 전해집니다. 곡조 이름 VILLE DU HAVRE는 그 배의 이름입니다.",
+      "refs": [
+        "시편 46:1-3",
+        "로마서 8:28",
+        "빌립보서 4:7"
+      ],
+      "tags": [
+        "위로·평안",
+        "믿음·신뢰"
+      ],
+      "lyricsEn": [
+        "When peace, like a river, attendeth my way,\nWhen sorrows like sea billows roll;\nWhatever my lot, Thou hast taught me to say,\nIt is well, it is well with my soul.",
+        "(Refrain)\nIt is well with my soul,\nIt is well, it is well with my soul.",
+        "Though Satan should buffet, though trials should come,\nLet this blest assurance control,\nThat Christ hath regarded my helpless estate,\nAnd hath shed His own blood for my soul.",
+        "My sin, oh, the bliss of this glorious thought!\nMy sin, not in part but the whole,\nIs nailed to the cross, and I bear it no more,\nPraise the Lord, praise the Lord, O my soul!",
+        "And Lord, haste the day when the faith shall be sight,\nThe clouds be rolled back as a scroll;\nThe trump shall resound, and the Lord shall descend,\nEven so, it is well with my soul."
+      ]
+    },
+    {
+      "n": 415,
+      "tong": 471,
+      "title": "십자가 그늘 아래",
+      "en": "Beneath the Cross of Jesus",
+      "origin": "스코틀랜드",
+      "text": "엘리자베스 C. 클러페인(Elizabeth C. Clephane), 1868년 작시·1872년 출판",
+      "music": "프레더릭 C. 메이커(Frederick C. Maker), 1881년",
+      "tune": "ST. CHRISTOPHER",
+      "story": "스코틀랜드 멜로즈에서 가난한 이웃을 돌보며 살던 클러페인이 서른여덟 살로 세상을 떠나기 직전 쓴 시로, 사후 1872년 잡지에 실렸습니다. 이사야 32장 2절의 '곤비한 땅의 큰 바위 그늘'을 십자가에 빗대었습니다. 생키가 즉석에서 곡을 붙인 「아흔아홉 마리 양」도 그의 시입니다.",
+      "refs": [
+        "이사야 32:2",
+        "갈라디아서 6:14"
+      ],
+      "tags": [
+        "십자가·고난주간",
+        "위로·평안"
+      ]
+    },
+    {
+      "n": 419,
+      "tong": 478,
+      "title": "주 날개 밑 내가 편안히 쉬네",
+      "en": "Under His Wings",
+      "origin": "미국",
+      "text": "윌리엄 O. 쿠싱(William O. Cushing), 1896년",
+      "music": "아이라 D. 생키(Ira D. Sankey), 1896년",
+      "story": "뉴욕의 목사 쿠싱은 아내를 잃고 자신도 목소리를 잃어 설교를 그만둔 뒤, 기도 가운데 찬송시를 쓰는 일로 사역을 이어 갔습니다. 시편 91편의 '그의 날개 아래에 피하리로다'를 바탕으로 쓴 이 시에 무디의 동역자 생키가 곡을 붙였습니다. 새가 새끼를 품는 이미지로 하나님의 보호를 노래합니다.",
+      "refs": [
+        "시편 91:4",
+        "시편 17:8"
+      ],
+      "tags": [
+        "위로·평안"
+      ]
+    },
+    {
+      "n": 425,
+      "tong": 217,
+      "title": "주님의 뜻을 이루소서",
+      "en": "Have Thine Own Way, Lord",
+      "origin": "미국",
+      "text": "애덜레이드 A. 폴러드(Adelaide A. Pollard), 1902년",
+      "music": "조지 C. 스테빈스(George C. Stebbins), 1907년",
+      "story": "아프리카 선교를 꿈꾸던 폴러드는 후원이 모이지 않아 낙심하던 1902년, 한 기도회에서 '주님 뜻대로 하소서'라는 노부인의 기도를 듣고 예레미야 18장 토기장이 비유를 묵상하며 이 시를 썼다고 전해집니다. 진흙처럼 나를 빚어 달라는 순종의 기도입니다.",
+      "refs": [
+        "예레미야 18:6",
+        "마태복음 26:39"
+      ],
+      "tags": [
+        "헌신",
+        "기도"
+      ]
+    },
+    {
+      "n": 428,
+      "tong": 488,
+      "title": "내 영혼에 햇빛 비치니",
+      "en": "Sunshine in My Soul",
+      "origin": "미국",
+      "text": "일라이자 E. 휴잇(Eliza E. Hewitt), 1887년",
+      "music": "존 R. 스위니(John R. Sweney), 1887년",
+      "story": "척추 부상으로 오랫동안 침대에 누워 지내던 휴잇이 봄날 처음 밖으로 나가 공원을 걸을 수 있게 된 기쁨을 담아 썼다고 전해집니다. '내 영혼에 햇빛이 비친다'는 밝은 고백 때문에 어린이와 청년 예배에서도 많이 불립니다. 2022년 국내 방송 결산 기사에서도 상위권 곡으로 소개되었습니다.",
+      "refs": [
+        "시편 84:11",
+        "말라기 4:2"
+      ],
+      "tags": [
+        "기쁨",
+        "위로·평안"
+      ]
+    },
+    {
+      "n": 429,
+      "tong": 489,
+      "title": "세상 모든 풍파 너를 흔들어",
+      "en": "Count Your Blessings",
+      "origin": "미국",
+      "text": "존슨 오트먼 2세(Johnson Oatman Jr.), 1897년",
+      "music": "에드윈 O. 엑셀(Edwin O. Excell), 1897년",
+      "story": "뉴저지의 사업가이자 감리교 평신도 설교자였던 오트먼은 평생 5천 편 넘는 찬송시를 썼다고 알려져 있습니다. 풍파에 흔들릴 때 받은 복을 하나하나 세어 보라는 이 노래는 1900년대 초 웨일스 부흥 때 널리 불렸습니다. 491장 「저 높은 곳을 향하여」도 오트먼의 가사입니다.",
+      "refs": [
+        "시편 103:2",
+        "데살로니가전서 5:18"
+      ],
+      "tags": [
+        "감사",
+        "위로·평안"
+      ],
+      "lyricsEn": [
+        "When upon life's billows you are tempest tossed,\nWhen you are discouraged, thinking all is lost,\nCount your many blessings, name them one by one,\nAnd it will surprise you what the Lord hath done.",
+        "(Refrain)\nCount your blessings, name them one by one;\nCount your blessings, see what God hath done!\nCount your blessings, name them one by one,\nAnd it will surprise you what the Lord hath done.",
+        "Are you ever burdened with a load of care?\nDoes the cross seem heavy you are called to bear?\nCount your many blessings, every doubt will fly,\nAnd you will be singing as the days go by.",
+        "When you look at others with their lands and gold,\nThink that Christ has promised you His wealth untold;\nCount your many blessings, money cannot buy\nYour reward in heaven, nor your home on high.",
+        "So, amid the conflict, whether great or small,\nDo not be discouraged, God is over all;\nCount your many blessings, angels will attend,\nHelp and comfort give you to your journey's end."
+      ]
+    },
+    {
+      "n": 435,
+      "tong": 492,
+      "title": "나의 영원하신 기업",
+      "en": "Close to Thee",
+      "origin": "미국",
+      "text": "패니 크로스비(Fanny J. Crosby), 1874년",
+      "music": "사일러스 J. 베일(Silas J. Vail), 1874년",
+      "story": "모자 장인이자 작곡가인 베일이 선율을 들려주자 크로스비가 그 곡에 맞춰 '주님 가까이'라는 시를 썼다고 합니다. 시편 73편 26절 '하나님은 내 마음의 반석이요 영원한 분깃'이라는 고백이 한국어 첫 줄 '나의 영원하신 기업'에 담겨 있습니다.",
+      "refs": [
+        "시편 73:26",
+        "시편 16:5"
+      ],
+      "tags": [
+        "믿음·신뢰",
+        "헌신"
+      ]
+    },
+    {
+      "n": 436,
+      "tong": 493,
+      "title": "나 이제 주님의 새 생명 얻은 몸",
+      "en": null,
+      "origin": "한국 창작",
+      "text": "이호운",
+      "music": "박태준",
+      "story": "323장 「부름받아 나선 이 몸」을 쓴 감리교 신학자 이호운 목사의 가사에, 「오빠 생각」 등 동요 작곡가로도 잘 알려진 박태준이 곡을 붙인 한국 창작 찬송입니다. 1967년 개편찬송가에 실린 뒤 새 생명을 얻은 기쁨을 노래하는 찬송으로 자리 잡았습니다.",
+      "refs": [
+        "고린도후서 5:17",
+        "로마서 6:4"
+      ],
+      "tags": [
+        "은혜·구원",
+        "기쁨"
+      ],
+      "note": "작시·작곡 연도와 초출 찬송가는 자료마다 표기가 달라 생략했습니다."
+    },
+    {
+      "n": 438,
+      "tong": 495,
+      "title": "내 영혼이 은총 입어",
+      "en": "Where Jesus Is, 'Tis Heaven",
+      "origin": "미국",
+      "text": "찰스 J. 버틀러(Charles J. Butler), 1898년",
+      "music": "제임스 M. 커크(James M. Kirk), 1898년",
+      "story": "죄 사함을 받은 뒤 예수와 함께하는 곳이면 어디든 하늘나라라는 기쁨을 노래합니다. 2022년 CBS 음악FM 「정민아의 어메이징 그레이스」 10주년 결산 '베스트 100'(해외 찬송가 대상)에서 1위로 소개되었습니다. 노르웨이의 오슬로 가스펠 콰이어 편곡으로도 널리 알려졌습니다.",
+      "refs": [
+        "시편 16:11",
+        "요한복음 14:23"
+      ],
+      "tags": [
+        "기쁨",
+        "위로·평안",
+        "재림·천국"
+      ],
+      "note": "작사자 버틀러의 생몰년은 확인하지 못해 영어 원문을 싣지 않았습니다."
+    },
+    {
+      "n": 439,
+      "tong": 496,
+      "title": "십자가로 가까이",
+      "en": "Jesus, Keep Me Near the Cross",
+      "origin": "미국",
+      "text": "패니 크로스비(Fanny J. Crosby), 1869년",
+      "music": "윌리엄 H. 돈(William H. Doane), 1869년",
+      "story": "돈이 먼저 곡을 지어 크로스비에게 들려주고, 크로스비가 그 선율에 맞춰 가사를 붙인 방식으로 만들어졌습니다. '십자가 가까이 있게 하소서'라는 기도가 반복되는 고난주간 찬송입니다. 두 사람은 279장, 540장 등 새찬송가의 여러 곡을 함께 만들었습니다.",
+      "refs": [
+        "갈라디아서 6:14",
+        "골로새서 1:20"
+      ],
+      "tags": [
+        "십자가·고난주간",
+        "기도"
+      ]
+    },
+    {
+      "n": 440,
+      "tong": 497,
+      "title": "어디든지 예수 나를 이끌면",
+      "en": "Anywhere with Jesus",
+      "origin": "미국",
+      "text": "제시 B. 파운즈(Jessie B. Pounds), 1887년",
+      "music": "대니얼 B. 타우너(Daniel B. Towner), 1887년",
+      "story": "오하이오 출신 작가 파운즈가 쓴 가사에 무디 성경학교 음악 책임자였던 타우너가 곡을 붙였습니다. 예수와 함께라면 어디든 두렵지 않다는 고백으로, 선교사 파송과 이사·새 출발을 앞둔 예배에서 자주 부릅니다.",
+      "refs": [
+        "여호수아 1:9",
+        "마태복음 28:20"
+      ],
+      "tags": [
+        "인도",
+        "믿음·신뢰",
+        "전도·선교"
+      ]
+    },
+    {
+      "n": 442,
+      "tong": 499,
+      "title": "저 장미꽃 위에 이슬",
+      "en": "In the Garden",
+      "origin": "미국",
+      "text": "C. 오스틴 마일스(C. Austin Miles), 1912년",
+      "music": "C. 오스틴 마일스, 1912년",
+      "story": "약사 출신 음악 편집자 마일스가 요한복음 20장 부활하신 예수께서 동산에서 막달라 마리아를 부르시는 장면을 읽다가 그 자리에 있는 듯한 경험을 하고 쓴 노래라고 스스로 밝혔습니다. 마일스는 1946년에 세상을 떠나 영어 가사는 아직 저작권 보호 기간 안에 있어 싣지 않습니다.",
+      "refs": [
+        "요한복음 20:11-18"
+      ],
+      "tags": [
+        "부활",
+        "위로·평안",
+        "기도"
+      ],
+      "note": "미국에서는 1912년 출판본이 저작권 만료되었으나, 작자 사후 70년 기준을 따르기 위해 영어 원문을 싣지 않았습니다."
+    },
+    {
+      "n": 446,
+      "tong": 500,
+      "title": "주 음성 외에는",
+      "en": "I Need Thee Every Hour",
+      "origin": "미국",
+      "text": "애니 S. 호크스(Annie S. Hawks), 1872년",
+      "music": "로버트 로리(Robert Lowry), 1872년",
+      "story": "뉴욕 브루클린의 주부 호크스가 집안일을 하던 평범한 아침, 주님 없이는 한순간도 살 수 없다는 생각이 들어 쓴 시입니다. 그는 남편을 잃은 뒤에야 이 찬송이 주는 위로를 비로소 깊이 알게 되었다고 회고했습니다. 출석하던 교회 목사 로리가 곡과 후렴을 붙였습니다.",
+      "refs": [
+        "요한복음 15:5",
+        "시편 86:1"
+      ],
+      "tags": [
+        "기도",
+        "믿음·신뢰"
+      ]
+    },
+    {
+      "n": 449,
+      "tong": 377,
+      "title": "예수 따라가며",
+      "en": "Trust and Obey",
+      "origin": "미국",
+      "text": "존 H. 새미스(John H. Sammis), 1887년",
+      "music": "대니얼 B. 타우너(Daniel B. Towner), 1887년",
+      "story": "1886년 매사추세츠 브록턴의 무디 집회에서 한 청년이 \"확실히는 모르지만 믿고 순종하겠다\"고 간증했고, 이를 들은 음악 담당 타우너가 그 말을 적어 장로교 목사 새미스에게 보내 가사가 되었다고 전해집니다. '믿고 순종하는 것 외에 다른 길은 없다'는 후렴이 핵심입니다.",
+      "refs": [
+        "사무엘상 15:22",
+        "요한복음 14:21"
+      ],
+      "tags": [
+        "헌신",
+        "믿음·신뢰"
+      ]
+    },
+    {
+      "n": 478,
+      "tong": 78,
+      "title": "참 아름다워라",
+      "en": "This Is My Father's World",
+      "origin": "미국",
+      "text": "몰트비 D. 뱁콕(Maltbie D. Babcock), 1901년 출판",
+      "music": "영국 전통 선율, 프랭클린 L. 셰퍼드(Franklin L. Sheppard) 1915년 편곡",
+      "tune": "TERRA BEATA",
+      "story": "뉴욕주 록포트의 장로교 목사 뱁콕은 \"아버지의 세계를 보러 간다\"며 자주 언덕과 호숫가를 산책했다고 합니다. 그 경험을 담은 긴 시가 1901년 그가 세상을 떠난 뒤 출판되었고, 친구 셰퍼드가 곡을 붙였습니다. 창조 세계 속에서 하나님을 노래하는 찬송으로 환경주일·야외 예배에 자주 쓰입니다.",
+      "refs": [
+        "시편 24:1",
+        "시편 19:1"
+      ],
+      "tags": [
+        "창조",
+        "찬양·경배"
+      ]
+    },
+    {
+      "n": 484,
+      "tong": 533,
+      "title": "내 맘의 주여 소망되소서",
+      "en": "Be Thou My Vision",
+      "origin": "아일랜드",
+      "text": "고대 아일랜드어 시 / 영어 번역 메리 E. 번(Mary E. Byrne) 1905년, 운율화 엘리너 헐(Eleanor Hull) 1912년",
+      "music": "아일랜드 민요 SLANE",
+      "tune": "SLANE",
+      "story": "8세기 무렵까지 거슬러 올라가는 것으로 보이는 아일랜드 수도원 전통의 기도시가 원작입니다. 곡조 이름 SLANE은 성 패트릭이 이교 왕의 명령을 어기고 부활절 불을 피웠다고 전해지는 슬레인 언덕에서 따왔습니다. 하나님만이 나의 비전이 되시기를 구하는 기도로, 한국에서도 청년 예배에서 많이 불립니다.",
+      "refs": [
+        "시편 73:25-26",
+        "빌립보서 3:8"
+      ],
+      "tags": [
+        "기도",
+        "헌신"
+      ],
+      "note": "원시의 정확한 연대는 학자마다 6~10세기로 의견이 다릅니다."
+    },
+    {
+      "n": 488,
+      "tong": 539,
+      "title": "이 몸의 소망 무언가",
+      "en": "My Hope Is Built on Nothing Less (The Solid Rock)",
+      "origin": "영국",
+      "text": "에드워드 모트(Edward Mote), 1834년경",
+      "music": "윌리엄 B. 브래드버리(William B. Bradbury), 1863년",
+      "tune": "SOLID ROCK",
+      "story": "런던의 가구 장인이었던 모트가 출근길에 '굳건한 반석'이라는 생각을 붙잡고 후렴을 먼저 지었고, 그날 임종을 앞둔 교우의 집에서 이 시를 읽어 주었다고 회고했습니다. 그는 쉰다섯 살에 침례교 목사가 되었습니다. 예수라는 반석 위에 세운 소망을 노래합니다.",
+      "refs": [
+        "고린도전서 3:11",
+        "마태복음 7:24-25"
+      ],
+      "tags": [
+        "믿음·신뢰",
+        "위로·평안"
+      ]
+    },
+    {
+      "n": 491,
+      "tong": 543,
+      "title": "저 높은 곳을 향하여",
+      "en": "Higher Ground",
+      "origin": "미국",
+      "text": "존슨 오트먼 2세(Johnson Oatman Jr.), 1898년",
+      "music": "찰스 H. 개브리얼(Charles H. Gabriel), 1898년",
+      "story": "429장을 쓴 오트먼의 가사에 20세기 초 가장 인기 있던 복음 찬송 작곡가 개브리얼이 곡을 붙였습니다. 날마다 더 높은 믿음의 자리로 올라가기를 구하는 노래로, 빌립보서 3장 14절의 '푯대를 향하여 달려간다'는 고백과 맞닿아 있습니다.",
+      "refs": [
+        "빌립보서 3:13-14",
+        "시편 61:2"
+      ],
+      "tags": [
+        "헌신",
+        "재림·천국"
+      ]
+    },
+    {
+      "n": 493,
+      "tong": 545,
+      "title": "하늘 가는 밝은 길이",
+      "en": null,
+      "origin": "번안(스코틀랜드 곡조)",
+      "text": "선교사 소안련(William L. Swallen) 번안으로 알려짐",
+      "music": "레이디 존 스콧(Lady John Scott)의 스코틀랜드 가곡 「Annie Laurie」 선율, 1835년경",
+      "story": "스코틀랜드 가곡 「애니 로리」의 선율에 천국 소망을 담은 한국어 가사를 붙인 찬송으로, 초기 한국 교회 때부터 불려 왔습니다. 한국어 가사는 미국 선교사 소안련(윌리엄 스왈런)이 만든 것으로 소개되며, 영어 원시를 바탕으로 했다는 설명도 있습니다. 장례 예배와 추모 예배에서 자주 부르는 곡입니다.",
+      "refs": [
+        "요한계시록 21:23",
+        "요한복음 14:2-3"
+      ],
+      "tags": [
+        "재림·천국",
+        "위로·평안"
+      ],
+      "note": "원시 작자와 번안 경위는 자료마다 다르게 소개되어 확정하지 않았습니다."
+    },
+    {
+      "n": 494,
+      "tong": 188,
+      "title": "만세 반석 열리니",
+      "en": "Rock of Ages, Cleft for Me",
+      "origin": "영국",
+      "text": "오거스터스 M. 톱레이디(Augustus M. Toplady), 1776년",
+      "music": "토머스 헤이스팅스(Thomas Hastings), 1830년",
+      "tune": "TOPLADY",
+      "story": "영국 성공회 목사 톱레이디가 1776년 『Gospel Magazine』에 실은 시입니다. 그가 영국 서머싯의 버링턴 협곡에서 폭풍을 만나 바위틈에 피했다가 이 시를 썼다는 이야기가 유명하지만, 후대에 생긴 전승으로 봅니다. 출애굽기 33장의 바위틈과 고린도전서 10장의 '그 반석은 그리스도'라는 말씀을 엮었습니다. 386장도 '만세 반석'으로 시작하지만 다른 찬송입니다.",
+      "refs": [
+        "출애굽기 33:22",
+        "고린도전서 10:4"
+      ],
+      "tags": [
+        "은혜·구원",
+        "보혈",
+        "위로·평안"
+      ],
+      "note": "새찬송가 494장의 곡조가 TOPLADY인지는 미국 사용례 기준입니다.",
+      "lyricsEn": [
+        "Rock of Ages, cleft for me,\nLet me hide myself in Thee;\nLet the water and the blood,\nFrom Thy wounded side which flowed,\nBe of sin the double cure,\nSave from wrath and make me pure.",
+        "Not the labours of my hands\nCan fulfil Thy law's demands;\nCould my zeal no respite know,\nCould my tears forever flow,\nAll for sin could not atone;\nThou must save, and Thou alone.",
+        "Nothing in my hand I bring,\nSimply to Thy cross I cling;\nNaked, come to Thee for dress;\nHelpless, look to Thee for grace;\nFoul, I to the fountain fly;\nWash me, Saviour, or I die.",
+        "While I draw this fleeting breath,\nWhen mine eyes shall close in death,\nWhen I soar to worlds unknown,\nSee Thee on Thy judgment throne,\nRock of Ages, cleft for me,\nLet me hide myself in Thee."
+      ]
+    },
+    {
+      "n": 510,
+      "tong": 276,
+      "title": "하나님의 진리 등대",
+      "en": "Let the Lower Lights Be Burning",
+      "origin": "미국",
+      "text": "필립 P. 블리스(Philip P. Bliss), 1871년",
+      "music": "필립 P. 블리스, 1871년",
+      "story": "무디가 설교에서 들려준 이야기가 바탕입니다. 폭풍우 밤 클리블랜드 항구로 들어오던 배가 등대 불빛은 보았지만 항구 입구의 '아래쪽 불빛'이 꺼져 있어 암초에 부딪혔다는 것입니다. 블리스는 등대는 하나님이 지키시고 아래쪽 불은 성도가 밝혀야 한다는 메시지로 이 노래를 지었습니다.",
+      "refs": [
+        "마태복음 5:14-16",
+        "빌립보서 2:15"
+      ],
+      "tags": [
+        "전도·선교"
+      ]
+    },
+    {
+      "n": 520,
+      "tong": 257,
+      "title": "듣는 사람마다 복음 전하여",
+      "en": "Whosoever Will",
+      "origin": "미국",
+      "text": "필립 P. 블리스(Philip P. Bliss), 1870년",
+      "music": "필립 P. 블리스, 1870년",
+      "story": "영국 출신 젊은 전도자 헨리 무어하우스가 시카고 무디 교회에서 여러 날 밤 요한복음 3장 16절 한 구절로만 설교한 일이 있었는데, 이에 감동받은 블리스가 '누구든지'라는 단어를 붙잡고 지은 노래라고 전해집니다. 복음은 듣는 모든 사람에게 열려 있다는 초청입니다.",
+      "refs": [
+        "요한복음 3:16",
+        "요한계시록 22:17"
+      ],
+      "tags": [
+        "전도·선교",
+        "회개·초청"
+      ]
+    },
+    {
+      "n": 527,
+      "tong": 317,
+      "title": "어서 돌아오오",
+      "en": null,
+      "origin": "한국 창작",
+      "text": "전영택",
+      "music": "박재훈",
+      "story": "목사이자 소설가였던 늘봄 전영택이 쓴 가사에 박재훈 목사가 곡을 붙인 한국 창작 찬송으로, 1967년 개편찬송가에 실렸습니다. 누가복음 15장 탕자를 기다리는 아버지의 마음을 한국적 정서로 그려 '돌아오라'고 부르는 초청 찬송이 되었습니다. 전도 집회와 부흥회의 마지막 결단 시간에 자주 부릅니다.",
+      "refs": [
+        "누가복음 15:20",
+        "이사야 55:7"
+      ],
+      "tags": [
+        "회개·초청",
+        "전도·선교"
+      ],
+      "note": "작시(1930년대)·작곡(1940년대) 연도는 자료마다 달라 표기하지 않았습니다."
+    },
+    {
+      "n": 528,
+      "tong": 318,
+      "title": "예수가 우리를 부르는 소리",
+      "en": "Softly and Tenderly Jesus Is Calling",
+      "origin": "미국",
+      "text": "윌 L. 톰슨(Will L. Thompson), 1880년",
+      "music": "윌 L. 톰슨, 1880년",
+      "story": "93장을 지은 톰슨의 대표작입니다. 무디가 임종을 앞두고 병상을 찾아온 톰슨에게 \"내가 평생 한 어떤 일보다 그 찬송을 쓰고 싶었다\"고 말했다는 일화가 전해집니다. 지친 사람에게 '집으로 오라'고 부르시는 예수의 음성을 부드럽게 노래합니다.",
+      "refs": [
+        "마태복음 11:28",
+        "누가복음 15:20"
+      ],
+      "tags": [
+        "회개·초청"
+      ]
+    },
+    {
+      "n": 540,
+      "tong": 219,
+      "title": "주의 음성을 내가 들으니",
+      "en": "I Am Thine, O Lord",
+      "origin": "미국",
+      "text": "패니 크로스비(Fanny J. Crosby), 1875년",
+      "music": "윌리엄 H. 돈(William H. Doane), 1875년",
+      "story": "크로스비가 신시내티의 돈 집을 방문했을 때, 해 질 무렵 하나님의 가까우심에 대해 이야기를 나누다 그 자리에서 이 시를 썼다고 전해집니다. '더 가까이 이끌어 주소서'라는 후렴은 히브리서 10장 22절의 '참마음과 온전한 믿음으로 하나님께 나아가자'와 닮았습니다.",
+      "refs": [
+        "히브리서 10:22",
+        "야고보서 4:8"
+      ],
+      "tags": [
+        "헌신",
+        "기도"
+      ]
+    },
+    {
+      "n": 542,
+      "tong": 340,
+      "title": "구주 예수 의지함이",
+      "en": "'Tis So Sweet to Trust in Jesus",
+      "origin": "미국",
+      "text": "루이자 M. R. 스테드(Louisa M. R. Stead), 1882년경",
+      "music": "윌리엄 J. 커크패트릭(William J. Kirkpatrick), 1882년",
+      "story": "스테드는 가족과 함께 바닷가에 갔다가 물에 빠진 소년을 구하려던 남편을 잃었다는 이야기와 함께 소개되며, 이후 딸과 함께 남아프리카 선교사로 오래 일했습니다. 큰 상실 뒤에도 '예수를 의지함이 얼마나 좋은지'를 고백하는 노래입니다.",
+      "refs": [
+        "잠언 3:5",
+        "시편 34:8"
+      ],
+      "tags": [
+        "믿음·신뢰",
+        "위로·평안"
+      ],
+      "note": "남편의 사고 일화는 시기·장소가 자료마다 조금씩 다릅니다."
+    },
+    {
+      "n": 546,
+      "tong": 399,
+      "title": "주님 약속하신 말씀 위에 서",
+      "en": "Standing on the Promises",
+      "origin": "미국",
+      "text": "R. 켈소 카터(R. Kelso Carter), 1886년",
+      "music": "R. 켈소 카터, 1886년",
+      "story": "펜실베이니아 군사학교에서 가르치던 카터는 심장병으로 생명이 위태로웠을 때 하나님의 약속을 붙잡고 기도한 뒤 회복되었다고 간증했습니다. 그 경험이 '약속 위에 서 있다'는 이 찬송의 바탕이 되었습니다. 경쾌한 행진곡풍이라 청년 집회에서도 많이 불립니다.",
+      "refs": [
+        "베드로후서 1:4",
+        "고린도후서 1:20"
+      ],
+      "tags": [
+        "믿음·신뢰",
+        "말씀"
+      ]
+    },
+    {
+      "n": 563,
+      "tong": 411,
+      "title": "예수 사랑하심을",
+      "en": "Jesus Loves Me",
+      "origin": "미국",
+      "text": "애나 B. 워너(Anna B. Warner), 1860년",
+      "music": "윌리엄 B. 브래드버리(William B. Bradbury), 1862년",
+      "story": "이 가사는 원래 애나 워너와 언니 수전 워너가 함께 쓴 소설 『Say and Seal』(1860) 속에서, 한 인물이 죽어 가는 아이를 위로하며 들려주는 시였습니다. 브래드버리가 1862년 곡과 후렴을 붙인 뒤 세계 곳곳의 주일학교에서 불렸습니다. 아이들이 가장 먼저 배우는 찬송으로 꼽힙니다.",
+      "refs": [
+        "요한복음 15:9",
+        "마가복음 10:14"
+      ],
+      "tags": [
+        "어린이",
+        "사랑"
+      ],
+      "lyricsEn": [
+        "Jesus loves me! this I know,\nFor the Bible tells me so;\nLittle ones to Him belong;\nThey are weak, but He is strong.",
+        "(Refrain)\nYes, Jesus loves me!\nYes, Jesus loves me!\nYes, Jesus loves me!\nThe Bible tells me so.",
+        "Jesus loves me! He who died\nHeaven's gate to open wide;\nHe will wash away my sin,\nLet His little child come in."
+      ]
+    },
+    {
+      "n": 569,
+      "tong": 442,
+      "title": "선한 목자 되신 우리 주",
+      "en": "Savior, Like a Shepherd Lead Us",
+      "origin": "영국/미국",
+      "text": "도러시 A. 스럽(Dorothy A. Thrupp)으로 알려짐, 1836년",
+      "music": "윌리엄 B. 브래드버리(William B. Bradbury), 1859년",
+      "story": "1836년 런던의 어린이 찬송집 『Hymns for the Young』에 이름 없이 실린 시로, 편집자 스럽이 쓴 것으로 보는 견해가 많습니다. 미국의 브래드버리가 곡을 붙인 뒤 주일학교 찬송으로 널리 퍼졌습니다. 시편 23편과 요한복음 10장의 선한 목자를 노래합니다.",
+      "refs": [
+        "시편 23:1",
+        "요한복음 10:11"
+      ],
+      "tags": [
+        "어린이",
+        "인도"
+      ],
+      "note": "작사자는 확정되지 않았습니다."
+    },
+    {
+      "n": 579,
+      "tong": 304,
+      "title": "어머니의 넓은 사랑",
+      "en": null,
+      "origin": "한국 창작",
+      "text": "주요한",
+      "music": "구두회",
+      "story": "시인 주요한이 쓴 가사에 교회음악 작곡가 구두회가 곡을 붙인 한국 창작 찬송으로, 1967년 개편찬송가에 어머니날(어버이주일) 찬송으로 실렸습니다. 자녀를 위해 기도하는 어머니의 사랑을 하나님의 사랑에 빗대어 노래해, 지금도 어버이주일에 가장 많이 부르는 곡 가운데 하나입니다.",
+      "refs": [
+        "잠언 31:28-30",
+        "디모데후서 1:5"
+      ],
+      "tags": [
+        "가정·어버이"
+      ],
+      "note": "작시·작곡 연도는 자료마다 달라 표기하지 않았습니다."
+    },
+    {
+      "n": 580,
+      "tong": 371,
+      "title": "삼천리 반도 금수강산",
+      "en": null,
+      "origin": "한국 창작",
+      "text": "남궁억, 1920년대",
+      "music": "자료마다 표기가 다름",
+      "story": "독립협회와 황성신문에서 활동했던 남궁억은 강원도 홍천 모곡으로 내려가 학교를 세우고 무궁화 보급 운동을 펼쳤습니다. 이 찬송은 그 시기에 우리 강산과 겨레를 위한 기도로 지은 것으로 알려져 있으며, 그는 1933년 일제에 체포되어 옥고를 치렀습니다. 3·1절과 광복절 예배에서 자주 부르는 나라 사랑 찬송입니다.",
+      "refs": [
+        "시편 33:12",
+        "역대하 7:14"
+      ],
+      "tags": [
+        "나라·민족"
+      ],
+      "note": "작시 연도와 곡의 출처(작곡자)는 자료마다 달라 확정하지 않았습니다."
+    },
+    {
+      "n": 582,
+      "tong": 261,
+      "title": "어둔 밤 마음에 잠겨",
+      "en": null,
+      "origin": "한국 창작",
+      "text": "김재준",
+      "music": "이동훈",
+      "story": "한국기독교장로회를 세운 신학자 김재준 목사가 쓴 가사에 이동훈이 곡을 붙여 1960년대에 처음 불렸고, 1967년 개편찬송가에 실렸습니다. 어두운 시대에 이 땅에 빛이 비치기를 구하는 내용으로, 민족과 교회의 갱신을 위한 기도 찬송으로 자리 잡았습니다.",
+      "refs": [
+        "이사야 60:1-3",
+        "이사야 9:2"
+      ],
+      "tags": [
+        "나라·민족",
+        "기도"
+      ],
+      "note": "처음 불린 시기와 이후 덧붙은 절에 관한 설명은 자료마다 차이가 있습니다."
+    },
+    {
+      "n": 585,
+      "tong": 384,
+      "title": "내 주는 강한 성이요",
+      "en": "A Mighty Fortress Is Our God (Ein feste Burg)",
+      "origin": "독일",
+      "text": "마르틴 루터(Martin Luther), 1529년경 / 영어 번역 프레더릭 H. 헤지(Frederic H. Hedge), 1853년",
+      "music": "마르틴 루터, 1529년경",
+      "tune": "EIN FESTE BURG",
+      "story": "종교개혁자 루터가 시편 46편 '하나님은 우리의 피난처시요 힘이시니'를 바탕으로 가사와 곡을 지었습니다. 종교개혁의 노래로 불리며, 바흐와 멘델스존 등 많은 작곡가가 작품에 인용했습니다. 한국 교회에서는 종교개혁주일(10월 마지막 주일)에 특히 많이 부릅니다.",
+      "refs": [
+        "시편 46:1-3",
+        "에베소서 6:10-11"
+      ],
+      "tags": [
+        "믿음·신뢰",
+        "찬양·경배"
+      ],
+      "lyricsEn": [
+        "A mighty fortress is our God,\nA bulwark never failing;\nOur helper He amid the flood\nOf mortal ills prevailing.\nFor still our ancient foe\nDoth seek to work us woe;\nHis craft and power are great,\nAnd, armed with cruel hate,\nOn earth is not his equal.",
+        "Did we in our own strength confide,\nOur striving would be losing,\nWere not the right man on our side,\nThe man of God's own choosing.\nDost ask who that may be?\nChrist Jesus, it is He;\nLord Sabaoth His name,\nFrom age to age the same,\nAnd He must win the battle.",
+        "And though this world, with devils filled,\nShould threaten to undo us,\nWe will not fear, for God hath willed\nHis truth to triumph through us.\nThe prince of darkness grim,\nWe tremble not for him;\nHis rage we can endure,\nFor lo, his doom is sure;\nOne little word shall fell him.",
+        "That word above all earthly powers,\nNo thanks to them, abideth;\nThe Spirit and the gifts are ours\nThrough Him who with us sideth.\nLet goods and kindred go,\nThis mortal life also;\nThe body they may kill:\nGod's truth abideth still;\nHis kingdom is forever."
+      ]
+    },
+    {
+      "n": 587,
+      "tong": 306,
+      "title": "감사하는 성도여",
+      "en": "Come, Ye Thankful People, Come",
+      "origin": "영국",
+      "text": "헨리 앨퍼드(Henry Alford), 1844년",
+      "music": "조지 J. 엘비(George J. Elvey), 1858년",
+      "tune": "ST. GEORGE'S WINDSOR",
+      "story": "성경학자이자 캔터베리 대성당 주임사제를 지낸 앨퍼드가 영국 시골 교회의 추수감사 축제를 위해 쓴 찬송입니다. 곡을 지은 엘비는 윈저 성 세인트 조지 예배당의 오르가니스트여서 곡조 이름이 ST. GEORGE'S WINDSOR가 되었습니다. 한국 교회 추수감사주일의 대표 찬송입니다.",
+      "refs": [
+        "시편 65:9-13",
+        "마태복음 13:30"
+      ],
+      "tags": [
+        "추수감사",
+        "감사"
+      ]
+    },
+    {
+      "n": 606,
+      "tong": 291,
+      "title": "해보다 더 밝은 저 천국",
+      "en": "In the Sweet By and By",
+      "origin": "미국",
+      "text": "샌퍼드 F. 베넷(Sanford F. Bennett), 1868년",
+      "music": "조지프 P. 웹스터(Joseph P. Webster), 1868년",
+      "story": "위스콘신주 엘크혼의 약국 주인이던 베넷에게 우울해하던 작곡가 친구 웹스터가 찾아오자, 베넷이 \"곧 괜찮아질 거야(by and by)\"라고 말한 데서 착안해 그 자리에서 가사를 썼다고 전해집니다. 웹스터가 곧바로 곡을 붙였고, 천국 소망을 노래하는 대표 찬송이 되었습니다.",
+      "refs": [
+        "요한계시록 21:4",
+        "고린도후서 5:1"
+      ],
+      "tags": [
+        "재림·천국",
+        "위로·평안"
+      ]
+    },
+    {
+      "n": 610,
+      "tong": 289,
+      "title": "고생과 수고가 다 지난 후",
+      "en": "O That Will Be Glory",
+      "origin": "미국",
+      "text": "찰스 H. 개브리얼(Charles H. Gabriel), 1900년",
+      "music": "찰스 H. 개브리얼, 1900년",
+      "story": "세인트루이스의 구조 선교회를 이끌던 에드 카드가 설교 중 자주 \"영광!\"을 외치며, 천국에서 주님 얼굴을 뵙는 것이 자신에게 영광이 되리라고 말한 데서 영감을 얻었다고 전해집니다. 고된 삶이 끝난 뒤 주님을 뵙는 기쁨을 노래해 장례 예배에서 자주 부릅니다.",
+      "refs": [
+        "요한계시록 22:4",
+        "고린도전서 13:12"
+      ],
+      "tags": [
+        "재림·천국",
+        "위로·평안"
+      ]
+    }
+  ]
+}
