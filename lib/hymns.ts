@@ -24,8 +24,12 @@ export type Hymn = {
   refs: string[];
   tags: string[];
   note?: string;
-  /** 공개 영역 영어 원문 (절 단위) */
+  /** 공개 영역 영어 원문 (절 단위). 반드시 출처 본문과 한 글자씩 대조한 것만 넣습니다. */
   lyricsEn?: string[];
+  /** lyricsEn을 대조한 공개 영역 출처 (Hymnary.org 본문 페이지, CCEL, Wikisource 등) */
+  lyricsSource?: Link;
+  /** Hymnary.org 곡(text) 페이지 직접 링크. 없으면 검색 링크를 씁니다. */
+  hymnary?: string;
 };
 
 const D = data as unknown as {
@@ -75,6 +79,7 @@ export function youtubeUrl(h: Hymn) {
 }
 
 export function hymnarySearchUrl(h: Hymn) {
+  if (h.hymnary) return h.hymnary;
   return h.en ? `https://hymnary.org/search?qu=${encodeURIComponent(enTitle(h))}` : "";
 }
 

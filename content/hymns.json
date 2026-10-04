@@ -69,8 +69,12 @@
         "찬양·경배"
       ],
       "lyricsEn": [
-        "Praise God, from whom all blessings flow;\nPraise Him, all creatures here below;\nPraise Him above, ye heavenly host;\nPraise Father, Son, and Holy Ghost."
-      ]
+        "Praise God, from whom all blessings flow;\nPraise him, all creatures here below;\nPraise him above, ye heavenly host;\nPraise Father, Son, and Holy Ghost."
+      ],
+      "lyricsSource": {
+        "label": "Wikisource – The Army and Navy Hymnal (1920)",
+        "url": "https://en.wikisource.org/wiki/The_Army_and_Navy_Hymnal/Hymns/Praise_God,_from_Whom_All_Blessings_Flow"
+      }
     },
     {
       "n": 8,
@@ -90,11 +94,16 @@
         "찬양·경배"
       ],
       "lyricsEn": [
-        "Holy, holy, holy! Lord God Almighty!\nEarly in the morning our song shall rise to Thee;\nHoly, holy, holy! merciful and mighty,\nGod in three Persons, blessed Trinity!",
-        "Holy, holy, holy! all the saints adore Thee,\nCasting down their golden crowns around the glassy sea;\nCherubim and seraphim falling down before Thee,\nWhich wert, and art, and evermore shalt be.",
-        "Holy, holy, holy! though the darkness hide Thee,\nThough the eye of sinful man Thy glory may not see,\nOnly Thou art holy; there is none beside Thee,\nPerfect in power, in love, and purity.",
-        "Holy, holy, holy! Lord God Almighty!\nAll Thy works shall praise Thy name, in earth, and sky, and sea;\nHoly, holy, holy! merciful and mighty,\nGod in three Persons, blessed Trinity!"
-      ]
+        "Holy, holy, holy! Lord God Almighty\nEarly in the morning our song shall rise to thee;\nHoly, holy, holy merciful and mighty!\nGod in Three Persons, blessèd Trinity!",
+        "Holy, holy, holy! all the saints adore thee,\nCasting down their golden crowns around the glassy sea;\nCherubim and seraphim falling down before thee,\nWhich wert, and art, and evermore shalt be.",
+        "Holy, holy, holy! tho' the darkness hide thee,\nThough the eye of sinful man thy glory may not see,\nOnly thou art holy, there is none beside thee,\nPerfect in power, in love, and purity.",
+        "Holy, holy, holy! Lord God Almighty\nAll thy works shall praise thy name, in earth, and sky, and sea;\nHoly, holy, holy merciful and mighty!\nGod in Three Persons, blessèd Trinity!"
+      ],
+      "lyricsSource": {
+        "label": "Wikisource – The Army and Navy Hymnal (1920)",
+        "url": "https://en.wikisource.org/wiki/The_Army_and_Navy_Hymnal/Hymns/Holy,_Holy,_Holy,_Lord_God_Almighty"
+      },
+      "hymnary": "https://hymnary.org/text/holy_holy_holy_lord_god_almighty_early"
     },
     {
       "n": 23,
@@ -135,10 +144,17 @@
         "은혜·구원"
       ],
       "lyricsEn": [
-        "Come, Thou Fount of every blessing,\nTune my heart to sing Thy grace;\nStreams of mercy, never ceasing,\nCall for songs of loudest praise.\nTeach me some melodious sonnet,\nSung by flaming tongues above;\nPraise the mount! I'm fixed upon it,\nMount of Thy redeeming love.",
-        "Here I raise mine Ebenezer;\nHither by Thy help I'm come;\nAnd I hope, by Thy good pleasure,\nSafely to arrive at home.\nJesus sought me when a stranger,\nWandering from the fold of God;\nHe, to rescue me from danger,\nInterposed His precious blood.",
-        "O to grace how great a debtor\nDaily I'm constrained to be!\nLet Thy goodness, like a fetter,\nBind my wandering heart to Thee.\nProne to wander, Lord, I feel it,\nProne to leave the God I love;\nHere's my heart, O take and seal it,\nSeal it for Thy courts above."
-      ]
+        "Come, Thou fount of every blessing,\nTune my heart to sing Thy grace;\nStreams of mercy, never ceasing,\nCall for songs of loudest praise.\nTeach me some melodious sonnet,\nSung by flaming tongues above.\nPraise the mount! I’m fixed upon it,\nMount of Thy redeeming love.",
+        "Sorrowing I shall be in spirit,\nTill released from flesh and sin,\nYet from what I do inherit,\nHere Thy praises I’ll begin;\nHere I raise my Ebenezer;\nHere by Thy great help I’ve come;\nAnd I hope, by Thy good pleasure,\nSafely to arrive at home.",
+        "Jesus sought me when a stranger,\nWandering from the fold of God;\nHe, to rescue me from danger,\nInterposed His precious blood;\nHow His kindness yet pursues me\nMortal tongue can never tell,\nClothed in flesh, till death shall loose me\nI cannot proclaim it well.",
+        "O to grace how great a debtor\nDaily I’m constrained to be!\nLet Thy goodness, like a fetter,\nBind my wandering heart to Thee.\nProne to wander, Lord, I feel it,\nProne to leave the God I love;\nHere’s my heart, O take and seal it,\nSeal it for Thy courts above.",
+        "O that day when freed from sinning,\nI shall see Thy lovely face;\nClothèd then in blood washed linen\nHow I’ll sing Thy sovereign grace;\nCome, my Lord, no longer tarry,\nTake my ransomed soul away;\nSend thine angels now to carry\nMe to realms of endless day."
+      ],
+      "lyricsSource": {
+        "label": "Hymnary.org – The Cyber Hymnal #1016 (1759년 원형 5절)",
+        "url": "https://hymnary.org/hymn/CYBER/1016"
+      },
+      "hymnary": "https://hymnary.org/text/come_thou_fount_of_every_blessing"
     },
     {
       "n": 31,
@@ -192,7 +208,8 @@
       "tags": [
         "찬양·경배",
         "기쁨"
-      ]
+      ],
+      "hymnary": "https://hymnary.org/text/joyful_joyful_we_adore_thee"
     },
     {
       "n": 66,
@@ -211,7 +228,8 @@
       "tags": [
         "감사",
         "추수감사"
-      ]
+      ],
+      "hymnary": "https://hymnary.org/text/now_thank_we_all_our_god"
     },
     {
       "n": 79,
@@ -301,10 +319,14 @@
         "성탄"
       ],
       "lyricsEn": [
-        "Silent night, holy night,\nAll is calm, all is bright\nRound yon virgin mother and child.\nHoly infant so tender and mild,\nSleep in heavenly peace,\nSleep in heavenly peace.",
-        "Silent night, holy night,\nShepherds quake at the sight;\nGlories stream from heaven afar,\nHeavenly hosts sing Alleluia!\nChrist the Saviour is born,\nChrist the Saviour is born!",
-        "Silent night, holy night,\nSon of God, love's pure light\nRadiant beams from Thy holy face\nWith the dawn of redeeming grace,\nJesus, Lord, at Thy birth,\nJesus, Lord, at Thy birth."
-      ]
+        "Silent night, holy night,\nAll is calm, all is bright\nRound yon virgin mother and child!\nHoly Infant so tender and mild,\nSleep in heavenly peace,\nSleep in heavenly peace.",
+        "Silent night, holy night,\nSon of God, love's pure light\nRadiant beams from Thy holy face,\nWith the dawn of redeeming grace,\nJesus, Lord, at Thy birth,\nJesus, Lord, at Thy birth."
+      ],
+      "lyricsSource": {
+        "label": "Hymnary.org – Silent Night, Holy Night 대표 본문 중 J. F. Young 번역 절(1·3절)",
+        "url": "https://hymnary.org/text/silent_night_holy_night_all_is_calm_all"
+      },
+      "hymnary": "https://hymnary.org/text/silent_night_holy_night_all_is_calm_all"
     },
     {
       "n": 115,
@@ -324,11 +346,15 @@
         "찬양·경배"
       ],
       "lyricsEn": [
-        "Joy to the world! the Lord is come;\nLet earth receive her King;\nLet every heart prepare Him room,\nAnd heaven and nature sing.",
-        "Joy to the earth! the Saviour reigns;\nLet men their songs employ;\nWhile fields and floods, rocks, hills and plains\nRepeat the sounding joy.",
-        "No more let sins and sorrows grow,\nNor thorns infest the ground;\nHe comes to make His blessings flow\nFar as the curse is found.",
-        "He rules the world with truth and grace,\nAnd makes the nations prove\nThe glories of His righteousness,\nAnd wonders of His love."
-      ]
+        "Joy to the world! the lord is come;\nLet earth receive her King;\nLet every heart prepare him room,\nAnd heaven and nature sing.",
+        "Joy to the world! the Saviour reigns;\nLet men their songs employ\nWhile fields and floods, rocks, hills and plains\nRepeat the sounding joy.",
+        "He rules the world with truth and grace,\nAnd makes the nations prove\nThe glories of his righteousness,\nAnd wonders of his love."
+      ],
+      "lyricsSource": {
+        "label": "Wikisource – The Army and Navy Hymnal (1920)",
+        "url": "https://en.wikisource.org/wiki/The_Army_and_Navy_Hymnal/Hymns/Joy_to_the_World!_the_Lord_Is_Come"
+      },
+      "hymnary": "https://hymnary.org/text/joy_to_the_world_the_lord_is_come"
     },
     {
       "n": 120,
@@ -347,7 +373,8 @@
       "tags": [
         "성탄"
       ],
-      "note": "곡조 ST. LOUIS는 미국 사용례 기준입니다. 영국에서는 같은 가사를 다른 곡조(FOREST GREEN)로 부르기도 합니다."
+      "note": "곡조 ST. LOUIS는 미국 사용례 기준입니다. 영국에서는 같은 가사를 다른 곡조(FOREST GREEN)로 부르기도 합니다.",
+      "hymnary": "https://hymnary.org/text/o_little_town_of_bethlehem"
     },
     {
       "n": 122,
@@ -386,7 +413,8 @@
       "tags": [
         "십자가·고난주간"
       ],
-      "note": "새찬송가 143장의 곡조 이름은 확인하지 못해 '알려짐'으로 적었습니다."
+      "note": "새찬송가 143장의 곡조 이름은 확인하지 못해 '알려짐'으로 적었습니다.",
+      "hymnary": "https://hymnary.org/text/alas_and_did_my_savior_bleed"
     },
     {
       "n": 147,
@@ -426,10 +454,14 @@
       "note": "새찬송가 149장의 곡조가 HAMBURG인지는 미국 사용례를 기준으로 적었습니다.",
       "lyricsEn": [
         "When I survey the wondrous cross\nOn which the Prince of glory died,\nMy richest gain I count but loss,\nAnd pour contempt on all my pride.",
-        "Forbid it, Lord, that I should boast,\nSave in the death of Christ my God;\nAll the vain things that charm me most,\nI sacrifice them to His blood.",
-        "See from His head, His hands, His feet,\nSorrow and love flow mingled down;\nDid e'er such love and sorrow meet,\nOr thorns compose so rich a crown?",
+        "Forbid it, Lord, that I should boast,\nSave in the death of Christ, my God;\nAll the vain things that charm me most,\nI sacrifice them to his blood.",
+        "See, from his head, his hands, his feet,\nSorrow and love flow mingled down!\nDid e'er such love and sorrow meet,\nOr thorns compose so rich a crown?",
         "Were the whole realm of nature mine,\nThat were a present far too small;\nLove so amazing, so divine,\nDemands my soul, my life, my all."
-      ]
+      ],
+      "lyricsSource": {
+        "label": "Wikisource – The Army and Navy Hymnal (1920)",
+        "url": "https://en.wikisource.org/wiki/The_Army_and_Navy_Hymnal/Hymns/When_I_Survey_the_Wondrous_Cross"
+      }
     },
     {
       "n": 150,
@@ -626,7 +658,8 @@
       "tags": [
         "헌신"
       ],
-      "note": "새찬송가 213장의 곡조가 HENDON인지는 영어권 사용례 기준입니다."
+      "note": "새찬송가 213장의 곡조가 HENDON인지는 영어권 사용례 기준입니다.",
+      "hymnary": "https://hymnary.org/text/take_my_life_and_let_it_be"
     },
     {
       "n": 222,
@@ -643,7 +676,8 @@
       ],
       "tags": [
         "교회·교제"
-      ]
+      ],
+      "hymnary": "https://hymnary.org/text/god_be_with_you_till_we_meet_again"
     },
     {
       "n": 249,
@@ -768,7 +802,8 @@
       "tags": [
         "기도",
         "회개·초청"
-      ]
+      ],
+      "hymnary": "https://hymnary.org/text/pass_me_not_o_gentle_savior_hear_my"
     },
     {
       "n": 288,
@@ -788,11 +823,16 @@
         "기쁨"
       ],
       "lyricsEn": [
-        "Blessed assurance, Jesus is mine!\nO what a foretaste of glory divine!\nHeir of salvation, purchase of God,\nBorn of His Spirit, washed in His blood.",
-        "(Refrain)\nThis is my story, this is my song,\nPraising my Saviour all the day long;\nThis is my story, this is my song,\nPraising my Saviour all the day long.",
-        "Perfect submission, perfect delight,\nVisions of rapture now burst on my sight;\nAngels descending bring from above\nEchoes of mercy, whispers of love.",
-        "Perfect submission, all is at rest,\nI in my Saviour am happy and blest;\nWatching and waiting, looking above,\nFilled with His goodness, lost in His love."
-      ]
+        "Blessed assurance, Jesus is mine!\nO, what a foretaste of glory divine!\nHeir of salvation, purchase of God,\nborn of His Spirit, washed in His blood.",
+        "(Refrain)\nThis is my story, this is my song,\npraising my Savior all the day long;\nthis is my story, this is my song,\npraising my Savior all the day long.",
+        "Perfect submission, perfect delight,\nvisions of rapture now burst on my sight;\nangels descending, bring from above\nechoes of mercy, whispers of love.",
+        "Perfect submission, all is at rest,\nI in my Savior am happy and blest;\nwatching and waiting, looking above,\nfilled with His goodness, lost in His love."
+      ],
+      "lyricsSource": {
+        "label": "Hymnary.org – Blessed Assurance 대표 본문",
+        "url": "https://hymnary.org/text/blessed_assurance_jesus_is_mine"
+      },
+      "hymnary": "https://hymnary.org/text/blessed_assurance_jesus_is_mine"
     },
     {
       "n": 289,
@@ -810,7 +850,8 @@
       "tags": [
         "은혜·구원",
         "기쁨"
-      ]
+      ],
+      "hymnary": "https://hymnary.org/text/since_jesus_came_into_my_heart"
     },
     {
       "n": 293,
@@ -908,13 +949,18 @@
         "감사"
       ],
       "lyricsEn": [
-        "Amazing grace! (how sweet the sound)\nThat saved a wretch like me!\nI once was lost, but now am found,\nWas blind, but now I see.",
-        "'Twas grace that taught my heart to fear,\nAnd grace my fears relieved;\nHow precious did that grace appear\nThe hour I first believed!",
-        "Through many dangers, toils and snares,\nI have already come;\n'Tis grace hath brought me safe thus far,\nAnd grace will lead me home.",
-        "The Lord has promised good to me,\nHis word my hope secures;\nHe will my shield and portion be,\nAs long as life endures.",
-        "Yes, when this flesh and heart shall fail,\nAnd mortal life shall cease;\nI shall possess, within the veil,\nA life of joy and peace.",
-        "The earth shall soon dissolve like snow,\nThe sun forbear to shine;\nBut God, who called me here below,\nWill be forever mine."
-      ]
+        "Amazing grace (how sweet the sound)\nthat saved a wretch like me!\nI once was lost, but now am found,\nwas blind, but now I see.",
+        "'Twas grace that taught my heart to fear,\nand grace my fears relieved;\nhow precious did that grace appear\nthe hour I first believed!",
+        "Through many dangers, toils and snares\nI have already come:\n'tis grace has brought me safe thus far,\nand grace will lead me home.",
+        "The Lord has promised good to me,\nhis word my hope secures;\nhe will my shield and portion be\nas long as life endures.",
+        "Yes, when this flesh and heart shall fail,\nand mortal life shall cease:\nI shall possess, within the veil,\na life of joy and peace.",
+        "The earth shall soon dissolve like snow,\nthe sun forbear to shine;\nbut God, who called me here below,\nwill be forever mine."
+      ],
+      "lyricsSource": {
+        "label": "Hymnary.org – Amazing Grace 대표 본문(뉴턴 원작 6절)",
+        "url": "https://hymnary.org/text/amazing_grace_how_sweet_the_sound"
+      },
+      "hymnary": "https://hymnary.org/text/amazing_grace_how_sweet_the_sound"
     },
     {
       "n": 310,
@@ -951,7 +997,8 @@
         "사랑",
         "기도",
         "위로·평안"
-      ]
+      ],
+      "hymnary": "https://hymnary.org/text/more_love_to_thee_o_christ"
     },
     {
       "n": 315,
@@ -1029,12 +1076,16 @@
         "믿음·신뢰"
       ],
       "lyricsEn": [
-        "Nearer, my God, to Thee, nearer to Thee!\nE'en though it be a cross that raiseth me;\nStill all my song shall be, nearer, my God, to Thee,\nNearer, my God, to Thee, nearer to Thee!",
-        "Though like the wanderer, the sun gone down,\nDarkness be over me, my rest a stone;\nYet in my dreams I'd be nearer, my God, to Thee,\nNearer, my God, to Thee, nearer to Thee!",
-        "There let the way appear, steps unto heaven;\nAll that Thou sendest me, in mercy given;\nAngels to beckon me nearer, my God, to Thee,\nNearer, my God, to Thee, nearer to Thee!",
-        "Then, with my waking thoughts bright with Thy praise,\nOut of my stony griefs Bethel I'll raise;\nSo by my woes to be nearer, my God, to Thee,\nNearer, my God, to Thee, nearer to Thee!",
-        "Or if, on joyful wing cleaving the sky,\nSun, moon, and stars forgot, upward I fly,\nStill all my song shall be, nearer, my God, to Thee,\nNearer, my God, to Thee, nearer to Thee!"
-      ]
+        "Nearer, my God to thee,\nNearer to thee;\nE'en though it be a cross\nThat raiseth me;\nStill all my song shall be,\nNearer, my God to thee,\nNearer, my God to thee, nearer to thee!",
+        "Though like the wanderer,\nThe sun gone down,\nDarkness be over me,\nMy rest a stone;\nYet in my dream I'd be,\nNearer, my God to thee,\nNearer, my God to thee, nearer to thee!",
+        "There let the way appear\nStep unto heaven;\nAll that thou sendest me,\nIn mercy given;\nAngels to beckon me,\nNearer, my God to thee,\nNearer, my God to thee, nearer to thee!",
+        "Then, with my waking thoughts\nBright with thy praise,\nOut of my stony griefs,\nBethel I'll raise;\nSo by my woes to be\nNearer, my God to thee,\nNearer, my God to thee, nearer to thee!",
+        "Or if on joyful wing\ncleaving the sky,\nSun, moon, and stars forgot,\nUpwards I fly,\nStill all my song shall be,\nNearer, my God to thee,\nNearer, my God to thee, nearer to thee!"
+      ],
+      "lyricsSource": {
+        "label": "Wikisource – The Army and Navy Hymnal (1920)",
+        "url": "https://en.wikisource.org/wiki/The_Army_and_Navy_Hymnal/Hymns/Nearer,_My_God,_to_Thee"
+      }
     },
     {
       "n": 364,
@@ -1093,10 +1144,14 @@
         "위로·평안"
       ],
       "lyricsEn": [
-        "What a Friend we have in Jesus,\nAll our sins and griefs to bear!\nWhat a privilege to carry\nEverything to God in prayer!\nO what peace we often forfeit,\nO what needless pain we bear,\nAll because we do not carry\nEverything to God in prayer!",
-        "Have we trials and temptations?\nIs there trouble anywhere?\nWe should never be discouraged;\nTake it to the Lord in prayer.\nCan we find a friend so faithful\nWho will all our sorrows share?\nJesus knows our every weakness;\nTake it to the Lord in prayer.",
-        "Are we weak and heavy-laden,\nCumbered with a load of care?\nPrecious Saviour, still our refuge;\nTake it to the Lord in prayer.\nDo thy friends despise, forsake thee?\nTake it to the Lord in prayer!\nIn His arms He'll take and shield thee;\nThou wilt find a solace there."
-      ]
+        "What a friend we have in Jesus,\nAll our sins and griefs to bear;\nWhat a privilege to carry\nEverything to God in prayer.\nOh, what peace we often forfeit,\nOh, what needless pain we bear\nAll because we do not carry\nEverything to God in prayer,",
+        "Have we trials and temptations?\nIs there trouble anywhere?\nWe should never be discouraged,\nTake it to the Lord in prayer.\nCan we find a Friend so faithful,\nWho will all our sorrows share?\nJesus knows our every weakness,\nTake it to the Lord in prayer,",
+        "Are we weak and heavy laden,\nCumbered with a load of care?\nPrecious Saviour, still our refuge,\nTake it to the Lord in prayer.\nDo thy friends despise, forsake thee?\nTake it to the Lord in prayer:\nIn his arms he'll take and shield thee,\nThou wilt find a solace there."
+      ],
+      "lyricsSource": {
+        "label": "Wikisource – The Army and Navy Hymnal (1920)",
+        "url": "https://en.wikisource.org/wiki/The_Army_and_Navy_Hymnal/Hymns/What_a_Friend_We_Have_in_Jesus"
+      }
     },
     {
       "n": 370,
@@ -1173,10 +1228,15 @@
       ],
       "note": "5달러 일화는 크로스비 전기에서 전하는 이야기로, 세부 내용은 판본마다 조금 다릅니다.",
       "lyricsEn": [
-        "All the way my Saviour leads me;\nWhat have I to ask beside?\nCan I doubt His tender mercy,\nWho through life has been my Guide?\nHeavenly peace, divinest comfort,\nHere by faith in Him to dwell!\nFor I know, whate'er befall me,\nJesus doeth all things well.",
-        "All the way my Saviour leads me,\nCheers each winding path I tread;\nGives me grace for every trial,\nFeeds me with the living bread.\nThough my weary steps may falter,\nAnd my soul athirst may be,\nGushing from the Rock before me,\nLo! a spring of joy I see.",
-        "All the way my Saviour leads me;\nO the fullness of His love!\nPerfect rest to me is promised\nIn my Father's house above.\nWhen my spirit, clothed immortal,\nWings its flight to realms of day,\nThis my song through endless ages:\nJesus led me all the way."
-      ]
+        "All the way my Saviour leads me;\nWhat have I to ask beside?\nCan I doubt his tender mercy,\nWho thro' life has been my guide?\nHeavenly peace, divinest comfort,\nHere by faith in him to dwell;\nFor I know whate'er befall me,\nJesus doeth all things well.",
+        "All the way my Saviour leads me;\nCheers each winding path I tread;\nGives me grace for every trial,\nFeeds me with the living bread;\nThough my weary steps may falter,\nAnd my soul athirst may be,\nGushing from the Rock before me,\nLo, a spring of joy I see.",
+        "All the way my Saviour leads me;\nO the fullness of his love!\nPerfect rest to me is promised\nIn my Father's house above;\nWhen my spirit clothed, immortal,\nWings its flight to realms of day,\nThis my song thro' endless ages\nJesus led me all the way."
+      ],
+      "lyricsSource": {
+        "label": "Wikisource – The Army and Navy Hymnal (1920)",
+        "url": "https://en.wikisource.org/wiki/The_Army_and_Navy_Hymnal/Hymns/All_the_Way_My_Saviour_Leads_Me"
+      },
+      "hymnary": "https://hymnary.org/text/all_the_way_my_savior_leads_me"
     },
     {
       "n": 388,
@@ -1308,12 +1368,17 @@
         "믿음·신뢰"
       ],
       "lyricsEn": [
-        "When peace, like a river, attendeth my way,\nWhen sorrows like sea billows roll;\nWhatever my lot, Thou hast taught me to say,\nIt is well, it is well with my soul.",
-        "(Refrain)\nIt is well with my soul,\nIt is well, it is well with my soul.",
-        "Though Satan should buffet, though trials should come,\nLet this blest assurance control,\nThat Christ hath regarded my helpless estate,\nAnd hath shed His own blood for my soul.",
-        "My sin, oh, the bliss of this glorious thought!\nMy sin, not in part but the whole,\nIs nailed to the cross, and I bear it no more,\nPraise the Lord, praise the Lord, O my soul!",
-        "And Lord, haste the day when the faith shall be sight,\nThe clouds be rolled back as a scroll;\nThe trump shall resound, and the Lord shall descend,\nEven so, it is well with my soul."
-      ]
+        "When peace like a river attendeth my way,\nwhen sorrows like sea billows roll;\nwhatever my lot, thou hast taught me to say,\n\"It is well, it is well with my soul.\"",
+        "(Refrain)\nIt is well with my soul;\nit is well, it is well with my soul.",
+        "Though Satan should buffet, though trials should come,\nlet this blest assurance control:\nthat Christ has regarded my helpless estate,\nand has shed his own blood for my soul.",
+        "My sin oh, the bliss of this glorious thought!\nmy sin, not in part, but the whole,\nis nailed to the cross, and I bear it no more;\npraise the Lord, praise the Lord, O my soul!",
+        "O Lord, haste the day when my faith shall be sight,\nthe clouds be rolled back as a scroll;\nthe trump shall resound and the Lord shall descend;\neven so, it is well with my soul."
+      ],
+      "lyricsSource": {
+        "label": "Hymnary.org – It Is Well with My Soul 대표 본문",
+        "url": "https://hymnary.org/text/when_peace_like_a_river_attendeth_my_way"
+      },
+      "hymnary": "https://hymnary.org/text/when_peace_like_a_river_attendeth_my_way"
     },
     {
       "n": 415,
@@ -1367,7 +1432,8 @@
       "tags": [
         "헌신",
         "기도"
-      ]
+      ],
+      "hymnary": "https://hymnary.org/text/have_thine_own_way_lord"
     },
     {
       "n": 428,
@@ -1405,12 +1471,17 @@
         "위로·평안"
       ],
       "lyricsEn": [
-        "When upon life's billows you are tempest tossed,\nWhen you are discouraged, thinking all is lost,\nCount your many blessings, name them one by one,\nAnd it will surprise you what the Lord hath done.",
-        "(Refrain)\nCount your blessings, name them one by one;\nCount your blessings, see what God hath done!\nCount your blessings, name them one by one,\nAnd it will surprise you what the Lord hath done.",
-        "Are you ever burdened with a load of care?\nDoes the cross seem heavy you are called to bear?\nCount your many blessings, every doubt will fly,\nAnd you will be singing as the days go by.",
-        "When you look at others with their lands and gold,\nThink that Christ has promised you His wealth untold;\nCount your many blessings, money cannot buy\nYour reward in heaven, nor your home on high.",
-        "So, amid the conflict, whether great or small,\nDo not be discouraged, God is over all;\nCount your many blessings, angels will attend,\nHelp and comfort give you to your journey's end."
-      ]
+        "When upon life’s billows you are tempest tossed,\nWhen you are discouraged, thinking all is lost,\nCount your many blessings, name them one by one,\nAnd it will surprise you what the Lord hath done.",
+        "(Refrain)\nCount your blessings, name them one by one,\nCount your blessings, see what God hath done!\nCount your blessings, name them one by one,\nAnd it will surprise you what the Lord hath done.",
+        "Are you ever burdened with a load of care?\nDoes the cross seem heavy you are called to bear?\nCount your many blessings, every doubt will fly,\nAnd you will keep singing as the days go by.",
+        "When you look at others with their lands and gold,\nThink that Christ has promised you His wealth untold;\nCount your many blessings. Wealth can never buy\nYour reward in heaven, nor your home on high.",
+        "So, amid the conflict whether great or small,\nDo not be disheartened, God is over all;\nCount your many blessings, angels will attend,\nHelp and comfort give you to your journey’s end."
+      ],
+      "lyricsSource": {
+        "label": "Hymnary.org – The Cyber Hymnal #1072",
+        "url": "https://hymnary.org/hymn/CYBER/1072"
+      },
+      "hymnary": "https://hymnary.org/text/when_upon_lifes_billows_you_are_tempest"
     },
     {
       "n": 435,
@@ -1485,7 +1556,8 @@
       "tags": [
         "십자가·고난주간",
         "기도"
-      ]
+      ],
+      "hymnary": "https://hymnary.org/text/jesus_keep_me_near_the_cross"
     },
     {
       "n": 440,
@@ -1617,7 +1689,8 @@
       "tags": [
         "믿음·신뢰",
         "위로·평안"
-      ]
+      ],
+      "hymnary": "https://hymnary.org/text/my_hope_is_built_on_nothing_less"
     },
     {
       "n": 491,
@@ -1677,11 +1750,15 @@
       ],
       "note": "새찬송가 494장의 곡조가 TOPLADY인지는 미국 사용례 기준입니다.",
       "lyricsEn": [
-        "Rock of Ages, cleft for me,\nLet me hide myself in Thee;\nLet the water and the blood,\nFrom Thy wounded side which flowed,\nBe of sin the double cure,\nSave from wrath and make me pure.",
-        "Not the labours of my hands\nCan fulfil Thy law's demands;\nCould my zeal no respite know,\nCould my tears forever flow,\nAll for sin could not atone;\nThou must save, and Thou alone.",
-        "Nothing in my hand I bring,\nSimply to Thy cross I cling;\nNaked, come to Thee for dress;\nHelpless, look to Thee for grace;\nFoul, I to the fountain fly;\nWash me, Saviour, or I die.",
-        "While I draw this fleeting breath,\nWhen mine eyes shall close in death,\nWhen I soar to worlds unknown,\nSee Thee on Thy judgment throne,\nRock of Ages, cleft for me,\nLet me hide myself in Thee."
-      ]
+        "Rock of Ages, cleft for me,\nLet me hide myself in thee;\nLet the water and the blood,\nFrom thy riven side which flowed,\nBe of sin the double cure,\nCleanse me from its guilt and power.",
+        "Could my zeal no respite know,\nCould my tears forever flow,\nAll for sin could not atone,\nThou must save, and thou alone;\nNothing in my hand I bring,\nSimply to thy cross I cling.",
+        "While I draw this fleeting breath,\nWhen my eyelids close in death,\nWhen I soar to worlds unknown\nSee thee on thy judgment throne,—\nRock of Ages, cleft for me,\nLet me hide myself in thee."
+      ],
+      "lyricsSource": {
+        "label": "Wikisource – The Army and Navy Hymnal (1920)",
+        "url": "https://en.wikisource.org/wiki/The_Army_and_Navy_Hymnal/Hymns/Rock_of_Ages,_Cleft_for_Me"
+      },
+      "hymnary": "https://hymnary.org/text/rock_of_ages_cleft_for_me_let_me_hide"
     },
     {
       "n": 510,
@@ -1752,7 +1829,8 @@
       ],
       "tags": [
         "회개·초청"
-      ]
+      ],
+      "hymnary": "https://hymnary.org/text/softly_and_tenderly_jesus_is_calling"
     },
     {
       "n": 540,
@@ -1827,10 +1905,15 @@
         "사랑"
       ],
       "lyricsEn": [
-        "Jesus loves me! this I know,\nFor the Bible tells me so;\nLittle ones to Him belong;\nThey are weak, but He is strong.",
-        "(Refrain)\nYes, Jesus loves me!\nYes, Jesus loves me!\nYes, Jesus loves me!\nThe Bible tells me so.",
-        "Jesus loves me! He who died\nHeaven's gate to open wide;\nHe will wash away my sin,\nLet His little child come in."
-      ]
+        "Jesus loves me, this I know,\nfor the Bible tells me so.\nLittle ones to him belong;\nthey are weak, but he is strong.",
+        "(Refrain)\nYes, Jesus loves me! Yes, Jesus loves me!\nYes, Jesus loves me! The Bible tells me so.",
+        "Jesus loves me he who died\nheaven's gate to open wide.\nHe will wash away my sin,\nlet his little child come in."
+      ],
+      "lyricsSource": {
+        "label": "Hymnary.org – Jesus Loves Me 대표 본문(1·2절과 후렴)",
+        "url": "https://hymnary.org/text/jesus_loves_me_this_i_know_for_the_bible"
+      },
+      "hymnary": "https://hymnary.org/text/jesus_loves_me_this_i_know_for_the_bible"
     },
     {
       "n": 569,
@@ -1925,11 +2008,16 @@
         "찬양·경배"
       ],
       "lyricsEn": [
-        "A mighty fortress is our God,\nA bulwark never failing;\nOur helper He amid the flood\nOf mortal ills prevailing.\nFor still our ancient foe\nDoth seek to work us woe;\nHis craft and power are great,\nAnd, armed with cruel hate,\nOn earth is not his equal.",
-        "Did we in our own strength confide,\nOur striving would be losing,\nWere not the right man on our side,\nThe man of God's own choosing.\nDost ask who that may be?\nChrist Jesus, it is He;\nLord Sabaoth His name,\nFrom age to age the same,\nAnd He must win the battle.",
-        "And though this world, with devils filled,\nShould threaten to undo us,\nWe will not fear, for God hath willed\nHis truth to triumph through us.\nThe prince of darkness grim,\nWe tremble not for him;\nHis rage we can endure,\nFor lo, his doom is sure;\nOne little word shall fell him.",
-        "That word above all earthly powers,\nNo thanks to them, abideth;\nThe Spirit and the gifts are ours\nThrough Him who with us sideth.\nLet goods and kindred go,\nThis mortal life also;\nThe body they may kill:\nGod's truth abideth still;\nHis kingdom is forever."
-      ]
+        "A mighty fortress is our God,\nA bulwark never failing;\nOur helper he, amid the flood\nOf mortal ills prevailing.\nFor still our ancient foe\nDoth seek to work us woe;\nHis craft and power are great;\nAnd armed with cruel hate,\nOn earth is not his equal.",
+        "Did we in our own strength confide,\nOur striving would be losing,\nWere not the right man on our side,\nThe man of God's own choosing.\nDost ask who that may be?\nChrist Jesus, it is he,\nLord Sabaoth his name,\nFrom age to age the same,\nAnd he must win the battle.",
+        "And tho' this world, with devils filled,\nShould threaten to undo us;\nWe will not fear, for God hath willed\nHis truth to triumph through us.\nThe prince of darkness grim,\nWe tremble not for him;\nHis rage we can endure,\nFor lo! his doom is sure,\nOne little word shall fell him.",
+        "That word above all earthly powers,\nNo thanks to them, abideth;\nThe Spirit and the gifts are ours\nThro' him who with us sideth;\nLet goods and kindred go,\nThis mortal life also;\nThe body they may kill:\nGod's truth abideth still,\nHis kingdom is forever."
+      ],
+      "lyricsSource": {
+        "label": "Wikisource – The Army and Navy Hymnal (1920), F. H. Hedge 번역",
+        "url": "https://en.wikisource.org/wiki/The_Army_and_Navy_Hymnal/Hymns/A_Mighty_Fortress_is_Our_God"
+      },
+      "hymnary": "https://hymnary.org/text/a_mighty_fortress_is_our_god_a_bulwark"
     },
     {
       "n": 587,
@@ -1948,7 +2036,8 @@
       "tags": [
         "추수감사",
         "감사"
-      ]
+      ],
+      "hymnary": "https://hymnary.org/text/come_ye_thankful_people_come"
     },
     {
       "n": 606,
