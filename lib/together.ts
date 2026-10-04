@@ -32,6 +32,10 @@ export type Work = {
   source: { real: string[]; middle?: string[]; adapted: string[] };
   /** 실화/각색 박스 칸 제목을 바꿀 때 (예: 성경 / 외경 / 영화 창작) */
   sourceLabels?: { real?: string; middle?: string; adapted?: string };
+  /** 출처 박스 제목을 바꿀 때 (없으면 기본 문구) */
+  sourceHeading?: string;
+  /** 페이지 문구에 쓰는 매체 이름 ("영화에 나온 사실" 등). 없으면 "영화" */
+  medium?: string;
   people: { name: string; actor?: string; real?: string; role: string }[];
   points: string[];
   chosen: { text: string; href?: string; label?: string }[];
@@ -58,6 +62,11 @@ export function getWork(slug: string) {
 
 export function workPath(w: Work) {
   return `${TOGETHER_PATH}/${w.slug}`;
+}
+
+/** 페이지 문구용 매체 이름: 영화 / 드라마 등 */
+export function mediumOf(w: Pick<Work, "medium">): string {
+  return w.medium || "영화";
 }
 
 export const STATUS_LABEL: Record<FactStatus, { text: string; cls: string }> = {
