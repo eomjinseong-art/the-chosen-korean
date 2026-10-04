@@ -8,7 +8,7 @@ import { AvoirAd } from "@/components/AvoirAd";
 import { stripMd, type Verse } from "@/lib/guide";
 import { absoluteUrl, clip, pageMeta } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
-import { getWork, getWorks, STATUS_LABEL, TOGETHER_PATH, workPath, type Work } from "@/lib/together";
+import { getWork, getWorks, STATUS_LABEL, TOGETHER_PATH, mediumOf, workPath, type Work } from "@/lib/together";
 
 export const dynamicParams = false;
 
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!w) return {};
   return pageMeta({
     title: `「${w.titleKo}」(${w.titleEn}, ${w.year}) 줄거리·실화·역사적 사실 정리`,
-    description: `${w.kind} 「${w.titleKo}」(${w.titleEn}) 줄거리, 실화와 영화 각색 구분, 주요 인물, 영화에 나온 역사·학술 근거, 더 초즌과의 연결점. ${stripMd(w.tagline)}`,
+    description: `${w.kind} 「${w.titleKo}」(${w.titleEn}) 줄거리, 실화와 ${mediumOf(w)} 각색 구분, 주요 인물, ${mediumOf(w)}에 나온 역사·학술 근거, 더 초즌과의 연결점. ${stripMd(w.tagline)}`,
     path: workPath(w),
     type: "article",
   });
@@ -54,6 +54,7 @@ function Ext({ href, children }: { href: string; children: React.ReactNode }) {
 export default async function WorkPage({ params }: { params: Promise<{ slug: string }> }) {
   const w = getWork((await params).slug);
   if (!w) notFound();
+  const m = mediumOf(w);
   const path = workPath(w);
   const url = absoluteUrl(path);
   const others = getWorks().filter((x) => x.slug !== w.slug);
@@ -64,7 +65,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
         data={[
           {
             "@context": "https://schema.org",
-            "@type": w.kind === "영화" ? "Movie" : "CreativeWork",
+            "@type": w.kind === "영화" ? "Movie" : w.kind.includes("시리즈") ? "TVSeries" : "CreativeWork",
             name: w.titleEn,
             alternateName: w.titleKo,
             dateCreated: String(w.year),
@@ -105,7 +106,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
         {w.facts?.length ? (
           <p>
             <a href="#facts" className="btn btn-primary">
-              📚 영화에 나온 사실 자세히 보기 ↓
+              📚 {m}에 나온 사실 자세히 보기 ↓
             </a>
           </p>
         ) : null}
@@ -151,11 +152,11 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
         {w.plot.map((p, i) => (
           <TMd key={i} as="p" className="plot" text={p} />
         ))}
-        <p className="muted small">스포일러가 포함돼 있습니다. 영화 대사는 옮기지 않고 내용을 요약했습니다.</p>
+        <p className="muted small">스포일러가 포함돼 있습니다. {m} 대사는 옮기지 않고 내용을 요약했습니다.</p>
       </section>
 
       <section className="source-box" aria-labelledby="src-h">
-        <h2 id="src-h">{w.source.middle?.length ? "성경일까, 외경일까, 영화 창작일까?" : "실화일까, 영화 각색일까?"}</h2>
+        <h2 id="src-h">{w.sourceHeading || (w.source.middle?.length ? `성경일까, 외경일까, ${m} 창작일까?` : `실화일까, ${m} 각색일까?`)}</h2>
         <div className="src-grid">
           <div className="src src-bible">
             <div className="src-label">{w.sourceLabels?.real || "📖 실화·기록에 있는 부분"}</div>
@@ -176,7 +177,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
             </div>
           ) : null}
           <div className="src src-drama">
-            <div className="src-label">{w.sourceLabels?.adapted || "🎬 영화가 바꾸거나 덧붙인 부분"}</div>
+            <div className="src-label">{w.sourceLabels?.adapted || `🎬 ${m}가 바꾸거나 덧붙인 부분`}</div>
             <ul>
               {w.source.adapted.map((t, i) => (
                 <TMd key={i} as="li" text={t} />
@@ -195,7 +196,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
                 <th>인물</th>
                 <th>배우</th>
                 <th>실제 인물인가</th>
-                <th>영화에서</th>
+                <th>{m}에서</th>
               </tr>
             </thead>
             <tbody>
@@ -229,7 +230,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
 
       {w.facts?.length ? (
         <section id="facts" className="facts">
-          <h2>📚 영화에 나온 사실(팩트) 자세히 보기</h2>
+          <h2>📚 {m}에 나온 사실(팩트) 자세히 보기</h2>
           {w.factsIntro ? <TMd as="p" className="facts-intro" text={w.factsIntro} /> : null}
           <ol className="facts-toc">
             {w.facts.map((f) => (
@@ -270,7 +271,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
                 </div>
               ) : null}
               <div className="fact-block fb-film">
-                <h4>🎬 영화에서는 어떻게 나오나</h4>
+                <h4>🎬 {m}에서는 어떻게 나오나</h4>
                 <TMd as="p" text={f.film} />
               </div>
               <div className="fact-block fb-evidence">
@@ -348,7 +349,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
           ))}
         </ul>
         <p className="muted small">
-          {w.checked} 확인. &lsquo;영화에 나온 사실 자세히 보기&rsquo;의 항목별 출처는 각 항목의 &lsquo;더 공부할 자료&rsquo;에 있습니다. 포스터·스틸 이미지는 저작권 때문에 싣지 않습니다.
+          {w.checked} 확인. &lsquo;{m}에 나온 사실 자세히 보기&rsquo;의 항목별 출처는 각 항목의 &lsquo;더 공부할 자료&rsquo;에 있습니다. 포스터·스틸 이미지는 저작권 때문에 싣지 않습니다.
         </p>
       </section>
 
