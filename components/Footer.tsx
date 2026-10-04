@@ -24,6 +24,7 @@ export function Footer() {
           <Link href="/making">제작 이야기</Link>
           <Link href="/map">촬영지 지도</Link>
           <Link href="/together">같이 보면 좋은 콘텐츠</Link>
+          <Link href="/hymns">사랑받는 찬송가 100</Link>
           <Link href="/search">검색</Link>
         </nav>
         <div className="disclaimer">

@@ -4,10 +4,11 @@ import { SearchClient, type SearchItem } from "@/components/SearchClient";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { pageMeta } from "@/lib/seo";
 import { getWorks, workPath } from "@/lib/together";
+import { enTitle, getHymns, hymnPath } from "@/lib/hymns";
 
 export const metadata = pageMeta({
-  title: "검색 — 에피소드·인물·성경 구절",
-  description: "더 초즌 한국어 가이드 검색. 에피소드 줄거리, 등장인물, 성경 구절을 한 번에 찾아보세요.",
+  title: "검색 — 에피소드·인물·성경 구절·찬송가",
+  description: "더 초즌 한국어 가이드 검색. 에피소드 줄거리, 등장인물, 성경 구절, 찬송가를 한 번에 찾아보세요.",
   path: "/search",
 });
 
@@ -43,6 +44,13 @@ export default function SearchPage() {
       sub: `${w.titleEn} · ${w.kind} ${w.year}`,
       text: stripMd([w.tagline, ...w.plot, ...w.people.map((p) => `${p.name} ${p.actor || ""}`), ...(w.facts || []).map((f) => f.title)].join(" ")),
       href: workPath(w),
+    })),
+    ...getHymns().map((h) => ({
+      type: "찬송가" as const,
+      title: `🎵 ${h.n}장 ${h.title}`,
+      sub: h.en ? enTitle(h) : h.origin,
+      text: [h.n, `${h.n}장`, h.title, h.en || "", h.text, h.music, h.story, ...h.tags, ...h.refs].join(" "),
+      href: hymnPath(h),
     })),
   ];
   return (
