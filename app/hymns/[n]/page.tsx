@@ -184,8 +184,8 @@ export default async function HymnPage({ params }: { params: Promise<{ n: string
         <section id="lyrics">
           <h2>🇬🇧 영어 원문 가사 (공개 영역)</h2>
           <p className="muted small">
-            원작자가 세상을 떠난 지 70년이 넘은, 공개 영역(Public Domain) 영어 원문입니다. 널리 불리는 형태로 적었으며 찬송가마다 절 구성과 표현이 조금씩
-            다를 수 있습니다. 한국어 가사는 저작권 때문에 싣지 않습니다.
+            원작자가 세상을 떠난 지 70년이 넘은, 공개 영역(Public Domain) 영어 원문입니다. 아래 출처의 본문을 그대로 옮겼고(음악상 되풀이하는 구절과
+            &lsquo;Amen&rsquo;은 생략), 찬송가마다 절 구성과 표현이 조금씩 다를 수 있습니다. 한국어 가사는 저작권 때문에 싣지 않습니다.
           </p>
           <div className="lyrics-en" lang="en">
             {h.lyricsEn.map((s, k) => (
@@ -199,6 +199,11 @@ export default async function HymnPage({ params }: { params: Promise<{ n: string
               </p>
             ))}
           </div>
+          {h.lyricsSource ? (
+            <p className="muted small">
+              영어 원문 출처: <Ext href={h.lyricsSource.url}>{h.lyricsSource.label}</Ext>
+            </p>
+          ) : null}
         </section>
       ) : (
         <p className="note-box">
@@ -221,7 +226,14 @@ export default async function HymnPage({ params }: { params: Promise<{ n: string
         <ul className="plain-list">
           {h.en ? (
             <li>
-              <Ext href={hymnarySearchUrl(h)}>Hymnary.org – “{enTitle(h)}” 작사·작곡·곡조 정보</Ext>
+              <Ext href={hymnarySearchUrl(h)}>
+                Hymnary.org – “{enTitle(h)}” {h.hymnary ? "곡 정보(작사·작곡·곡조)" : "검색 결과(작사·작곡·곡조 정보)"}
+              </Ext>
+            </li>
+          ) : null}
+          {h.lyricsSource ? (
+            <li>
+              <Ext href={h.lyricsSource.url}>{h.lyricsSource.label} – 영어 원문</Ext>
             </li>
           ) : null}
           <li>
