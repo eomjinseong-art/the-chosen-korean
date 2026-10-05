@@ -65,7 +65,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
         data={[
           {
             "@context": "https://schema.org",
-            "@type": w.kind === "영화" ? "Movie" : w.kind.includes("시리즈") ? "TVSeries" : "CreativeWork",
+            "@type": w.kind.includes("영화") ? "Movie" : w.kind.includes("시리즈") ? "TVSeries" : "CreativeWork",
             name: w.titleEn,
             alternateName: w.titleKo,
             dateCreated: String(w.year),
@@ -282,14 +282,16 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
                   ))}
                 </ul>
               </div>
-              <div className="fact-block fb-debate">
-                <h4>⚖️ 학계에서 의견이 갈리는 부분</h4>
-                <ul>
-                  {f.debate.map((t, i) => (
-                    <TMd key={i} as="li" text={t} />
-                  ))}
-                </ul>
-              </div>
+              {f.debate.length ? (
+                <div className="fact-block fb-debate">
+                  <h4>⚖️ 학계에서 의견이 갈리는 부분</h4>
+                  <ul>
+                    {f.debate.map((t, i) => (
+                      <TMd key={i} as="li" text={t} />
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
               <div className="fact-block fb-study">
                 <h4>📖 더 공부할 자료</h4>
                 <ul>
@@ -336,6 +338,22 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
               </div>
             ))}
           </div>
+        </section>
+      ) : null}
+
+      {w.related?.length ? (
+        <section id="related">
+          <h2>🔗 관련 페이지</h2>
+          <ul className="chosen-links">
+            {w.related.map((r) => (
+              <li key={r.href}>
+                {r.text ? <TMd text={r.text} /> : null}{" "}
+                <Link href={r.href} className="chip">
+                  {r.label} →
+                </Link>
+              </li>
+            ))}
+          </ul>
         </section>
       ) : null}
 
