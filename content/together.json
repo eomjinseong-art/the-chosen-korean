@@ -1895,6 +1895,11 @@
           "label": "「십계」",
           "href": "/together/the-ten-commandments-1956",
           "text": "1956년 세실 B. 데밀 감독 영화."
+        },
+        {
+          "label": "「노아」",
+          "href": "/together/noah-2014",
+          "text": "2014년 대런 애러노프스키 감독의 창세기 대홍수 영화."
         }
       ]
     },
@@ -2788,6 +2793,404 @@
         {
           "label": "위키백과 〈Ramesses II〉(영문)",
           "url": "https://en.wikipedia.org/wiki/Ramesses_II"
+        }
+      ],
+      "checked": "2026년 10월 5일"
+    },
+    {
+      "slug": "noah-2014",
+      "titleKo": "노아",
+      "titleEn": "Noah",
+      "year": 2014,
+      "kind": "영화",
+      "runtime": "138분(국내 표기 139분)",
+      "rating": "15세 이상",
+      "tagline": "대런 애러노프스키 감독, 러셀 크로우 주연. 창세기 대홍수·방주 이야기를 바탕으로 하되, 외경 「에녹서」의 감시자(타락 천사)와 감독의 각색이 크게 섞인 블록버스터입니다.",
+      "sourceHeading": "창세기 그대로일까, 외경·영화 각색일까?",
+      "sourceLabels": {
+        "real": "📖 창세기(성경)에 있는 부분",
+        "middle": "📜 외경·유대교 전승(에녹서, 미드라시)",
+        "adapted": "🎬 영화 창작·각색"
+      },
+      "info": [
+        {
+          "label": "원제",
+          "value": "Noah (2014, 미국). 한국어 개봉 제목은 「노아」입니다. 대런 애러노프스키 감독의 이 작품을 가리키며, 다른 동명 작품과 구분합니다."
+        },
+        {
+          "label": "감독",
+          "value": "대런 애러노프스키(Darren Aronofsky). 각본은 애러노프스키와 아리 핸델(Ari Handel)"
+        },
+        {
+          "label": "주연",
+          "value": "러셀 크로우(노아), 제니퍼 코널리(나메), 레이 윈스턴(두발가인), 엠마 왓슨(일라), 로건 러먼(함), 더글러스 부스(셈), 앤서니 홉킨스(므두셀라)"
+        },
+        {
+          "label": "공개",
+          "value": "한국 2014년 3월 20일 세계 최초 개봉, 미국 3월 28일 개봉(씨네21·한국어 위키백과). 파라마운트 픽처스 배급."
+        },
+        {
+          "label": "제작",
+          "value": "리젠시 엔터프라이즈·프로토조아 픽처스. 음악 클린트 맨셀. 제작비 약 1억 2,500만~1억 6,000만 달러, 전 세계 흥행 약 3억 5,900만 달러(영문 위키백과)."
+        },
+        {
+          "label": "평가",
+          "value": "연출·연기는 호평을 받았지만, 성경 밖 자료와 환경주의적 메시지로 종교계 반응이 갈렸습니다. 바레인·쿠웨이트·카타르·사우디·UAE·말레이시아·인도네시아 등에서는 이슬람 교리와 맞지 않는다는 이유로 상영이 금지됐습니다."
+        },
+        {
+          "label": "어디서 보나",
+          "value": "파라마운트가 배급한 극장 영화입니다. **일부 지역 넷플릭스에서 제공된 적이 있으며**, 한국에서는 2026년 2월 무렵 넷플릭스 '오늘의 톱 10 영화'에 올랐다는 보도가 있습니다(위키트리). 제공 여부는 시기와 국가에 따라 바뀌므로 넷플릭스 앱에서 확인하세요. 아래는 공식 예고편 검색 링크입니다."
+        }
+      ],
+      "watch": {
+        "label": "유튜브에서 공식 예고편 찾기",
+        "url": "https://www.youtube.com/results?search_query=Noah+2014+Aronofsky+official+trailer"
+      },
+      "plot": [
+        "어린 노아는 아버지 라멕이 땅 때문에 **두발가인**에게 살해당하는 것을 봅니다. 어른이 된 노아는 아내 나메, 아들 셈·함·야벳과 함께 살다가 대홍수 환상을 보고, 할아버지 **므두셀라**를 찾아 길을 떠납니다.",
+        "도중에 학살 현장에서 살아남은 소녀 **일라**를 거둡니다. 일라는 배에 상처를 입어 아이를 낳지 못한다고 나메가 판단합니다. 일행은 추격자들을 피해 **감시자(워처)**—에덴에서 쫓겨난 아담과 하와를 돕다 돌로 굳은 타락 천사들—의 땅으로 들어갑니다.",
+        "므두셀라가 준 에덴의 씨앗을 심자 숲이 솟아나고, 감시자들이 방주 짓기를 돕습니다. 새와 짐승이 방주로 모여들자 두발가인이 군대를 모아 방주를 빼앗으려 합니다. 비가 내리기 시작하자 감시자들은 희생하며 하늘로 돌아가고, 두발가인은 몰래 방주에 탑니다.",
+        "노아는 난민 진영의 타락을 본 뒤 아들들의 아내를 데려오지 않기로 합니다. 함이 숲에서 만난 소녀 나엘은 물에 휩쓸려 죽고, 함이 노아를 원망합니다. 일라가 임신하자 노아는 인류가 다시 타락하지 않도록 **여자아이가 태어나면 죽이겠다**고 선언합니다. 일라는 쌍둥이 딸을 낳고, 노아는 손녀들을 보고 차마 손대지 못합니다. 두발가인은 함의 도움으로 싸움을 걸었다가 함에게 죽습니다.",
+        "물이 빠진 뒤 노아는 자신이 실패했다고 여겨 동굴에서 포도주로 취합니다. 함은 떠난 뒤, 남은 가족과 화해한 노아는 자손에게 세상을 돌보라고 맡기고, 무지개가 하늘을 채웁니다."
+      ],
+      "source": {
+        "real": [
+          "하나님이 세상의 폭력과 타락을 보고 홍수로 멸하려 하시되, 의인 노아와 그 가족을 방주로 구하심(창세기 6:5-22, 7:1)",
+          "노아의 세 아들 셈·함·야벳, 아내와 함께 방주에 들어감(창세기 6:10, 7:7, 7:13)",
+          "짐승이 방주로 들어옴, 사십 일 비, 산꼭대기를 덮는 물(창세기 7장)",
+          "방주가 아라랏 산에 머무름, 물이 마른 뒤 제단과 언약, **무지개**가 표징이 됨(창세기 8~9장)",
+          "노아가 포도주를 마시고 취해 벌거벗은 채 누워 있음, 함이 이를 보고 형제들에게 알림(창세기 9:20-27)",
+          "족보: 므두셀라 → 라멕 → 노아(창세기 5:25-32). 두발가인은 가인의 후손으로 놋쇠와 쇠를 다루는 사람(창세기 4:22)"
+        ],
+        "middle": [
+          "**감시자(워처)와 네피림.** 창세기 6:1-4의 '하나님의 아들들'과 '네피림'을, 유대교 제2성전 시대 문헌 「에녹 1서」는 하늘에서 내려온 타락 천사(감시자)와 그 후손으로 풀어 씁니다. 영화는 이 전승을 돌로 된 여섯 팔 천사로 시각화했습니다.",
+          "감독 애러노프스키는 노아와 하나님의 관계를 채우기 위해 **유대교 미드라시 전통** 안에서 작업했다고 밝혔습니다(영문 위키백과).",
+          "**노아의 아내 이름.** 성경은 노아의 아내 이름을 밝히지 않습니다. 랍비 전승(「창세기 랍바」 등)은 가인의 후손 나아마(창세기 4:22)를 노아의 아내로 보는 해석이 있고, 영화의 '나메(Naameh)'는 이 이름에서 왔습니다.",
+          "요세푸스는 두발가인을 힘이 세고 전쟁을 잘하며 놋쇠를 다룬 사람으로 소개합니다. 영화의 전사 왕 이미지는 이런 전승과 맞닿아 있습니다."
+        ],
+        "adapted": [
+          "**일라.** 성경에 없는 인물입니다. 노아 가족이 거둔 고아로, 므두셀라가 불임을 고친 뒤 셈의 아내가 되어 쌍둥이 딸을 낳습니다.",
+          "**노아가 손녀를 죽이려는 결심.** 창세기 노아는 하나님이 정하신 대로 가족을 구하지만, 영화의 노아는 '인류가 다시 타락하지 않도록 인간을 끊어야 한다'고 스스로 해석해 갈등합니다.",
+          "**두발가인이 방주에 숨어 들어감**, 함이 나엘을 잃고 아버지를 원망하다 두발가인을 죽이는 줄거리는 모두 영화 창작입니다. 성경에서 두발가인은 족보에 이름만 나옵니다.",
+          "**감시자가 방주를 짓고 전투하다 하늘로 돌아감.** 「에녹서」에도 감시자 이야기는 있지만, 돌 거인으로 방주를 돕고 희생하는 장면은 영화의 시각적 각색입니다.",
+          "**하나님을 '창조주(the Creator)'로만 부름.** 영화 대사에 야훼·하나님이라는 이름은 거의(또는 전혀) 나오지 않습니다. 일부 기독교인이 이를 문제 삼았습니다.",
+          "**환경·채식 메시지.** 영화는 땅을 망가뜨린 가인 계열과 자연을 지키는 노아 계열의 대립을 강조합니다. 성경 홍수 이야기의 중심은 죄와 심판·구원이지만, 영화는 생태적 우화도 강하게 입혔다는 평가를 받았습니다.",
+          "성경에서 노아는 600세에 홍수를 겪고(창세기 7:6), 방주에 탄 사람은 여덟 명입니다(베드로전서 3:20). 영화는 나이를 압축하고 일라를 더합니다."
+        ]
+      },
+      "people": [
+        {
+          "name": "노아",
+          "actor": "러셀 크로우(어린 시절 다코타 고요)",
+          "real": "성경 인물",
+          "role": "환상을 받고 방주를 짓는 가장"
+        },
+        {
+          "name": "나메",
+          "actor": "제니퍼 코널리",
+          "real": "성경은 이름 없음. 유대교 전승의 나아마에서 온 이름",
+          "role": "노아의 아내"
+        },
+        {
+          "name": "일라",
+          "actor": "엠마 왓슨",
+          "real": "영화 창작 인물",
+          "role": "노아 가족이 거둔 소녀, 셈의 아내"
+        },
+        {
+          "name": "함",
+          "actor": "로건 러먼",
+          "real": "성경 인물",
+          "role": "둘째 아들. 아버지와 갈등을 빚음"
+        },
+        {
+          "name": "셈",
+          "actor": "더글러스 부스",
+          "real": "성경 인물",
+          "role": "맏아들, 일라의 남편"
+        },
+        {
+          "name": "야벳",
+          "actor": "리오 맥휴 캐롤",
+          "real": "성경 인물",
+          "role": "막내 아들"
+        },
+        {
+          "name": "두발가인",
+          "actor": "레이 윈스턴",
+          "real": "성경 인물(창세기 4:22, 이름·직업만). 영화의 악역은 각색",
+          "role": "가인의 후손 왕, 노아의 맞수"
+        },
+        {
+          "name": "므두셀라",
+          "actor": "앤서니 홉킨스",
+          "real": "성경 인물(창세기 5장)",
+          "role": "노아의 할아버지"
+        },
+        {
+          "name": "라멕",
+          "actor": "마튼 초카스",
+          "real": "성경 인물(노아의 아버지)",
+          "role": "영화 초반에 두발가인에게 살해당함"
+        },
+        {
+          "name": "나엘",
+          "actor": "매디슨 대번포트",
+          "real": "영화 창작 인물",
+          "role": "함이 사랑한 난민 소녀"
+        },
+        {
+          "name": "오그·샘야자 등 감시자",
+          "actor": "목소리: 프랭크 란젤라, 닉 놀티 등",
+          "real": "「에녹서」 전승의 타락 천사 이름. 돌 거인 모습은 영화",
+          "role": "방주 짓기를 돕는 돌로 된 천사들"
+        }
+      ],
+      "points": [
+        "**창세기 6~9장의 뼈대는 있습니다.** 타락한 세상, 선택된 노아, 방주와 홍수, 무지개 언약, 취해서 벌거벗은 노아까지 이어집니다. 바뀐 것은 인물 관계와 '노아가 하나님 뜻을 어떻게 해석하는가'입니다.",
+        "돌로 된 감시자·불임이 나은 일라·손녀를 죽이려는 결심은 성경에 없습니다. 외경 「에녹서」와 미드라시, 감독의 각색이 섞여 있으니 위의 세 칸을 먼저 보고 보면 헷갈리지 않습니다.",
+        "애러노프스키는 무신론자로 알려져 있고, 영화는 신앙 고백보다 **심판·자비·인간의 폭력·자연 파괴**를 탐구하는 쪽에 가깝습니다. 기독교·유대교 반응은 갈렸습니다(지지하는 목회자·랍비도, 반대한 창조론자도 있었습니다).",
+        "폭력·재난 장면이 강하고 국내 등급은 15세 이상입니다."
+      ],
+      "chosen": [
+        {
+          "text": "**새 언약.** 창세기 9장의 무지개 언약은 하나님이 다시는 물로 모든 생물을 멸하지 않겠다고 약속하신 표입니다. 더 초즌 시즌 5의 유월절 만찬에서 예수는 자신의 피로 '새 언약'을 세웁니다.",
+          "href": "/s5/e6",
+          "label": "시즌 5 6화"
+        },
+        {
+          "text": "**성경을 각색하는 이야기.** 「마리아」「테스터먼트: 모세 이야기」처럼, 이 사이트는 성경·전승·영화 창작을 나눠 적습니다. 노아 영화도 같은 방식으로 보면 좋습니다.",
+          "href": "/together/mary-2024",
+          "label": "「마리아」 페이지"
+        },
+        {
+          "text": "**출애굽 이야기 영화들.** 홍수 다음으로 성경 대서사를 다룬 「이집트 왕자」「십계」와도 나란히 볼 수 있습니다.",
+          "href": "/together/prince-of-egypt",
+          "label": "「이집트 왕자」"
+        }
+      ],
+      "verses": [
+        {
+          "ref": "창세기 6:5-8",
+          "refEn": "Genesis 6:5-8",
+          "en": "And GOD saw that the wickedness of man was great in the earth, and that every imagination of the thoughts of his heart was only evil continually. And it repented the LORD that he had made man on the earth, and it grieved him at his heart. And the LORD said, I will destroy man whom I have created from the face of the earth; both man, and beast, and the creeping thing, and the fowls of the air; for it repenteth me that I have made them. But Noah found grace in the eyes of the LORD.",
+          "ko": "여호와께서 사람의 죄악이 땅에 가득하고, 마음의 생각의 모든 계획이 항상 악할 뿐임을 보시고, 땅 위에 사람 지으셨음을 한탄하사 마음에 근심하시고 말씀하셨다. 내가 창조한 사람을 지면에서 쓸어버리되, 사람부터 짐승과 기는 것과 공중의 새까지 그리하리니, 내가 그들을 지었음을 한탄함이니라. 그러나 노아는 여호와께 은혜를 입었다.",
+          "note": "영화 시놉시스에 자주 인용되는 대홍수 이전 본문."
+        },
+        {
+          "ref": "창세기 6:9",
+          "refEn": "Genesis 6:9",
+          "en": "These are the generations of Noah: Noah was a just man and perfect in his generations, and Noah walked with God.",
+          "ko": "노아의 족보는 이러하다. 노아는 의인이요 당대에 완전한 자라. 그가 하나님과 동행하였다.",
+          "note": "성경이 노아를 소개하는 핵심 구절. 영화의 노아는 이 '의인'이 흔들리는 모습을 크게 그립니다."
+        },
+        {
+          "ref": "창세기 6:1-4",
+          "refEn": "Genesis 6:1-4",
+          "en": "And it came to pass, when men began to multiply on the face of the earth, and daughters were born unto them, That the sons of God saw the daughters of men that they were fair; and they took them wives of all which they chose. And the LORD said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years. There were giants in the earth in those days; and also after that, when the sons of God came in unto the daughters of men, and they bare children to them, the same became mighty men which were of old, men of renown.",
+          "ko": "사람이 땅 위에 번성하기 시작하고 딸들이 그들에게서 나자, 하나님의 아들들이 사람의 딸들의 아름다움을 보고 자기들이 좋아하는 모든 자로 아내를 삼았다. ... 그 때에 땅에 네피림이 있었고, 그 후에도 하나님의 아들들이 사람의 딸들에게로 들어와 자식을 낳았으니, 그들이 용사라 고대에 유명한 사람들이었더라.",
+          "note": "영화 감시자·네피림의 성경 쪽 출발점. 해석은 학파마다 갈립니다(아래 사실 항목)."
+        },
+        {
+          "ref": "창세기 9:12-13",
+          "refEn": "Genesis 9:12-13",
+          "en": "And God said, This is the token of the covenant which I make between me and you and every living creature that is with you, for perpetual generations: I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth.",
+          "ko": "하나님이 말씀하셨다. 나와 너희와 함께 있는 모든 생물 사이에 대대로 내가 세우는 언약의 증거는 이것이니, 내가 내 무지개를 구름 속에 두었나니 이것이 나와 땅 사이의 언약의 증거니라.",
+          "note": "영화 마지막 장면의 무지개."
+        },
+        {
+          "ref": "창세기 9:20-21",
+          "refEn": "Genesis 9:20-21",
+          "en": "And Noah began to be an husbandman, and he planted a vineyard: And he drank of the wine, and was drunken; and he was uncovered within his tent.",
+          "ko": "노아가 농사를 시작하여 포도나무를 심었더니, 포도주를 마시고 취하여 장막 안에서 벌거벗었더라.",
+          "note": "영화 후반, 노아가 동굴에서 취하는 장면의 성경 근거."
+        },
+        {
+          "ref": "마태복음 24:37-39",
+          "refEn": "Matthew 24:37-39",
+          "en": "But as the days of Noe were, so shall also the coming of the Son of man be. For as in the days that were before the flood they were eating and drinking, marrying and giving in marriage, until the day that Noe entered into the ark, And knew not until the flood came, and took them all away; so shall also the coming of the Son of man be.",
+          "ko": "노아의 때와 같이 인자의 임함도 그러하리라. 홍수 전에 사람들이 먹고 마시고 장가들고 시집가고 있었더니, 노아가 방주에 들어가던 날까지 홍수가 나서 그들을 다 멸하기까지 알지 못하였으니, 인자의 임함도 이와 같으리라.",
+          "note": "예수가 노아의 날을 인용한 신약 구절."
+        }
+      ],
+      "verseNote": "이 구절들은 영화 대사가 아니라, 영화가 다루는 장면의 성경 본문을 이 사이트가 골라 붙인 것입니다. 영어는 공개 영역인 KJV, 한글은 이 사이트가 직접 옮긴 쉬운 번역입니다.",
+      "factsIntro": "영화 장면 뒤에 있는 창세기 본문, 외경 「에녹서」, 역사·과학 연구를 주제별로 정리했습니다. 문장 앞 표시는 [합의], [논쟁], [믿음]입니다. 각 문장 끝 괄호 안 링크가 출처입니다. 대홍수의 역사성은 학계에서 크게 갈리므로, 이 사이트는 어느 한쪽 편을 들지 않고 주요 견해를 나란히 소개합니다.",
+      "facts": [
+        {
+          "id": "sources-of-story",
+          "title": "이 이야기의 재료: 창세기, 에녹서, 영화",
+          "status": "mixed",
+          "film": "제작자 스콧 프랭클린은 '노아는 성경에서 아주 짧은 부분이라 빈자리가 많아 창작이 필요했지만, 여섯 팔 천사를 빼면 성경에서 크게 벗어나지 않았다'고 했습니다. 반면 많은 관객·평론가는 에녹서와 영화 창작 비중이 크다고 보았습니다.",
+          "evidence": [
+            "[합의] 창세기의 홍수 이야기는 6~9장에 있으며, 노아가 방주를 짓고 가족과 짐승이 구원받고 무지개 언약이 세워지는 큰 줄기가 나옵니다. ([위키백과 Genesis flood narrative](https://en.wikipedia.org/wiki/Genesis_flood_narrative))",
+            "[합의] 영화는 「에녹서」(Book of Enoch)에서 영감을 받았다고 영문 위키백과가 정리하며, 에녹서는 감시자의 타락과 홍수 전 세상을 길게 다룹니다. ([위키백과 Noah (2014 film)](https://en.wikipedia.org/wiki/Noah_%282014_film%29), [위키백과 Book of Enoch](https://en.wikipedia.org/wiki/Book_of_Enoch))",
+            "[합의] 애러노프스키는 노아와 하나님의 관계를 풀어 쓰기 위해 유대교 미드라시 전통 안에서 작업했다고 밝혔습니다. ([위키백과 Noah (2014 film)](https://en.wikipedia.org/wiki/Noah_%282014_film%29))",
+            "[합의] 일부 기독교·유대교 지도자(포커스 온 더 패밀리의 짐 데일리, 랍비 슈물리 보티치 등)는 영화를 대화의 출발점으로 긍정했고, 젊은지구 창조론자 켄 햄·레이 컴포트 등은 반대했습니다. ([위키백과 Noah (2014 film)](https://en.wikipedia.org/wiki/Noah_%282014_film%29))"
+          ],
+          "debate": [
+            "[논쟁] '성경에 충실한가'를 두고 평가가 갈립니다. 제작진은 큰 줄기를 지켰다고 보고, 비판하는 쪽은 감시자·일라·손녀 살해 결심 등 추가 요소가 본문을 가린다고 봅니다. ([위키백과 Noah (2014 film)](https://en.wikipedia.org/wiki/Noah_%282014_film%29))",
+            "[믿음] 홍수를 하나님의 심판과 구원의 역사로 받아들이는 것은 신앙의 고백입니다. 영화가 그 고백을 얼마나 전달하는지는 관객마다 다르게 느낍니다. ([위키백과 Genesis flood narrative](https://en.wikipedia.org/wiki/Genesis_flood_narrative))"
+          ],
+          "study": [
+            {
+              "label": "위키백과 〈Noah (2014 film)〉(영문)",
+              "url": "https://en.wikipedia.org/wiki/Noah_%282014_film%29"
+            },
+            {
+              "label": "위키백과 〈Genesis flood narrative〉(영문)",
+              "url": "https://en.wikipedia.org/wiki/Genesis_flood_narrative"
+            },
+            {
+              "label": "위키백과 〈Book of Enoch〉(영문)",
+              "url": "https://en.wikipedia.org/wiki/Book_of_Enoch"
+            },
+            {
+              "label": "씨네21 〈노아〉 상세정보",
+              "url": "https://cine21.com/movie/info/?movie_id=40335"
+            }
+          ]
+        },
+        {
+          "id": "watchers-nephilim",
+          "title": "감시자(워처)와 네피림",
+          "status": "debated",
+          "film": "돌로 된 여섯 팔 거인 '감시자'가 방주를 돕고 전투하다 하늘로 돌아갑니다. 목소리 배역으로 샘야자·마곡·라밀 등 「에녹서」 쪽 이름이 쓰입니다.",
+          "evidence": [
+            "[합의] 창세기 6:1-4는 '하나님의 아들들'이 사람의 딸들과 결혼해 자식을 낳았고, 그 시대에 네피림이 있었다고 짧게 적습니다. 본문은 이들이 누구인지 더 설명하지 않습니다. ([위키백과 Nephilim](https://en.wikipedia.org/wiki/Nephilim))",
+            "[합의] 「에녹 1서」 『감시자들의 책』은 감시자들이 하늘에서 내려와 인간과 결혼하고 금지된 지식을 가르쳐 세상을 타락시켰다고 길게 서술합니다. 에티오피아 정경 등 일부 전통에만 정경으로 남아 있습니다. ([위키백과 Book of Enoch](https://en.wikipedia.org/wiki/Book_of_Enoch), [위키백과 Watcher (angel)](https://en.wikipedia.org/wiki/Watcher_%28angel%29))",
+            "[합의] '워처(감시자)'라는 말은 다니엘서 4장에도 '거룩한 순찰자'로 나오며, 여기서는 타락한 존재가 아닙니다. ([위키백과 Watcher (angel)](https://en.wikipedia.org/wiki/Watcher_%28angel%29))"
+          ],
+          "debate": [
+            "[논쟁] '하나님의 아들들'을 타락 천사로 보는 견해(에녹서·일부 초대 교회), 셋의 경건한 후손으로 보는 견해, 왕이나 귀족으로 보는 견해가 있습니다. ([위키백과 Nephilim](https://en.wikipedia.org/wiki/Nephilim))",
+            "[논쟁] 네피림을 '거인'으로 번역하는 전통(칠십인역)이 있지만, 히브리어 어원과 정확한 의미는 학자들 사이에서도 불확실합니다. ([위키백과 Nephilim](https://en.wikipedia.org/wiki/Nephilim))",
+            "[합의] 영화의 돌 거인 디자인과 방주 전투는 에녹서에도 없는 시각적 창작입니다. ([위키백과 Noah (2014 film)](https://en.wikipedia.org/wiki/Noah_%282014_film%29))"
+          ],
+          "study": [
+            {
+              "label": "위키백과 〈Nephilim〉(영문)",
+              "url": "https://en.wikipedia.org/wiki/Nephilim"
+            },
+            {
+              "label": "위키백과 〈Watcher (angel)〉(영문)",
+              "url": "https://en.wikipedia.org/wiki/Watcher_%28angel%29"
+            },
+            {
+              "label": "위키백과 〈Book of Enoch〉(영문)",
+              "url": "https://en.wikipedia.org/wiki/Book_of_Enoch"
+            },
+            {
+              "label": "성경 본문: 창세기 6:1-4, 민수기 13:33, 다니엘 4:13-17",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "id": "flood-historicity",
+          "title": "대홍수는 역사적 사실인가",
+          "status": "debated",
+          "film": "영화는 전 지구적 홍수를 문자 그대로 재현하는 쪽에 가깝고, 물이 산을 덮는 장면을 스펙터클로 보여 줍니다.",
+          "evidence": [
+            "[합의] 창세기 홍수 이야기와 비슷한 대홍수 전승이 메소포타미아 문헌(길가메시 서사시 등)에도 있으며, 학계 다수는 창세기 이야기가 그런 고대 근동 전승과 연결되어 있다고 봅니다. ([위키백과 Genesis flood narrative](https://en.wikipedia.org/wiki/Genesis_flood_narrative))",
+            "[합의] 지질학·고고학·생물 분포 연구에 비추어, 창세기에 묘사된 것과 같은 **전 지구적** 홍수가 수천 년 전에 있었다는 증거는 학계 주류에서 받아들여지지 않습니다. ([위키백과 Genesis flood narrative](https://en.wikipedia.org/wiki/Genesis_flood_narrative))",
+            "[합의] '홍수 지질학'(flood geology)은 젊은지구 창조론 쪽에서 전 지구적 홍수를 과학으로 입증하려 하지만, 주류 과학에서는 사이비과학으로 분류합니다. ([위키백과 Genesis flood narrative](https://en.wikipedia.org/wiki/Genesis_flood_narrative))"
+          ],
+          "debate": [
+            "[논쟁] 일부 기독교인은 홍수를 **지역적 대홍수**(흑해, 페르시아만 등)의 기억으로 읽고, 다른 이들은 비유·신화로, 또 다른 이들은 전 지구적 역사로 읽습니다. ([위키백과 Genesis flood narrative](https://en.wikipedia.org/wiki/Genesis_flood_narrative))",
+            "[논쟁] 창세기 본문 안에도 홍수 기간(40일 / 150일), 짐승의 수(한 쌍 / 정결한 짐승 일곱 쌍)처럼 겹치거나 달라 보이는 구절이 있어, 학자들은 서로 다른 전승이 합쳐졌다고 보는 경우가 많습니다. ([위키백과 Genesis flood narrative](https://en.wikipedia.org/wiki/Genesis_flood_narrative))",
+            "[믿음] 홍수를 하나님의 심판과 구원의 사건으로 고백하는 것은 역사학·지질학이 판정할 수 없는 신앙의 영역입니다. ([위키백과 Genesis flood narrative](https://en.wikipedia.org/wiki/Genesis_flood_narrative))"
+          ],
+          "study": [
+            {
+              "label": "위키백과 〈Genesis flood narrative〉(영문)",
+              "url": "https://en.wikipedia.org/wiki/Genesis_flood_narrative"
+            },
+            {
+              "label": "위키백과 〈Noah's Ark〉(영문)",
+              "url": "https://en.wikipedia.org/wiki/Noah%27s_Ark"
+            },
+            {
+              "label": "성경 본문: 창세기 6~9장",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "id": "noah-wife-tubalcain",
+          "title": "나메와 두발가인: 이름만 있는 인물들",
+          "status": "mixed",
+          "film": "노아의 아내는 '나메'로 이름이 붙여지고, 두발가인은 노아 아버지를 죽이고 방주를 빼앗으려는 왕으로 나옵니다.",
+          "evidence": [
+            "[합의] 창세기는 노아의 아내 이름을 밝히지 않습니다. ([위키백과 Naamah (Genesis)](https://en.wikipedia.org/wiki/Naamah_%28Genesis%29))",
+            "[합의] 창세기 4:22의 나아마는 가인 계열 라멕과 씰라의 딸, 두발가인의 누이입니다. 「창세기 랍바」 등에서는 이 나아마를 노아의 아내로 보는 해석과, 다른 나아마로 보는 해석이 함께 있습니다. ([위키백과 Naamah (Genesis)](https://en.wikipedia.org/wiki/Naamah_%28Genesis%29))",
+            "[합의] 두발가인은 성경에서 '놋과 쇠로 온갖 기구를 만드는 자'로만 소개됩니다(창세기 4:22). ([위키백과 Tubal-cain](https://en.wikipedia.org/wiki/Tubal-cain))",
+            "[합의] 요세푸스는 두발가인을 힘이 세고 전쟁과 놋쇠 세공에 능한 사람으로 전합니다. ([위키백과 Tubal-cain](https://en.wikipedia.org/wiki/Tubal-cain))"
+          ],
+          "debate": [
+            "[논쟁] 영화의 두발가인 '왕·학살자' 설정은 성경 한 절을 크게 확장한 각색입니다. 랍비 전승에는 두발가인이 사냥을 돕다 가인을 죽게 했다는 이야기(탄후마 등)도 있으나, 방주와의 대결은 없습니다. ([위키백과 Tubal-cain](https://en.wikipedia.org/wiki/Tubal-cain))",
+            "[논쟁] 노아 아내를 셋 계열로 보는 전승과 가인 계열 나아마로 보는 전승이 갈립니다. ([위키백과 Naamah (Genesis)](https://en.wikipedia.org/wiki/Naamah_%28Genesis%29))"
+          ],
+          "study": [
+            {
+              "label": "위키백과 〈Naamah (Genesis)〉(영문)",
+              "url": "https://en.wikipedia.org/wiki/Naamah_%28Genesis%29"
+            },
+            {
+              "label": "위키백과 〈Tubal-cain〉(영문)",
+              "url": "https://en.wikipedia.org/wiki/Tubal-cain"
+            },
+            {
+              "label": "성경 본문: 창세기 4:19-24, 창세기 6:18",
+              "url": ""
+            }
+          ]
+        }
+      ],
+      "related": [
+        {
+          "label": "「테스터먼트: 모세 이야기」",
+          "href": "/together/testament-story-of-moses",
+          "text": "같은 '같이 보면 좋은 콘텐츠'의 구약 대서사. 성경·전승·각색을 세 칸으로 나눈 형식이 비슷합니다."
+        },
+        {
+          "label": "「이집트 왕자」",
+          "href": "/together/prince-of-egypt",
+          "text": "성경 출애굽기를 애니메이션으로 옮기며 바꾼 부분을 정리한 페이지."
+        },
+        {
+          "label": "「십계」",
+          "href": "/together/the-ten-commandments-1956",
+          "text": "1956년 세실 B. 데밀의 고전 성경 서사 영화."
+        },
+        {
+          "label": "「예수는 역사다」",
+          "href": "/together/the-case-for-christ",
+          "text": "성경 이야기의 역사성·증거를 다루는 다큐멘터리 영화 페이지."
+        }
+      ],
+      "sources": [
+        {
+          "label": "위키백과 〈Noah (2014 film)〉(영문)",
+          "url": "https://en.wikipedia.org/wiki/Noah_%282014_film%29"
+        },
+        {
+          "label": "위키백과 〈노아 (2014년 영화)〉(한국어)",
+          "url": "https://ko.wikipedia.org/wiki/%EB%85%B8%EC%95%84_%282014%EB%85%84_%EC%98%81%ED%99%94%29"
+        },
+        {
+          "label": "씨네21 〈노아〉 상세정보",
+          "url": "https://cine21.com/movie/info/?movie_id=40335"
+        },
+        {
+          "label": "위키트리: 넷플릭스 한국 순위 보도(2026.2.12)",
+          "url": "https://www.wikitree.co.kr/articles/1117793"
+        },
+        {
+          "label": "위키백과 〈Genesis flood narrative〉(영문)",
+          "url": "https://en.wikipedia.org/wiki/Genesis_flood_narrative"
+        },
+        {
+          "label": "위키백과 〈Book of Enoch〉(영문)",
+          "url": "https://en.wikipedia.org/wiki/Book_of_Enoch"
         }
       ],
       "checked": "2026년 10월 5일"
