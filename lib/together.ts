@@ -39,6 +39,8 @@ export type Work = {
   people: { name: string; actor?: string; real?: string; role: string }[];
   points: string[];
   chosen: { text: string; href?: string; label?: string }[];
+  /** 관련 페이지(사이트 안 링크). 비교표가 아니라 링크만 둡니다 */
+  related?: { label: string; href: string; text?: string }[];
   verses?: WorkVerse[];
   verseNote?: string;
   factsIntro?: string;
