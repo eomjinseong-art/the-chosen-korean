@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
-export type SearchItem = { type: "에피소드" | "인물" | "성경 구절" | "같이 보기" | "찬송가"; title: string; sub: string; text: string; href: string };
+export type SearchItem = { type: "에피소드" | "인물" | "성경 구절" | "같이 보기" | "찬송가" | "성경 66권"; title: string; sub: string; text: string; href: string };
 
 const norm = (s: string) => s.toLowerCase().replace(/\s+/g, "");
 
@@ -62,7 +62,7 @@ export function SearchClient({ items }: { items: SearchItem[] }) {
         {results.map(({ it }) => (
           <li key={it.href + it.title}>
             <Link href={it.href}>
-              <span className={"rtype rtype-" + (it.type === "에피소드" ? "ep" : it.type === "인물" ? "ch" : it.type === "찬송가" ? "h" : "v")}>{it.type}</span>
+              <span className={"rtype rtype-" + (it.type === "에피소드" ? "ep" : it.type === "인물" ? "ch" : it.type === "찬송가" ? "h" : it.type === "성경 66권" ? "b" : "v")}>{it.type}</span>
               <strong>{it.title}</strong> <span className="muted">{it.sub}</span>
               <span className="rsnip">{snippet(it.text)}</span>
             </Link>

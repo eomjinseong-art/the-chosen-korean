@@ -7,6 +7,7 @@ import { SITE_DESCRIPTION, SITE_FULL_NAME, SITE_URL, WATCH_NOTE } from "@/lib/si
 import { AvoirAd } from "@/components/AvoirAd";
 import { getWorks, TOGETHER_PATH } from "@/lib/together";
 import { getHymns, HYMNS_PATH, HYMNS_TITLE } from "@/lib/hymns";
+import { BIBLE_BOOKS_PATH, BIBLE_BOOKS_TITLE } from "@/lib/bibleBooks";
 
 export const metadata = pageMeta({
   title: "더 초즌(The Chosen) 한국어 가이드 — 시즌 1~5 전 40화 줄거리·등장인물·성경 구절",
@@ -159,6 +160,12 @@ export default function Home() {
               .map((w) => `「${w.titleKo}」`)
               .join(", ")}{" "}
             등 더 초즌과 함께 볼 작품. 실화와 각색, 영화에 나온 역사적 사실까지.
+          </p>
+        </Link>
+        <Link href={BIBLE_BOOKS_PATH} className="card">
+          <strong className="card-title">📚 {BIBLE_BOOKS_TITLE}</strong>
+          <p className="card-text">
+            창세기부터 요한계시록까지. 누가 썼다고 전해지는지, 학자들은 어떻게 보는지, 언제 쓰였고 어느 시대를 다루는지, 그리고 대표 구절까지 한 권씩.
           </p>
         </Link>
         <Link href={HYMNS_PATH} className="card">
