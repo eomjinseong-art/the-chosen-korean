@@ -5,6 +5,7 @@ const NAV = [
   { href: "/s1", label: "시즌" },
   { href: "/characters", label: "인물" },
   { href: "/verses", label: "성경 구절" },
+  { href: "/bible-books", label: "성경 66권" },
   { href: "/daily", label: "오늘의 말씀" },
   { href: "/scenes", label: "명장면" },
   { href: "/creators", label: "제작진" },

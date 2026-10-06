@@ -18,6 +18,7 @@ export function Footer() {
           ))}
           <Link href="/characters">인물 사전</Link>
           <Link href="/verses">성경 구절</Link>
+          <Link href="/bible-books">성경 66권 한눈에</Link>
           <Link href="/daily">오늘의 말씀</Link>
           <Link href="/scenes">명장면·명대사</Link>
           <Link href="/creators">제작진</Link>

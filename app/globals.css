@@ -317,3 +317,40 @@ table.kv td:first-child { white-space: nowrap; font-weight: 700; width: 1%; }
 .lyrics-en p:last-child { margin-bottom: 0; }
 .lyrics-en .refrain { font-style: italic; padding-left: 1em; border-left: 3px solid var(--line); }
 .hymn .note-box { margin: 1em 0; }
+
+/* 성경 66권 한눈에 */
+.rtype-b { background: #efe9fb; color: #4b3a8a; }
+.bb-stats { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 16px; }
+.bb-stats span { background: var(--paper); border: 1px solid var(--line); border-radius: 999px; padding: 3px 12px; font-size: .92rem; color: var(--ink2); }
+.bb-stats strong { color: var(--ink); font-family: var(--serif); }
+.bb-tablist { display: flex; gap: 6px; border-bottom: 2px solid var(--line); margin: 6px 0 12px; padding-top: 4px; }
+.bb-tab { flex: 1; max-width: 220px; appearance: none; border: 1px solid var(--line); border-bottom: none; background: var(--paper); color: var(--ink2); font: inherit; font-weight: 700; font-size: 1.02rem; padding: 10px 14px; border-radius: 12px 12px 0 0; cursor: pointer; margin-bottom: -2px; }
+.bb-tab small { font-weight: 600; color: var(--muted); margin-left: 2px; }
+.bb-tab-on { background: var(--ink); color: #fff; border-color: var(--ink); }
+.bb-tab-on small { color: #e9dcc6; }
+.bb-jump { margin: 4px 0 6px; }
+.bb-group { margin: 18px 0 8px; scroll-margin-top: 110px; }
+.bb-group-h { margin: 0 0 2px; font-size: 1.12rem; }
+.bb-group-en { font-size: .78rem; font-weight: 600; color: var(--gold); letter-spacing: .06em; }
+.bb-group-desc { margin: 0 0 8px; }
+.bb-grid { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+@media (min-width: 640px) { .bb-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 900px) { .bb-grid { grid-template-columns: repeat(4, 1fr); } }
+.bb-card { display: flex; align-items: center; gap: 8px; background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 9px 10px; color: var(--ink); height: 100%; }
+.bb-card:hover { text-decoration: none; border-color: var(--gold); box-shadow: 0 2px 10px rgba(80, 50, 20, .06); }
+.bb-no { flex: none; width: 26px; height: 26px; border-radius: 50%; background: var(--bg); border: 1px solid var(--line); font-size: .74rem; font-weight: 700; color: var(--muted); display: grid; place-items: center; }
+.bb-names { display: flex; flex-direction: column; min-width: 0; flex: 1; }
+.bb-ko { font-family: var(--serif); font-size: 1rem; line-height: 1.25; }
+.bb-en { font-size: .76rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bb-ch { flex: none; font-size: .74rem; color: var(--muted); display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.bb-badge { font-size: .8rem; }
+.bb-date { display: block; margin: 2px 0; }
+.bb-date .tag { margin-left: 0; }
+.bb-view { padding-left: 1.1em; }
+.bb-view li { margin: .55em 0; line-height: 1.7; }
+.bb-notes { padding-left: 1.3em; }
+.bb-notes li { margin: .5em 0; line-height: 1.7; }
+.bb-links { padding-left: 1.1em; margin: 4px 0 10px; }
+.bb-links li { margin: 6px 0; }
+.bb-book h3 { font-size: 1rem; margin: 16px 0 4px; }
+.bb-book .verse { margin-top: 6px; }
