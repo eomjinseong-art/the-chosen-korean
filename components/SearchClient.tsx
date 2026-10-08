@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
-export type SearchItem = { type: "에피소드" | "인물" | "성경 구절" | "같이 보기" | "찬송가" | "성경 66권"; title: string; sub: string; text: string; href: string };
+export type SearchItem = { type: "에피소드" | "인물" | "성경 구절" | "같이 보기" | "찬송가" | "성경 66권" | "가족관계도"; title: string; sub: string; text: string; href: string };
 
 const norm = (s: string) => s.toLowerCase().replace(/\s+/g, "");
 
@@ -57,12 +57,12 @@ export function SearchClient({ items }: { items: SearchItem[] }) {
         placeholder="예: 베드로, 물 위, 요한복음 3:16, 유다"
         aria-label="검색어"
       />
-      {q.trim() ? <p className="muted">{results.length}개 결과</p> : <p className="muted">에피소드 제목·줄거리, 인물, 성경 구절을 찾습니다.</p>}
+      {q.trim() ? <p className="muted">{results.length}개 결과</p> : <p className="muted">에피소드 제목·줄거리, 인물, 성경 구절, 가족관계도를 찾습니다.</p>}
       <ul className="results">
         {results.map(({ it }) => (
           <li key={it.href + it.title}>
             <Link href={it.href}>
-              <span className={"rtype rtype-" + (it.type === "에피소드" ? "ep" : it.type === "인물" ? "ch" : it.type === "찬송가" ? "h" : it.type === "성경 66권" ? "b" : "v")}>{it.type}</span>
+              <span className={"rtype rtype-" + (it.type === "에피소드" ? "ep" : it.type === "인물" ? "ch" : it.type === "찬송가" ? "h" : it.type === "성경 66권" ? "b" : it.type === "가족관계도" ? "f" : "v")}>{it.type}</span>
               <strong>{it.title}</strong> <span className="muted">{it.sub}</span>
               <span className="rsnip">{snippet(it.text)}</span>
             </Link>

@@ -7,6 +7,7 @@ import { absoluteUrl, pageMeta } from "@/lib/seo";
 import { artFor } from "@/lib/art";
 import { CharacterArt } from "@/components/CharacterArt";
 import { AvoirAd } from "@/components/AvoirAd";
+import { familyTreeHrefForSlug } from "@/lib/familyTree";
 
 export const dynamicParams = false;
 
@@ -49,6 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function CharacterPage({ params }: { params: Promise<{ slug: string }> }) {
   const c = get((await params).slug);
   if (!c) notFound();
+  const treeHref = c.slug ? familyTreeHrefForSlug(c.slug) : null;
   return (
     <article>
       <Breadcrumbs
@@ -59,6 +61,11 @@ export default async function CharacterPage({ params }: { params: Promise<{ slug
       />
       <p className="eyebrow">{GROUP_LABEL[c.group]}</p>
       <h1>{c.name}</h1>
+      {treeHref ? (
+        <p className="muted">
+          <Link href={treeHref}>가족관계도에서 보기</Link>
+        </p>
+      ) : null}
       {(() => {
         const art = artFor(c.slug);
         return art ? <CharacterArt art={art} name={c.name} /> : null;
