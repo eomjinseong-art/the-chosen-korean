@@ -8,6 +8,7 @@ import { artFor } from "@/lib/art";
 import { CharacterArt } from "@/components/CharacterArt";
 import { AvoirAd } from "@/components/AvoirAd";
 import { familyTreeHrefForSlug } from "@/lib/familyTree";
+import { CHARACTER_ELSEWHERE } from "@/lib/characterElsewhere";
 
 export const dynamicParams = false;
 
@@ -51,6 +52,7 @@ export default async function CharacterPage({ params }: { params: Promise<{ slug
   const c = get((await params).slug);
   if (!c) notFound();
   const treeHref = c.slug ? familyTreeHrefForSlug(c.slug) : null;
+  const elsewhere = c.slug ? CHARACTER_ELSEWHERE[c.slug] : undefined;
   return (
     <article>
       <Breadcrumbs
@@ -115,6 +117,20 @@ export default async function CharacterPage({ params }: { params: Promise<{ slug
       ) : (
         <p className="muted">화별 등장인물 표에 따로 이름이 오른 화가 없습니다.</p>
       )}
+      {elsewhere?.length ? (
+        <section>
+          <h2>다른 사이트에서 더 보기</h2>
+          <ul className="bb-links">
+            {elsewhere.map((link) => (
+              <li key={link.href}>
+                <a href={link.href} target="_blank" rel="noopener noreferrer">
+                  {link.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
       <AvoirAd place="character" />
       <p className="back">
         <Link href="/characters">← 인물 사전으로</Link>

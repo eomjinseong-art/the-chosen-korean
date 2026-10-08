@@ -138,6 +138,15 @@
      "label": "「노아」(2014)",
      "href": "/together/noah-2014",
      "text": "창세기 6~9장 홍수 이야기를 각색한 영화 — 성경과 다른 점 정리"
+    },
+    {
+     "label": "나두연표: 아브라함 전통 (Abraham tradition)",
+     "href": "https://nadoo-timeline.vercel.app/events/abraham-tradition"
+    },
+    {
+     "label": "나두신화: 데우칼리온의 홍수 (Deucalion flood)",
+     "href": "https://nadoo-myth.vercel.app/stories/deucalion-flood",
+     "text": "창세기 홍수와 비교해 읽는 그리스 신화"
     }
    ],
    "sources": [
@@ -208,6 +217,14 @@
      "label": "「엑소더스: 신들과 왕들」(2014)",
      "href": "/together/exodus-gods-and-kings",
      "text": "리들리 스콧의 출애굽 영화"
+    },
+    {
+     "label": "이집트이야기: 람세스 2세 (Ramesses II)",
+     "href": "https://egypt-stories.vercel.app/rulers/ramesses-ii"
+    },
+    {
+     "label": "나두연표: 출애굽 전통 (Exodus tradition)",
+     "href": "https://nadoo-timeline.vercel.app/events/exodus-tradition"
     }
    ],
    "sources": [
@@ -869,6 +886,14 @@
      "label": "느헤미야",
      "href": "/bible-books/nehemiah",
      "text": "원래 한 권이었던 짝 책"
+    },
+    {
+     "label": "페르시아이야기: 고레스 (Cyrus)",
+     "href": "https://persia-stories.vercel.app/rulers/cyrus"
+    },
+    {
+     "label": "나두연표: 고레스 칙령 (Cyrus decree)",
+     "href": "https://nadoo-timeline.vercel.app/events/cyrus-decree"
     }
    ],
    "sources": [
@@ -923,6 +948,10 @@
      "label": "에스라",
      "href": "/bible-books/ezra",
      "text": "원래 한 권이었던 짝 책"
+    },
+    {
+     "label": "페르시아이야기: 아르타크세르크세스 1세 (Artaxerxes I)",
+     "href": "https://persia-stories.vercel.app/rulers/artaxerxes-i"
     }
    ],
    "sources": [
@@ -972,7 +1001,17 @@
     "en": "For if thou altogether holdest thy peace at this time, then shall there enlargement and deliverance arise to the Jews from another place; but thou and thy father’s house shall be destroyed: and who knoweth whether thou art come to the kingdom for such a time as this?",
     "ko": "\"네가 이때 잠잠히 있으면 유다 사람들은 다른 데서 도움을 얻겠지만, 너와 네 집안은 망할 것이다. 네가 왕비가 된 것이 바로 이런 때를 위해서인지 누가 알겠느냐?\""
    },
-   "related": [],
+   "related": [
+    {
+     "label": "페르시아이야기: 크세르크세스 1세 (Xerxes I)",
+     "href": "https://persia-stories.vercel.app/rulers/xerxes-i",
+     "text": "성경의 아하수에로"
+    },
+    {
+     "label": "페르시아이야기: 수사 (Susa)",
+     "href": "https://persia-stories.vercel.app/places/susa"
+    }
+   ],
    "sources": [
     {
      "label": "Wikipedia – Book of Esther (영문, 2차 자료)",
@@ -1281,6 +1320,10 @@
      "label": "「마리아」(2024)",
      "href": "/together/mary-2024",
      "text": "임마누엘 예언(사 7:14)이 인용되는 예수 탄생 이야기"
+    },
+    {
+     "label": "페르시아이야기: 고레스 (Cyrus)",
+     "href": "https://persia-stories.vercel.app/rulers/cyrus"
     }
    ],
    "sources": [
@@ -1487,6 +1530,10 @@
      "label": "인물: 예수",
      "href": "/characters/jesus",
      "text": "자신을 '인자'라 부르신 분"
+    },
+    {
+     "label": "페르시아이야기: 바빌론 정복 (Babylon)",
+     "href": "https://persia-stories.vercel.app/wars/babylon"
     }
    ],
    "sources": [
@@ -2031,6 +2078,10 @@
      "label": "에스라",
      "href": "/bible-books/ezra",
      "text": "같은 성전 재건 이야기"
+    },
+    {
+     "label": "페르시아이야기: 다리우스 1세 (Darius I)",
+     "href": "https://persia-stories.vercel.app/rulers/darius-i"
     }
    ],
    "sources": [
@@ -2218,6 +2269,14 @@
      "label": "「예수는 역사다」(2017)",
      "href": "/together/the-case-for-christ",
      "text": "복음서의 신뢰성과 부활 증거를 추적하는 실화 영화"
+    },
+    {
+     "label": "로마이야기: 티베리우스 (Tiberius)",
+     "href": "https://rome-stories.vercel.app/rulers/tiberius"
+    },
+    {
+     "label": "페르시아이야기: 동방 박사 (Magi)",
+     "href": "https://persia-stories.vercel.app/faith"
     }
    ],
    "sources": [
@@ -2278,6 +2337,10 @@
      "label": "「예수는 역사다」(2017)",
      "href": "/together/the-case-for-christ",
      "text": "복음서의 신뢰성과 부활 증거를 추적하는 실화 영화"
+    },
+    {
+     "label": "로마이야기: 티베리우스 (Tiberius)",
+     "href": "https://rome-stories.vercel.app/rulers/tiberius"
     }
    ],
    "sources": [
@@ -2347,6 +2410,14 @@
      "label": "「예수는 역사다」(2017)",
      "href": "/together/the-case-for-christ",
      "text": "복음서의 신뢰성과 부활 증거를 추적하는 실화 영화"
+    },
+    {
+     "label": "로마이야기: 아우구스투스 (Augustus)",
+     "href": "https://rome-stories.vercel.app/rulers/augustus"
+    },
+    {
+     "label": "나두연표: 예수의 탄생 (Birth of Jesus)",
+     "href": "https://nadoo-timeline.vercel.app/events/birth-of-jesus"
     }
    ],
    "sources": [
@@ -2480,6 +2551,18 @@
      "label": "요엘",
      "href": "/bible-books/joel",
      "text": "오순절 설교에서 인용된 예언"
+    },
+    {
+     "label": "로마이야기: 클라우디우스 (Claudius)",
+     "href": "https://rome-stories.vercel.app/rulers/claudius"
+    },
+    {
+     "label": "로마이야기: 네로 (Nero)",
+     "href": "https://rome-stories.vercel.app/rulers/nero"
+    },
+    {
+     "label": "나두연표: 바울의 전도 여행 (Paul's journeys)",
+     "href": "https://nadoo-timeline.vercel.app/events/paul-journeys"
     }
    ],
    "sources": [
@@ -2589,6 +2672,10 @@
      "label": "시즌 5 6화 「재회」",
      "href": "/s5/e6",
      "text": "성찬(마 26:26-28) 장면이 나오는 에피소드"
+    },
+    {
+     "label": "그리스이야기: 고린도 (Corinth)",
+     "href": "https://greece-stories.vercel.app/polis/corinth"
     }
    ],
    "sources": [

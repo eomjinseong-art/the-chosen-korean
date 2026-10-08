@@ -2196,6 +2196,16 @@
           "text": "1956년 세실 B. 데밀 영화 페이지."
         }
       ],
+      "elsewhere": [
+        {
+          "label": "이집트이야기: 「이집트 왕자」 (The Prince of Egypt)",
+          "href": "https://egypt-stories.vercel.app/movies#prince-of-egypt"
+        },
+        {
+          "label": "이집트이야기: 람세스 2세 (Ramesses II)",
+          "href": "https://egypt-stories.vercel.app/rulers/ramesses-ii"
+        }
+      ],
       "sources": [
         {
           "label": "위키백과 〈The Prince of Egypt〉(영문)",
@@ -2497,6 +2507,16 @@
           "text": "1956년 세실 B. 데밀 영화 페이지."
         }
       ],
+      "elsewhere": [
+        {
+          "label": "이집트이야기: 「엑소더스: 신들과 왕들」 (Exodus: Gods and Kings)",
+          "href": "https://egypt-stories.vercel.app/movies#exodus-gods-and-kings"
+        },
+        {
+          "label": "이집트이야기: 람세스 2세 (Ramesses II)",
+          "href": "https://egypt-stories.vercel.app/rulers/ramesses-ii"
+        }
+      ],
       "sources": [
         {
           "label": "위키백과 〈Exodus: Gods and Kings〉(영문)",
@@ -2775,6 +2795,16 @@
           "label": "「엑소더스: 신들과 왕들」",
           "href": "/together/exodus-gods-and-kings",
           "text": "2014년 리들리 스콧 영화 페이지."
+        }
+      ],
+      "elsewhere": [
+        {
+          "label": "이집트이야기: 「십계」 (The Ten Commandments)",
+          "href": "https://egypt-stories.vercel.app/movies#the-ten-commandments"
+        },
+        {
+          "label": "이집트이야기: 람세스 2세 (Ramesses II)",
+          "href": "https://egypt-stories.vercel.app/rulers/ramesses-ii"
         }
       ],
       "sources": [

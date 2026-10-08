@@ -61,12 +61,18 @@ function merge(manual: Related[], auto: Item[]): Item[] {
   return out;
 }
 
-function LinkList({ items }: { items: Item[] }) {
+function LinkList({ items, external }: { items: Item[]; external?: boolean }) {
   return (
     <ul className="bb-links">
       {items.map((it) => (
         <li key={it.href}>
-          <Link href={it.href}>{it.label}</Link>
+          {external ? (
+            <a href={it.href} target="_blank" rel="noopener noreferrer">
+              {it.label}
+            </a>
+          ) : (
+            <Link href={it.href}>{it.label}</Link>
+          )}
           {it.text ? <span className="muted small"> — {it.text}</span> : null}
         </li>
       ))}
@@ -95,6 +101,7 @@ export default async function BibleBookPage({ params }: { params: Promise<{ slug
     auto.works.map((w) => ({ href: w.href, label: w.label, text: `페이지에서 다루는 구절: ${w.refs}` })),
   );
   const books = b.related.filter(is("/bible-books"));
+  const http = b.related.filter(is("http"));
   const hymnsPage = b.related.filter(is("/hymns"));
   const HYMN_MAX = 6;
   const hymns = auto.hymns.slice(0, HYMN_MAX);
@@ -287,6 +294,12 @@ export default async function BibleBookPage({ params }: { params: Promise<{ slug
           <>
             <h3>📚 함께 읽을 책</h3>
             <LinkList items={books} />
+          </>
+        ) : null}
+        {http.length ? (
+          <>
+            <h3>다른 사이트에서 더 보기</h3>
+            <LinkList items={http} external />
           </>
         ) : null}
         <h3>📚 같은 분류({b.group})의 책</h3>

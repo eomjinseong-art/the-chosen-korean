@@ -12,6 +12,19 @@ export type BadgeTone = "gold" | "purple" | "ink";
 
 export type PageLink = { label: string; href: string };
 
+export function isExternalHref(href: string) {
+  return href.startsWith("http://") || href.startsWith("https://");
+}
+
+/** On-site pages first, then links to other sites. */
+export function orderedPages(pages: PageLink[] | undefined): PageLink[] {
+  if (!pages?.length) return [];
+  const internal: PageLink[] = [];
+  const external: PageLink[] = [];
+  for (const page of pages) (isExternalHref(page.href) ? external : internal).push(page);
+  return [...internal, ...external];
+}
+
 export type TreeSeed = {
   id: string;
   ko: string;
@@ -599,7 +612,10 @@ const EXODUS: EraInput = {
       summary: "아므람과 요게벳의 아들입니다. 십보라의 남편입니다. 아들 게르솜과 엘리에셀은 그리지 않았습니다.",
       cite: "출 2:1–10, 21–22; 6:20; 18:3–4; 민 26:59 · Ex 2, 6, 18; Num 26",
       aliases: ["모세", "Moses"],
-      pages: [book("exodus", "출애굽기")],
+      pages: [
+        book("exodus", "출애굽기"),
+        { label: "이집트이야기: 람세스 2세 (Ramesses II)", href: "https://egypt-stories.vercel.app/rulers/ramesses-ii" },
+      ],
     },
     {
       id: "zipporah",

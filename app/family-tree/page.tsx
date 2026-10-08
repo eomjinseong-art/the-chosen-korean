@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FamilyTreeView } from "@/components/FamilyTreeView";
+import { SisterRow } from "@/components/SisterRow";
 import { JsonLd } from "@/components/JsonLd";
 import { canonBySlug } from "@/lib/characters";
 import { getBook } from "@/lib/bibleBooks";
@@ -12,9 +13,12 @@ import {
   NAME_NOTES,
   OMISSIONS,
   familyTreeHref,
+  isExternalHref,
+  orderedPages,
   relationsOf,
 } from "@/lib/familyTree";
 import { absoluteUrl, pageMeta } from "@/lib/seo";
+import { OTHER_FAMILY_TREES } from "@/lib/site";
 
 const description =
   "성경의 핵심 인물만 모은 가족관계도. 아담과 노아, 아브라함과 열두 아들, 모세, 룻과 다윗, 예수와 제자 형제까지. 긴 족보와 수명은 빼고, 비는 세대는 … 로 이었습니다.";
@@ -26,7 +30,8 @@ export const metadata = pageMeta({
 });
 
 for (const node of ALL_NODES) {
-  for (const page of node.pages ?? []) {
+  for (const page of orderedPages(node.pages)) {
+    if (isExternalHref(page.href)) continue;
     if (page.href.startsWith("/bible-books/")) {
       const slug = page.href.split("/")[2];
       if (!getBook(slug)) throw new Error(`가족관계도에 없는 성경 책: ${page.href}`);
@@ -89,11 +94,17 @@ export default function FamilyTreePage() {
                       <li key={id}>
                         <a href={familyTreeHref(era.id, id)}>{node.ellipsis ? "생략된 세대" : node.ko}</a>
                         {node.ellipsis ? null : <span className="muted"> / {node.en}</span>}
-                        {node.pages?.map((page) => (
-                          <Link key={page.href + page.label} href={page.href} className="ft-prose-link">
-                            {page.label}
-                          </Link>
-                        ))}
+                        {orderedPages(node.pages).map((page) =>
+                          isExternalHref(page.href) ? (
+                            <a key={page.href + page.label} href={page.href} className="ft-prose-link" target="_blank" rel="noopener noreferrer">
+                              {page.label}
+                            </a>
+                          ) : (
+                            <Link key={page.href + page.label} href={page.href} className="ft-prose-link">
+                              {page.label}
+                            </Link>
+                          ),
+                        )}
                         <span className="ft-prose-sum">{node.summary}</span>
                         {node.note ? <span className="ft-note">{node.note}</span> : null}
                         <span className="ft-cite">{node.cite}</span>
@@ -158,6 +169,8 @@ export default function FamilyTreePage() {
           관계의 장 표시는 각 인물 옆에 적었습니다. 책 전체 소개는 <Link href="/bible-books">성경 66권 한눈에</Link>에 있습니다.
         </p>
       </section>
+
+      <SisterRow title="다른 가족관계도" en="Other family trees" links={OTHER_FAMILY_TREES} />
     </article>
   );
 }

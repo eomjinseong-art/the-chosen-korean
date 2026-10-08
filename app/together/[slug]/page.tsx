@@ -121,6 +121,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
         {w.facts?.length ? <a href="#facts">사실 자세히 보기</a> : null}
         <a href="#chosen">더 초즌과 연결</a>
         {w.verses?.length ? <a href="#verses">성경 구절</a> : null}
+        {w.elsewhere?.length ? <a href="#elsewhere">다른 사이트</a> : null}
         <a href="#sources">출처</a>
       </nav>
 
@@ -351,6 +352,21 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
                 <Link href={r.href} className="chip">
                   {r.label} →
                 </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
+      {w.elsewhere?.length ? (
+        <section id="elsewhere">
+          <h2>다른 사이트에서 더 보기</h2>
+          <ul className="chosen-links">
+            {w.elsewhere.map((r) => (
+              <li key={r.href}>
+                <a href={r.href} className="chip" target="_blank" rel="noopener noreferrer">
+                  {r.label} →
+                </a>
               </li>
             ))}
           </ul>
