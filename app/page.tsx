@@ -8,6 +8,7 @@ import { AvoirAd } from "@/components/AvoirAd";
 import { getWorks, TOGETHER_PATH } from "@/lib/together";
 import { getHymns, HYMNS_PATH, HYMNS_TITLE } from "@/lib/hymns";
 import { BIBLE_BOOKS_PATH, BIBLE_BOOKS_TITLE } from "@/lib/bibleBooks";
+import { FAMILY_TREE_PATH } from "@/lib/familyTree";
 
 export const metadata = pageMeta({
   title: "더 초즌(The Chosen) 한국어 가이드 — 시즌 1~5 전 40화 줄거리·등장인물·성경 구절",
@@ -167,6 +168,10 @@ export default function Home() {
           <p className="card-text">
             창세기부터 요한계시록까지. 누가 썼다고 전해지는지, 학자들은 어떻게 보는지, 언제 쓰였고 어느 시대를 다루는지, 그리고 대표 구절까지 한 권씩.
           </p>
+        </Link>
+        <Link href={FAMILY_TREE_PATH} className="card">
+          <strong className="card-title">🌳 가족관계도</strong>
+          <p className="card-text">아담과 노아, 아브라함과 열두 아들, 모세, 다윗, 예수와 제자 형제까지. 핵심 인물만 이은 가계도입니다.</p>
         </Link>
         <Link href={HYMNS_PATH} className="card">
           <strong className="card-title">🎵 {HYMNS_TITLE}</strong>
