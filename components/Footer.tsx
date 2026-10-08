@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { VisitorCounter } from "./VisitorCounter";
 import { getGuide } from "@/lib/guide";
+import { NADOO_SISTERS } from "@/lib/site";
 import { Md } from "./Md";
 
 export function Footer() {
@@ -28,6 +29,16 @@ export function Footer() {
           <Link href="/together">같이 보면 좋은 콘텐츠</Link>
           <Link href="/hymns">사랑받는 찬송가 100</Link>
           <Link href="/search">검색</Link>
+        </nav>
+        <nav className="foot-sisters" aria-label="나두 역사·신화">
+          <p className="foot-sisters-title">나두 역사·신화</p>
+          <div className="foot-sisters-links">
+            {NADOO_SISTERS.map((site) => (
+              <a key={site.href} href={site.href} target="_blank" rel="noopener noreferrer">
+                {site.name} <span lang="en">{site.en}</span>
+              </a>
+            ))}
+          </div>
         </nav>
         <div className="disclaimer">
           <p>

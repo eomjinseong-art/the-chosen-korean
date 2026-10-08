@@ -6,6 +6,8 @@ import {
   ERAS,
   FAMILY_TREE_PATH,
   eraOf,
+  isExternalHref,
+  orderedPages,
   relationsOf,
   resolveFocus,
   searchNodes,
@@ -332,9 +334,9 @@ export function FamilyTreeView() {
             <PeopleRow label="이전 세대 (생략)" people={relations.skipPrev} onPick={choose} />
             <PeopleRow label="다음 세대 (생략)" people={relations.skipNext} onPick={choose} />
           </div>
-          {selectedNode.pages?.length ? (
+          {orderedPages(selectedNode.pages).length ? (
             <div className="ft-pages">
-              {selectedNode.pages.map((page) =>
+              {orderedPages(selectedNode.pages).map((page) =>
                 page.href.startsWith(FAMILY_TREE_PATH) ? (
                   <button
                     key={page.href + page.label}
@@ -346,6 +348,10 @@ export function FamilyTreeView() {
                   >
                     {page.label}
                   </button>
+                ) : isExternalHref(page.href) ? (
+                  <a key={page.href + page.label} href={page.href} target="_blank" rel="noopener noreferrer">
+                    {page.label}
+                  </a>
                 ) : (
                   <Link key={page.href + page.label} href={page.href}>
                     {page.label}
@@ -404,7 +410,10 @@ function TreeCard({
 }) {
   const band = eraOf(node.era).bands.find((item) => item.id === node.band)!;
   const border = node.ellipsis ? "#a6843d" : band.color;
-  const page = node.pages?.find((item) => !item.href.startsWith(FAMILY_TREE_PATH));
+  const pages = orderedPages(node.pages);
+  const page =
+    pages.find((item) => item.href.startsWith("/") && !item.href.startsWith(FAMILY_TREE_PATH)) ??
+    pages.find((item) => isExternalHref(item.href));
   return (
     <div id={`ft-${node.id}`} className="ft-node" style={{ left: node.x, top: node.y, width: node.w, height: node.h, opacity: dimmed ? 0.28 : 1 }}>
       {node.badge ? <span className={"ft-badge ft-badge-" + node.badge.tone}>{node.badge.text}</span> : null}
@@ -434,9 +443,15 @@ function TreeCard({
         {!node.ellipsis && node.caption ? <span className="ft-role">{node.caption}</span> : null}
       </button>
       {page ? (
-        <Link href={page.href} className="ft-page" aria-label={`${node.ko} ${page.label}`}>
-          페이지
-        </Link>
+        isExternalHref(page.href) ? (
+          <a href={page.href} className="ft-page" target="_blank" rel="noopener noreferrer" aria-label={`${node.ko} ${page.label}`}>
+            페이지
+          </a>
+        ) : (
+          <Link href={page.href} className="ft-page" aria-label={`${node.ko} ${page.label}`}>
+            페이지
+          </Link>
+        )
       ) : null}
     </div>
   );

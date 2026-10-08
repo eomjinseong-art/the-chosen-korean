@@ -41,6 +41,8 @@ export type Work = {
   chosen: { text: string; href?: string; label?: string }[];
   /** 관련 페이지(사이트 안 링크). 비교표가 아니라 링크만 둡니다 */
   related?: { label: string; href: string; text?: string }[];
+  /** 다른 사이트의 같은 이야기 */
+  elsewhere?: { label: string; href: string }[];
   verses?: WorkVerse[];
   verseNote?: string;
   factsIntro?: string;
