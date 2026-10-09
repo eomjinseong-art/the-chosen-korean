@@ -5,18 +5,29 @@ import { VISITOR_KEY, VISITOR_NAMESPACE } from "@/lib/site";
 
 const STORAGE_KEY = `${VISITOR_NAMESPACE}:visits:day`;
 
+const PROD_HOSTS = ["the-chosen-korean.vercel.app"];
+
+// Test/bot/preview traffic only reads the count; it never increments it.
+function isTestTraffic() {
+  if (typeof window === "undefined") return true;
+  if (navigator.webdriver) return true;
+  if (/headless|bot|crawler|spider|lighthouse/i.test(navigator.userAgent)) return true;
+  return !PROD_HOSTS.includes(window.location.hostname);
+}
+
 export function VisitorCounter() {
   const [count, setCount] = useState<number | null>(null);
 
   useEffect(() => {
     const today = new Date().toLocaleDateString("en-CA");
     const last = localStorage.getItem(STORAGE_KEY);
-    const path = last === today ? "get" : "hit";
+    const skip = isTestTraffic();
+    const path = last === today || skip ? "get" : "hit";
     fetch(`https://abacus.jasoncameron.dev/${path}/${VISITOR_NAMESPACE}/${VISITOR_KEY}`)
       .then((res) => (res.ok ? res.json() : Promise.reject(res)))
       .then((data: { value?: number }) => {
         if (typeof data.value === "number") setCount(data.value);
-        if (last !== today) localStorage.setItem(STORAGE_KEY, today);
+        if (last !== today && !skip) localStorage.setItem(STORAGE_KEY, today);
       })
       .catch(() => {
         /* counter is decorative */
