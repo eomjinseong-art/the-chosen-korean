@@ -54,6 +54,9 @@ export default function MapPage() {
       <AvoirAd place="map" />
       <Section kind="bible" title="📍 드라마 속 성경 장소" />
       <p className="muted small">
+        성경 장소가 있는 오늘의 나라는 <a href="https://nadoo-world.vercel.app/countries/il" target="_blank" rel="noopener noreferrer">나두세계의 이스라엘</a>에서 이어 읽습니다.
+      </p>
+      <p className="muted small">
         촬영지 출처: 위키백과 영어판 〈<a href="https://en.wikipedia.org/wiki/The_Chosen_(TV_series)" target="_blank" rel="noopener noreferrer">The Chosen (TV series)</a>〉. 좌표는 도시·유적 기준의 대략적인 위치입니다. 지도 © OpenStreetMap.
       </p>
     </article>
