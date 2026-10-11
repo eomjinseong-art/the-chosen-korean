@@ -22,11 +22,14 @@ const NADOO_FAMILY: SisterLink[] = [
   { href: "https://iliad-stories.vercel.app", name: "일리아스이야기", en: "The Iliad" },
   { href: "https://greece-stories.vercel.app", name: "그리스이야기", en: "Greece" },
   { href: "https://rome-stories.vercel.app", name: "로마이야기", en: "Rome" },
+  { href: "https://germanic-stories.vercel.app", name: "게르만이야기", en: "Germanic" },
+  { href: "https://viking-stories.vercel.app", name: "바이킹이야기", en: "Vikings" },
   { href: "https://egypt-stories.vercel.app", name: "이집트이야기", en: "Egypt" },
   { href: "https://persia-stories.vercel.app", name: "페르시아이야기", en: "Persia" },
   { href: "https://the-chosen-korean.vercel.app", name: "더 초즌 · 성경", en: "The Chosen · Bible" },
   { href: "https://philosophy-stories.vercel.app", name: "철학이야기", en: "Philosophy" },
   { href: "https://korea-stories.vercel.app", name: "대한민국이야기", en: "Korea" },
+  { href: "https://nadoo-world.vercel.app", name: "나두세계", en: "World" },
   { href: "https://nadoo-timeline.vercel.app", name: "나두연표", en: "Timeline" },
   { href: "https://tinalinkeom.vercel.app", name: "나두 허브", en: "Nadoo Hub" },
 ];
@@ -48,6 +51,8 @@ if (!NADOO_SISTERS.some((site) => isLinkCheckAllowed404(site.href))) {
 /** Shared row A. This site's own family tree is omitted. */
 export const OTHER_FAMILY_TREES: SisterLink[] = [
   { href: "https://rome-stories.vercel.app/family-tree", name: "로마이야기", en: "Rome" },
+  { href: "https://germanic-stories.vercel.app/family-tree", name: "게르만이야기", en: "Germanic" },
+  { href: "https://viking-stories.vercel.app/family-tree", name: "바이킹이야기", en: "Vikings" },
   { href: "https://greece-stories.vercel.app/family-tree", name: "그리스이야기", en: "Greece" },
   { href: "https://egypt-stories.vercel.app/family-tree", name: "이집트이야기", en: "Egypt" },
   { href: "https://persia-stories.vercel.app/family-tree", name: "페르시아이야기", en: "Persia" },
@@ -58,6 +63,8 @@ export const OTHER_FAMILY_TREES: SisterLink[] = [
 /** Shared row B. This site's own /together page is omitted. */
 export const OTHER_FILM_PAGES: SisterLink[] = [
   { href: "https://rome-stories.vercel.app/movies", name: "로마이야기", en: "Rome" },
+  { href: "https://germanic-stories.vercel.app/films", name: "게르만이야기", en: "Germanic" },
+  { href: "https://viking-stories.vercel.app/films", name: "바이킹이야기", en: "Vikings" },
   { href: "https://greece-stories.vercel.app/movies", name: "그리스이야기", en: "Greece" },
   { href: "https://egypt-stories.vercel.app/movies", name: "이집트이야기", en: "Egypt" },
   { href: "https://persia-stories.vercel.app/movies", name: "페르시아이야기", en: "Persia" },
