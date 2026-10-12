@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FamilyTreeView } from "@/components/FamilyTreeView";
+import { TreePanel } from "@/components/TreePanel";
 import { SisterRow } from "@/components/SisterRow";
 import { JsonLd } from "@/components/JsonLd";
 import { canonBySlug } from "@/lib/characters";
@@ -75,6 +76,7 @@ export default function FamilyTreePage() {
         <h2>글로 읽는 가족관계</h2>
         <p className="muted">그림과 같은 관계입니다. 이름을 누르면 그 칸으로 이동합니다.</p>
         {ERAS.map((era) => (
+          <TreePanel key={era.id} id={era.id} defaultId={"genesis"}>
           <section key={era.id}>
             <h3>
               {era.ko} <span className="ft-en-title">{era.en}</span>
@@ -123,6 +125,7 @@ export default function FamilyTreePage() {
               </div>
             ))}
           </section>
+          </TreePanel>
         ))}
       </section>
 
