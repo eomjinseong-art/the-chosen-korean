@@ -17,6 +17,7 @@ import {
   BIBLE_BOOKS_TITLE,
   type Related,
 } from "@/lib/bibleBooks";
+import { CoupangCard } from "@/components/CoupangCard";
 
 export const dynamicParams = false;
 
@@ -342,6 +343,7 @@ export default async function BibleBookPage({ params }: { params: Promise<{ slug
           </Link>
         ) : null}
       </nav>
+      <CoupangCard />
     </article>
   );
 }

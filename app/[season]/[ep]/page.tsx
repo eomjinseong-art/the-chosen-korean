@@ -10,6 +10,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { absoluteUrl, clip, pageMeta, SERIES_LD } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
 import { AvoirAd } from "@/components/AvoirAd";
+import { CoupangCard } from "@/components/CoupangCard";
 
 export const dynamicParams = false;
 
@@ -172,6 +173,7 @@ export default async function EpisodePage({ params }: { params: Promise<{ season
           </Link>
         ))}
       </nav>
+      <CoupangCard />
     </article>
   );
 }
