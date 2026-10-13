@@ -16,6 +16,7 @@ import {
   shortName,
   youtubeUrl,
 } from "@/lib/hymns";
+import { CoupangCard } from "@/components/CoupangCard";
 
 export const dynamicParams = false;
 
@@ -271,6 +272,7 @@ export default async function HymnPage({ params }: { params: Promise<{ n: string
           </Link>
         ) : null}
       </nav>
+      <CoupangCard />
     </article>
   );
 }

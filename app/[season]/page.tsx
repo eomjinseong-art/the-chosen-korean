@@ -8,6 +8,7 @@ import { CharacterNames } from "@/components/CharacterNames";
 import { KindBadge } from "@/components/SourceBox";
 import { JsonLd } from "@/components/JsonLd";
 import { absoluteUrl, clip, pageMeta, SERIES_LD } from "@/lib/seo";
+import { CoupangCard } from "@/components/CoupangCard";
 
 export const dynamicParams = false;
 
@@ -111,6 +112,7 @@ export default async function SeasonPage({ params }: { params: Promise<{ season:
           </li>
         ))}
       </ol>
+      <CoupangCard />
     </article>
   );
 }

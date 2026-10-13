@@ -9,6 +9,7 @@ import { getWorks, TOGETHER_PATH } from "@/lib/together";
 import { getHymns, HYMNS_PATH, HYMNS_TITLE } from "@/lib/hymns";
 import { BIBLE_BOOKS_PATH, BIBLE_BOOKS_TITLE } from "@/lib/bibleBooks";
 import { FAMILY_TREE_PATH } from "@/lib/familyTree";
+import { CoupangCard } from "@/components/CoupangCard";
 
 export const metadata = pageMeta({
   title: "더 초즌(The Chosen) 한국어 가이드 — 시즌 1~5 전 40화 줄거리·등장인물·성경 구절",
@@ -80,6 +81,7 @@ export default function Home() {
         <p className="watch-note">📺 {WATCH_NOTE}</p>
       </section>
 
+      <CoupangCard />
       <section>
         <h2>줄거리를 3줄로 요약하면</h2>
         <ol className="three-line">

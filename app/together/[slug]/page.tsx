@@ -9,6 +9,7 @@ import { stripMd, type Verse } from "@/lib/guide";
 import { absoluteUrl, clip, pageMeta } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
 import { getWork, getWorks, STATUS_LABEL, TOGETHER_PATH, mediumOf, workPath, type Work } from "@/lib/together";
+import { CoupangCard } from "@/components/CoupangCard";
 
 export const dynamicParams = false;
 
@@ -397,6 +398,7 @@ export default async function WorkPage({ params }: { params: Promise<{ slug: str
           </Link>
         ))}
       </nav>
+      <CoupangCard />
     </article>
   );
 }
