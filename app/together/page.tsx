@@ -6,6 +6,7 @@ import { absoluteUrl, pageMeta } from "@/lib/seo";
 import { getWorks, TOGETHER_INTRO, TOGETHER_PATH, workPath } from "@/lib/together";
 import { OTHER_FILM_PAGES } from "@/lib/site";
 import { SisterRow } from "@/components/SisterRow";
+import { NadooHubFilmsLink } from "@/components/NadooHubLink";
 
 export const metadata = pageMeta({
   title: "같이 보면 좋은 콘텐츠 — 더 초즌과 함께 볼 영화·다큐",
@@ -50,6 +51,7 @@ export default function TogetherPage() {
       <p className="muted small">
         포스터·스틸 같은 공식 이미지는 쓰지 않습니다. 작품 정보는 각 페이지 아래에 적은 출처에서 확인한 내용만 담았습니다.
       </p>
+      <NadooHubFilmsLink />
     </article>
   );
 }

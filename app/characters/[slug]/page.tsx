@@ -9,6 +9,7 @@ import { CharacterArt } from "@/components/CharacterArt";
 import { AvoirAd } from "@/components/AvoirAd";
 import { familyTreeHrefForSlug } from "@/lib/familyTree";
 import { CHARACTER_ELSEWHERE } from "@/lib/characterElsewhere";
+import { NadooHubPersonLink } from "@/components/NadooHubLink";
 
 export const dynamicParams = false;
 
@@ -135,6 +136,7 @@ export default async function CharacterPage({ params }: { params: Promise<{ slug
       <p className="back">
         <Link href="/characters">← 인물 사전으로</Link>
       </p>
+      <NadooHubPersonLink base="https://the-chosen-korean.vercel.app/characters/" slug={c.slug!} />
     </article>
   );
 }
