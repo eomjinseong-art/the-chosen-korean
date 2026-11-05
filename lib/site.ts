@@ -27,6 +27,7 @@ const NADOO_FAMILY: SisterLink[] = [
   { href: "https://egypt-stories.vercel.app", name: "이집트이야기", en: "Egypt" },
   { href: "https://persia-stories.vercel.app", name: "페르시아이야기", en: "Persia" },
   { href: "https://the-chosen-korean.vercel.app", name: "더 초즌 · 성경", en: "The Chosen · Bible" },
+  { href: "https://tinalinkeom.vercel.app/swjs", name: "쉽재성", en: "Easy Bible" },
   { href: "https://philosophy-stories.vercel.app", name: "철학이야기", en: "Philosophy" },
   { href: "https://korea-stories.vercel.app", name: "대한민국이야기", en: "Korea" },
   { href: "https://nadoo-world.vercel.app", name: "나두세계", en: "World" },
