@@ -1,7 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { Header } from "@/components/Header";
+import Script from "next/script";
 import { Footer } from "@/components/Footer";
+import { NadooAd } from "@/components/NadooAd";
 import { GOOGLE_SITE_VERIFICATION, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from "@/lib/site";
 import "./globals.css";
 
@@ -32,9 +34,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="main" className="wrap">
           {children}
+          <NadooAd types="vpnpromo" />
         </main>
         <Footer />
         <Analytics />
+        <Script src="https://nadoo-ads.vercel.app/ads.js" strategy="afterInteractive" />
       </body>
     </html>
   );
